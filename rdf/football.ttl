@@ -1,0 +1,371 @@
+@prefix dbp: <http://dbpedia.org/resource/> .
+@prefix ex: <http://example.org/football/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/football/match/1> a ex:Match ;
+    rdfs:label "InterMiami vs AlNassr" ;
+    ex:awayTeam <http://example.org/football/team/AlNassr> ;
+    ex:competition "Friendly Match" ;
+    ex:homeTeam <http://example.org/football/team/InterMiami> ;
+    ex:matchDate "2024-01-15"^^xsd:date ;
+    ex:referee <http://example.org/football/referee/Michael%20Salisbury> ;
+    ex:score "2-1" ;
+    ex:stadium <http://example.org/football/stadium/DRV%20PNM%20Stadium> .
+
+<http://example.org/football/match/2> a ex:Match ;
+    rdfs:label "Manchester United vs FC Barcelona" ;
+    ex:awayTeam <http://example.org/football/team/FC%20Barcelona> ;
+    ex:competition "Friendly Match" ;
+    ex:homeTeam <http://example.org/football/team/Manchester%20United> ;
+    ex:matchDate "2024-02-20"^^xsd:date ;
+    ex:referee <http://example.org/football/referee/Anthony%20Taylor> ;
+    ex:score "1-1" ;
+    ex:stadium <http://example.org/football/stadium/Old%20Trafford> .
+
+<http://example.org/football/match/3> a ex:Match ;
+    rdfs:label "FC Barcelona vs Paris Saint-Germain" ;
+    ex:awayTeam <http://example.org/football/team/Paris%20Saint-Germain> ;
+    ex:competition "Friendly Match" ;
+    ex:homeTeam <http://example.org/football/team/FC%20Barcelona> ;
+    ex:matchDate "2024-03-10"^^xsd:date ;
+    ex:referee <http://example.org/football/referee/Cl%C3%A9ment%20Turpin> ;
+    ex:score "2-0" ;
+    ex:stadium <http://example.org/football/stadium/Spotify%20Camp%20Nou> .
+
+<http://example.org/football/match/4> a ex:Match ;
+    rdfs:label "Manchester United vs InterMiami" ;
+    ex:awayTeam <http://example.org/football/team/InterMiami> ;
+    ex:competition "Friendly Match" ;
+    ex:homeTeam <http://example.org/football/team/Manchester%20United> ;
+    ex:matchDate "2024-04-05"^^xsd:date ;
+    ex:referee <http://example.org/football/referee/Pierre%20Brissard> ;
+    ex:score "3-1" ;
+    ex:stadium <http://example.org/football/stadium/Old%20Trafford> .
+
+<http://example.org/football/match/5> a ex:Match ;
+    rdfs:label "Paris Saint-Germain vs AlNassr" ;
+    ex:awayTeam <http://example.org/football/team/AlNassr> ;
+    ex:competition "Friendly Match" ;
+    ex:homeTeam <http://example.org/football/team/Paris%20Saint-Germain> ;
+    ex:matchDate "2024-05-12"^^xsd:date ;
+    ex:referee <http://example.org/football/referee/Frasier%20Forman> ;
+    ex:score "4-2" ;
+    ex:stadium <http://example.org/football/stadium/Parc%20des%20Princes> .
+
+<http://example.org/football/coach/Erik%20ten%20Hag> a ex:Coach ;
+    ex:currentTeam "Manchester United" ;
+    ex:experienceYears 15 ;
+    ex:formationPreference "4-2-3-1" ;
+    ex:name "Erik ten Hag" ;
+    foaf:name "Erik ten Hag" .
+
+<http://example.org/football/coach/Gerardo%20Martino> a ex:Coach ;
+    ex:currentTeam "InterMiami" ;
+    ex:experienceYears 25 ;
+    ex:formationPreference "4-2-3-1" ;
+    ex:name "Gerardo Martino" ;
+    foaf:name "Gerardo Martino" .
+
+<http://example.org/football/coach/Luis%20Enrique> a ex:Coach ;
+    ex:currentTeam "Paris Saint-Germain" ;
+    ex:experienceYears 18 ;
+    ex:formationPreference "4-3-3" ;
+    ex:name "Luis Enrique" ;
+    foaf:name "Luis Enrique" .
+
+<http://example.org/football/coach/Rudi%20Garcia> a ex:Coach ;
+    ex:currentTeam "AlNassr" ;
+    ex:experienceYears 20 ;
+    ex:formationPreference "4-3-3" ;
+    ex:name "Rudi Garcia" ;
+    foaf:name "Rudi Garcia" .
+
+<http://example.org/football/coach/Xavi%20Hern%C3%A1ndez> a ex:Coach ;
+    ex:currentTeam "FC Barcelona" ;
+    ex:experienceYears 8 ;
+    ex:formationPreference "4-3-3" ;
+    ex:name "Xavi Hernández" ;
+    foaf:name "Xavi Hernández" .
+
+<http://example.org/football/league/1> a ex:League ;
+    rdfs:label "MLS" ;
+    ex:level "1" ;
+    ex:name "MLS" ;
+    ex:numberOfTeams 29 ;
+    ex:organizer "Major League Soccer" ;
+    ex:season "2024" .
+
+<http://example.org/football/league/2> a ex:League ;
+    rdfs:label "SPL" ;
+    ex:level "1" ;
+    ex:name "SPL" ;
+    ex:numberOfTeams 18 ;
+    ex:organizer "Saudi Football Federation" ;
+    ex:season "2024" .
+
+<http://example.org/football/league/3> a ex:League ;
+    rdfs:label "Premier League" ;
+    ex:level "1" ;
+    ex:name "Premier League" ;
+    ex:numberOfTeams 20 ;
+    ex:organizer "English Premier League" ;
+    ex:season "2024" .
+
+<http://example.org/football/league/4> a ex:League ;
+    rdfs:label "La Liga" ;
+    ex:level "1" ;
+    ex:name "La Liga" ;
+    ex:numberOfTeams 20 ;
+    ex:organizer "RFEF - Professional Football League" ;
+    ex:season "2024" .
+
+<http://example.org/football/league/5> a ex:League ;
+    rdfs:label "Ligue 1" ;
+    ex:level "1" ;
+    ex:name "Ligue 1" ;
+    ex:numberOfTeams 18 ;
+    ex:organizer "Ligue de Football Professionnel" ;
+    ex:season "2024" .
+
+<http://example.org/football/player/10> a ex:Player ;
+    rdfs:label "Lionel Messi" ;
+    ex:dateOfBirth "1987-06-24"^^xsd:date ;
+    ex:hasStatistic <http://example.org/football/stat/10> ;
+    ex:height 1.7e+00 ;
+    ex:name "Lionel Messi" ;
+    ex:nationality "Argentina" ;
+    ex:playsFor <http://example.org/football/team/InterMiami> ;
+    ex:position "Forward" ;
+    ex:weight 7.2e+01 ;
+    rdfs:seeAlso dbp:Lionel%20Messi ;
+    foaf:name "Lionel Messi" .
+
+<http://example.org/football/player/11> a ex:Player ;
+    rdfs:label "Harry Kane" ;
+    ex:dateOfBirth "1993-07-28"^^xsd:date ;
+    ex:hasStatistic <http://example.org/football/stat/11> ;
+    ex:height 1.89e+00 ;
+    ex:name "Harry Kane" ;
+    ex:nationality "England" ;
+    ex:playsFor <http://example.org/football/team/Manchester%20United> ;
+    ex:position "Forward" ;
+    ex:weight 8.9e+01 ;
+    rdfs:seeAlso dbp:Harry%20Kane ;
+    foaf:name "Harry Kane" .
+
+<http://example.org/football/player/17> a ex:Player ;
+    rdfs:label "Robert Lewandowski" ;
+    ex:dateOfBirth "1988-08-21"^^xsd:date ;
+    ex:hasStatistic <http://example.org/football/stat/17> ;
+    ex:height 1.85e+00 ;
+    ex:name "Robert Lewandowski" ;
+    ex:nationality "Poland" ;
+    ex:playsFor <http://example.org/football/team/FC%20Barcelona> ;
+    ex:position "Forward" ;
+    ex:weight 8.1e+01 ;
+    rdfs:seeAlso dbp:Robert%20Lewandowski ;
+    foaf:name "Robert Lewandowski" .
+
+<http://example.org/football/player/7> a ex:Player ;
+    rdfs:label "Cristiano Ronaldo" ;
+    ex:dateOfBirth "1985-02-05"^^xsd:date ;
+    ex:hasStatistic <http://example.org/football/stat/7> ;
+    ex:height 1.87e+00 ;
+    ex:name "Cristiano Ronaldo" ;
+    ex:nationality "Portugal" ;
+    ex:playsFor <http://example.org/football/team/AlNassr> ;
+    ex:position "Forward" ;
+    ex:weight 8.3e+01 ;
+    rdfs:seeAlso dbp:Cristiano%20Ronaldo ;
+    foaf:name "Cristiano Ronaldo" .
+
+<http://example.org/football/player/9> a ex:Player ;
+    rdfs:label "Kylian Mbappé" ;
+    ex:dateOfBirth "1998-12-20"^^xsd:date ;
+    ex:hasStatistic <http://example.org/football/stat/9> ;
+    ex:height 1.78e+00 ;
+    ex:name "Kylian Mbappé" ;
+    ex:nationality "France" ;
+    ex:playsFor <http://example.org/football/team/Paris%20Saint-Germain> ;
+    ex:position "Forward" ;
+    ex:weight 7.6e+01 ;
+    rdfs:seeAlso dbp:Kylian%20Mbapp%C3%A9 ;
+    foaf:name "Kylian Mbappé" .
+
+<http://example.org/football/referee/Anthony%20Taylor> a ex:Referee ;
+    ex:age 48 ;
+    ex:certificationLevel "International" ;
+    ex:matchesOfficiated 150 ;
+    ex:name "Anthony Taylor" ;
+    foaf:name "Anthony Taylor" .
+
+<http://example.org/football/referee/Cl%C3%A9ment%20Turpin> a ex:Referee ;
+    ex:age 46 ;
+    ex:certificationLevel "International" ;
+    ex:matchesOfficiated 130 ;
+    ex:name "Clément Turpin" ;
+    foaf:name "Clément Turpin" .
+
+<http://example.org/football/referee/Frasier%20Forman> a ex:Referee ;
+    ex:age 38 ;
+    ex:certificationLevel "Domestic" ;
+    ex:matchesOfficiated 85 ;
+    ex:name "Frasier Forman" ;
+    foaf:name "Frasier Forman" .
+
+<http://example.org/football/referee/Michael%20Salisbury> a ex:Referee ;
+    ex:age 45 ;
+    ex:certificationLevel "International" ;
+    ex:matchesOfficiated 120 ;
+    ex:name "Michael Salisbury" ;
+    foaf:name "Michael Salisbury" .
+
+<http://example.org/football/referee/Pierre%20Brissard> a ex:Referee ;
+    ex:age 42 ;
+    ex:certificationLevel "International" ;
+    ex:matchesOfficiated 95 ;
+    ex:name "Pierre Brissard" ;
+    foaf:name "Pierre Brissard" .
+
+<http://example.org/football/stadium/Al-Amir%20Muhammad%20Al-Fahd%20Stadium> a ex:Stadium ;
+    rdfs:label "Al-Amir Muhammad Al-Fahd Stadium" ;
+    ex:builtYear 1993 ;
+    ex:capacity 24801 ;
+    ex:location "Riyadh - Saudi Arabia" ;
+    ex:name "Al-Amir Muhammad Al-Fahd Stadium" ;
+    ex:owner "General Authority for Youth and Sports" ;
+    ex:surfaceType "Natural Grass" .
+
+<http://example.org/football/stat/10> a ex:Statistic ;
+    ex:appearances 42 ;
+    ex:assists 10 ;
+    ex:goals 25 ;
+    ex:minutesPlayed 3456 ;
+    ex:player <http://example.org/football/player/10> ;
+    ex:redCards 0 ;
+    ex:yellowCards 5 .
+
+<http://example.org/football/stat/11> a ex:Statistic ;
+    ex:appearances 40 ;
+    ex:assists 7 ;
+    ex:goals 28 ;
+    ex:minutesPlayed 3600 ;
+    ex:player <http://example.org/football/player/11> ;
+    ex:redCards 0 ;
+    ex:yellowCards 4 .
+
+<http://example.org/football/stat/17> a ex:Statistic ;
+    ex:appearances 38 ;
+    ex:assists 6 ;
+    ex:goals 26 ;
+    ex:minutesPlayed 3200 ;
+    ex:player <http://example.org/football/player/17> ;
+    ex:redCards 0 ;
+    ex:yellowCards 3 .
+
+<http://example.org/football/stat/7> a ex:Statistic ;
+    ex:appearances 51 ;
+    ex:assists 5 ;
+    ex:goals 30 ;
+    ex:minutesPlayed 4189 ;
+    ex:player <http://example.org/football/player/7> ;
+    ex:redCards 1 ;
+    ex:yellowCards 8 .
+
+<http://example.org/football/stat/9> a ex:Statistic ;
+    ex:appearances 44 ;
+    ex:assists 12 ;
+    ex:goals 32 ;
+    ex:minutesPlayed 3800 ;
+    ex:player <http://example.org/football/player/9> ;
+    ex:redCards 0 ;
+    ex:yellowCards 6 .
+
+<http://example.org/football/stadium/DRV%20PNM%20Stadium> a ex:Stadium ;
+    rdfs:label "DRV PNM Stadium" ;
+    ex:builtYear 1999 ;
+    ex:capacity 65326 ;
+    ex:location "Miami - USA" ;
+    ex:name "DRV PNM Stadium" ;
+    ex:owner "Miami-Dade County" ;
+    ex:surfaceType "Natural Grass" .
+
+<http://example.org/football/stadium/Parc%20des%20Princes> a ex:Stadium ;
+    rdfs:label "Parc des Princes" ;
+    ex:builtYear 1897 ;
+    ex:capacity 47929 ;
+    ex:location "Paris - France" ;
+    ex:name "Parc des Princes" ;
+    ex:owner "Paris Saint-Germain" ;
+    ex:surfaceType "Hybrid Grass" .
+
+<http://example.org/football/stadium/Spotify%20Camp%20Nou> a ex:Stadium ;
+    rdfs:label "Spotify Camp Nou" ;
+    ex:builtYear 1957 ;
+    ex:capacity 99354 ;
+    ex:location "Barcelona - Spain" ;
+    ex:name "Spotify Camp Nou" ;
+    ex:owner "FC Barcelona" ;
+    ex:surfaceType "Natural Grass" .
+
+<http://example.org/football/stadium/Old%20Trafford> a ex:Stadium ;
+    rdfs:label "Old Trafford" ;
+    ex:builtYear 1910 ;
+    ex:capacity 74310 ;
+    ex:location "Manchester - England" ;
+    ex:name "Old Trafford" ;
+    ex:owner "Manchester United PLC" ;
+    ex:surfaceType "Hybrid Grass" .
+
+<http://example.org/football/team/AlNassr> a ex:Team ;
+    rdfs:label "AlNassr" ;
+    ex:coach <http://example.org/football/coach/Rudi%20Garcia> ;
+    ex:country "Saudi Arabia" ;
+    ex:foundedYear 1955 ;
+    ex:homeStadium <http://example.org/football/stadium/Al-Amir%20Muhammad%20Al-Fahd%20Stadium> ;
+    ex:league <http://example.org/football/league/2> ;
+    ex:name "AlNassr" ;
+    ex:numberOfPlayers 28 .
+
+<http://example.org/football/team/FC%20Barcelona> a ex:Team ;
+    rdfs:label "FC Barcelona" ;
+    ex:coach <http://example.org/football/coach/Xavi%20Hern%C3%A1ndez> ;
+    ex:country "Spain" ;
+    ex:foundedYear 1899 ;
+    ex:homeStadium <http://example.org/football/stadium/Spotify%20Camp%20Nou> ;
+    ex:league <http://example.org/football/league/4> ;
+    ex:name "FC Barcelona" ;
+    ex:numberOfPlayers 27 .
+
+<http://example.org/football/team/InterMiami> a ex:Team ;
+    rdfs:label "InterMiami" ;
+    ex:coach <http://example.org/football/coach/Gerardo%20Martino> ;
+    ex:country "USA" ;
+    ex:foundedYear 1994 ;
+    ex:homeStadium <http://example.org/football/stadium/DRV%20PNM%20Stadium> ;
+    ex:league <http://example.org/football/league/1> ;
+    ex:name "InterMiami" ;
+    ex:numberOfPlayers 26 .
+
+<http://example.org/football/team/Manchester%20United> a ex:Team ;
+    rdfs:label "Manchester United" ;
+    ex:coach <http://example.org/football/coach/Erik%20ten%20Hag> ;
+    ex:country "England" ;
+    ex:foundedYear 1878 ;
+    ex:homeStadium <http://example.org/football/stadium/Old%20Trafford> ;
+    ex:league <http://example.org/football/league/3> ;
+    ex:name "Manchester United" ;
+    ex:numberOfPlayers 25 .
+
+<http://example.org/football/team/Paris%20Saint-Germain> a ex:Team ;
+    rdfs:label "Paris Saint-Germain" ;
+    ex:coach <http://example.org/football/coach/Luis%20Enrique> ;
+    ex:country "France" ;
+    ex:foundedYear 1970 ;
+    ex:homeStadium <http://example.org/football/stadium/Parc%20des%20Princes> ;
+    ex:league <http://example.org/football/league/5> ;
+    ex:name "Paris Saint-Germain" ;
+    ex:numberOfPlayers 26 .
+
