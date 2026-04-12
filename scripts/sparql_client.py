@@ -4,10 +4,9 @@ import json
 from sparql_queries import QUERIES
 
 class SparqlClient:
-    def __init__(self, base_url="http://localhost:3030", dataset="football"):
+    def __init__(self, base_url="http://localhost:8890"):
         self.base_url = base_url.rstrip('/')
-        self.dataset = dataset
-        self.endpoint = f"{self.base_url}/{dataset}/sparql"
+        self.endpoint = f"{self.base_url}/sparql"
 
     def execute_query(self, query, format_type="json"):
         """
@@ -160,14 +159,13 @@ def main():
     import argparse
 
     parser = argparse.ArgumentParser(description='SPARQL Client for Football RDF Data')
-    parser.add_argument('--dataset', default='football', help='Dataset name (default: football)')
-    parser.add_argument('--port', type=int, default=3030, help='Fuseki port (default: 3030)')
+    parser.add_argument('--port', type=int, default=8890, help='Virtuoso port (default: 8890)')
     parser.add_argument('--query', help='Run a specific predefined query and exit')
     parser.add_argument('--custom-query', help='Run a custom SPARQL query and exit')
 
     args = parser.parse_args()
 
-    client = SparqlClient(f"http://localhost:{args.port}", args.dataset)
+    client = SparqlClient(f"http://localhost:{args.port}")
 
     if args.query:
         client.run_predefined_query(args.query)
