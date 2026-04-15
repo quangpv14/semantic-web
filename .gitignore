@@ -1,3 +1,4 @@
 crawl/data/
 db/
 database/
+.env

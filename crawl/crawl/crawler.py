@@ -1,13 +1,19 @@
+import os
 import requests
 import json
 import time
 import pandas as pd
+from dotenv import load_dotenv
 
 
 # =========================
 # CONFIG
 # =========================
-API_KEY = "62d42cfda813fbc6616b3abb9ad13752"
+load_dotenv()
+API_KEY = os.getenv("API_KEY")
+print("API_KEY:", "FOUND" if API_KEY else "NOT FOUND")
+if not API_KEY:
+    raise RuntimeError("API_KEY not found.")
 
 BASE_URL = "https://v3.football.api-sports.io"
 
@@ -163,10 +169,13 @@ def crawlData():
 
 # SAVE FILES
 def save(teams, stadiums, players, coaches):
-    pd.DataFrame(teams).to_csv("teams.csv", index=False)
-    pd.DataFrame(stadiums).to_csv("stadiums.csv", index=False)
-    pd.DataFrame(players).to_csv("players.csv", index=False)
-    pd.DataFrame(coaches).to_csv("coaches.csv", index=False)
+    output_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "data"))
+    os.makedirs(output_dir, exist_ok=True)
+
+    pd.DataFrame(teams).to_csv(os.path.join(output_dir, "teams.csv"), mode="w", index=False)
+    pd.DataFrame(stadiums).to_csv(os.path.join(output_dir, "stadiums.csv"), mode="w", index=False)
+    pd.DataFrame(players).to_csv(os.path.join(output_dir, "players.csv"), mode="w", index=False)
+    pd.DataFrame(coaches).to_csv(os.path.join(output_dir, "coaches.csv"), mode="w", index=False)
 
     print("Saved: teams.csv, stadiums.csv, players.csv, coaches.csv")
 
