@@ -1,181 +1,222 @@
-from rdflib import Graph, Namespace, Literal, RDF, RDFS, XSD, URIRef
+from rdflib import Graph, Namespace, Literal, RDF, RDFS, XSD
 import csv
 import os
 from urllib.parse import quote
 
-# Define namespaces
-EX = Namespace("http://example.org/football/")
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+DATA_DIR = os.path.join(BASE_DIR, "crawl", "data")
+OUTPUT_DIR = os.path.join(BASE_DIR, "rdf")
+
+EX = Namespace("http://semanticweb.org/football/")
 FOAF = Namespace("http://xmlns.com/foaf/0.1/")
-DBP = Namespace("http://dbpedia.org/resource/")  # External links for 5-star compliance
+DBP = Namespace("http://dbpedia.org/resource/")
 
 g = Graph()
 g.bind("ex", EX)
 g.bind("foaf", FOAF)
 g.bind("dbp", DBP)
 
-# Helper function to convert text to valid URI slug
+
 def make_uri_slug(text):
-    """Convert text to URL-safe slug for URI"""
-    return quote(text.strip(), safe='')
+    return quote(str(text).strip(), safe='')
 
-# ==================== LOAD LEAGUES ====================
-leagues = {}  # Map by name
-if os.path.exists("crawl/data/leagues.csv"):
-    with open("crawl/data/leagues.csv", encoding="utf-8") as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            league = EX["league/" + row["id"]]
-            leagues[row["name"]] = league  # Map by name, not ID
-            
-            g.add((league, RDF.type, EX.League))
-            g.add((league, EX.name, Literal(row["name"])))
-            g.add((league, EX.level, Literal(row["level"])))
-            g.add((league, EX.numberOfTeams, Literal(int(row["numberOfTeams"]))))
-            g.add((league, EX.season, Literal(row["season"])))
-            g.add((league, EX.organizer, Literal(row["organizer"])))
-            g.add((league, RDFS.label, Literal(row["name"])))
 
-# ==================== LOAD STADIUMS ====================
-stadiums = {}  # Map by name
-if os.path.exists("crawl/data/stadiums.csv"):
-    with open("crawl/data/stadiums.csv", encoding="utf-8") as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            stadium_slug = make_uri_slug(row["name"])
-            stadium = EX["stadium/" + stadium_slug]
-            stadiums[row["name"]] = stadium  # Map by name, not ID
-            
-            g.add((stadium, RDF.type, EX.Stadium))
-            g.add((stadium, EX.name, Literal(row["name"])))
-            g.add((stadium, EX.location, Literal(row["location"])))
-            g.add((stadium, EX.capacity, Literal(int(row["capacity"]))))
-            g.add((stadium, EX.builtYear, Literal(int(row["builtYear"]))))
-            g.add((stadium, EX.owner, Literal(row["owner"])))
-            g.add((stadium, EX.surfaceType, Literal(row["surfaceType"])))
-            g.add((stadium, RDFS.label, Literal(row["name"])))
+def safe_int(value):
+    try:
+        return int(float(value))
+    except Exception:
+        return None
 
-# ==================== LOAD COACHES ====================
-coaches = {}  # Map by name
-if os.path.exists("crawl/data/coaches.csv"):
-    with open("crawl/data/coaches.csv", encoding="utf-8") as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            coach_slug = make_uri_slug(row["name"])
-            coach = EX["coach/" + coach_slug]
-            coaches[row["name"]] = coach  # Map by name, not ID
-            
-            g.add((coach, RDF.type, EX.Coach))
-            g.add((coach, EX.name, Literal(row["name"])))
-            g.add((coach, EX.experienceYears, Literal(int(row["experienceYears"]))))
-            g.add((coach, EX.currentTeam, Literal(row["currentTeam"])))
-            g.add((coach, EX.formationPreference, Literal(row["formationPreference"])))
-            g.add((coach, FOAF.name, Literal(row["name"])))
 
-# ==================== LOAD REFEREES ====================
-referees = {}  # Map by name
-if os.path.exists("crawl/data/referees.csv"):
-    with open("crawl/data/referees.csv", encoding="utf-8") as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            ref_slug = make_uri_slug(row["name"])
-            referee = EX["referee/" + ref_slug]
-            referees[row["name"]] = referee  # Map by name, not ID
-            
-            g.add((referee, RDF.type, EX.Referee))
-            g.add((referee, EX.name, Literal(row["name"])))
-            g.add((referee, EX.matchesOfficiated, Literal(int(row["matchesOfficiated"]))))
-            g.add((referee, EX.certificationLevel, Literal(row["certificationLevel"])))
-            g.add((referee, EX.age, Literal(int(row["age"]))))
-            g.add((referee, FOAF.name, Literal(row["name"])))
+def safe_float(value):
+    try:
+        return float(value)
+    except Exception:
+        return None
 
-# ==================== LOAD TEAMS ====================
-teams = {}  # Map by name
-if os.path.exists("crawl/data/teams.csv"):
-    with open("crawl/data/teams.csv", encoding="utf-8") as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            team_slug = make_uri_slug(row["name"])
-            team = EX["team/" + team_slug]
-            teams[row["name"]] = team
-            
-            g.add((team, RDF.type, EX.Team))
-            g.add((team, EX.name, Literal(row["name"])))
-            g.add((team, EX.foundedYear, Literal(int(row["foundedYear"]))))
-            g.add((team, EX.country, Literal(row["country"])))
-            g.add((team, EX.numberOfPlayers, Literal(int(row["numberOfPlayers"]))))
-            g.add((team, RDFS.label, Literal(row["name"])))
-            
-            # Link to stadium, coach, league by name
-            if row["homeStadium"] in stadiums:
-                g.add((team, EX.homeStadium, stadiums[row["homeStadium"]]))
-            
-            if row["coach"] in coaches:
-                g.add((team, EX.coach, coaches[row["coach"]]))
-            
-            if row["league"] in leagues:
-                g.add((team, EX.league, leagues[row["league"]]))
 
-# ==================== LOAD PLAYERS ====================
-if os.path.exists("crawl/data/players.csv"):
-    with open("crawl/data/players.csv", encoding="utf-8") as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            player = EX["player/" + row["id"]]
-            stat = EX["stat/" + row["id"]]
-            
-            # Get team by name from teams mapping
-            team = teams.get(row["team"], EX["team/" + make_uri_slug(row["team"])])
-            
-            # Player
-            g.add((player, RDF.type, EX.Player))
-            g.add((player, EX.name, Literal(row["name"])))
-            g.add((player, EX.dateOfBirth, Literal(row["dob"], datatype=XSD.date)))
-            g.add((player, EX.nationality, Literal(row["nationality"])))
-            g.add((player, EX.position, Literal(row["position"])))
-            g.add((player, EX.height, Literal(float(row["height"]))))
-            g.add((player, EX.weight, Literal(float(row["weight"]))))
-            g.add((player, EX.playsFor, team))
-            g.add((player, EX.hasStatistic, stat))
-            g.add((player, FOAF.name, Literal(row["name"])))
-            g.add((player, RDFS.label, Literal(row["name"])))
-            
-            # Link to DBpedia for 5-star compliance (use URL-encoded name)
-            player_slug = make_uri_slug(row["name"])
-            g.add((player, RDFS.seeAlso, DBP[player_slug]))
-            
-            # Statistic
-            g.add((stat, RDF.type, EX.Statistic))
-            g.add((stat, EX.player, player))
-            g.add((stat, EX.goals, Literal(int(row["goals"]))))
-            g.add((stat, EX.assists, Literal(int(row["assists"]))))
-            g.add((stat, EX.appearances, Literal(int(row["appearances"]))))
-            g.add((stat, EX.yellowCards, Literal(int(row["yellowCards"]))))
-            g.add((stat, EX.redCards, Literal(int(row["redCards"]))))
-            g.add((stat, EX.minutesPlayed, Literal(int(row["minutesPlayed"]))))
+def load_csv(filename):
+    path = os.path.join(DATA_DIR, filename)
+    if not os.path.exists(path):
+        return []
+    with open(path, encoding="utf-8") as f:
+        return list(csv.DictReader(f))
 
-# ==================== LOAD MATCHES ====================
-if os.path.exists("crawl/data/matches.csv"):
-    with open("crawl/data/matches.csv", encoding="utf-8") as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            match = EX["match/" + row["id"]]
-            
-            # Get entities by name from mapping dictionaries
-            home_team = teams.get(row["homeTeam"], EX["team/" + make_uri_slug(row["homeTeam"])])
-            away_team = teams.get(row["awayTeam"], EX["team/" + make_uri_slug(row["awayTeam"])])
-            stadium = stadiums.get(row["stadium"], EX["stadium/" + make_uri_slug(row["stadium"])])
-            referee = referees.get(row["referee"], EX["referee/" + make_uri_slug(row["referee"])])
-            
-            g.add((match, RDF.type, EX.Match))
-            g.add((match, EX.matchDate, Literal(row["matchDate"], datatype=XSD.date)))
-            g.add((match, EX.homeTeam, home_team))
-            g.add((match, EX.awayTeam, away_team))
-            g.add((match, EX.stadium, stadium))
-            g.add((match, EX.referee, referee))
-            g.add((match, EX.score, Literal(row["score"])))
-            g.add((match, EX.competition, Literal(row["competition"])))
-            g.add((match, RDFS.label, Literal(f"{row['homeTeam']} vs {row['awayTeam']}")))
 
-# Save
-os.makedirs("rdf", exist_ok=True)
-g.serialize(destination="rdf/football.ttl", format="turtle")
+def add_literal(subject, predicate, value, datatype=None):
+    if value is None or value == "":
+        return
+    if datatype is not None:
+        g.add((subject, predicate, Literal(value, datatype=datatype)))
+    else:
+        g.add((subject, predicate, Literal(value)))
+
+
+leagues = {}
+for row in load_csv("leagues.csv"):
+    league_id = row.get("id") or row.get("league_id")
+    if not league_id:
+        continue
+    league = EX[f"league/{make_uri_slug(league_id)}"]
+    leagues[row.get("name", league_id)] = league
+
+    g.add((league, RDF.type, EX.League))
+    add_literal(league, EX.name, row.get("name"))
+    add_literal(league, EX.level, row.get("level"))
+    add_literal(league, EX.numberOfTeams, safe_int(row.get("numberOfTeams")), XSD.integer)
+    add_literal(league, EX.season, row.get("season"))
+    add_literal(league, EX.organizer, row.get("organizer"))
+    add_literal(league, RDFS.label, row.get("name"))
+
+
+stadiums = {}
+stadiums_by_id = {}
+for row in load_csv("stadiums.csv"):
+    stadium_id = row.get("stadium_id") or row.get("id")
+    name = row.get("stadium_name") or row.get("name")
+    if not name:
+        continue
+
+    stadium = EX[f"stadium/{make_uri_slug(name)}"]
+    stadiums[name] = stadium
+    if stadium_id:
+        stadiums_by_id[stadium_id] = stadium
+
+    g.add((stadium, RDF.type, EX.Stadium))
+    add_literal(stadium, EX.name, name)
+    add_literal(stadium, EX.city, row.get("city"))
+    add_literal(stadium, EX.address, row.get("address"))
+    add_literal(stadium, EX.capacity, safe_int(row.get("capacity")), XSD.integer)
+    add_literal(stadium, EX.surface, row.get("surface"))
+    add_literal(stadium, EX.image, row.get("image"))
+    add_literal(stadium, EX.teamId, stadium_id)
+    add_literal(stadium, RDFS.label, name)
+
+
+coaches = {}
+for row in load_csv("coaches.csv"):
+    coach_id = row.get("coach_id") or row.get("id")
+    name = row.get("name")
+    if not name:
+        continue
+
+    coach = EX[f"coach/{make_uri_slug(coach_id or name)}"]
+    coaches[name] = coach
+
+    g.add((coach, RDF.type, EX.Coach))
+    add_literal(coach, EX.name, name)
+    add_literal(coach, EX.firstName, row.get("firstname"))
+    add_literal(coach, EX.lastName, row.get("lastname"))
+    add_literal(coach, EX.age, safe_float(row.get("age")), XSD.decimal)
+    add_literal(coach, EX.nationality, row.get("nationality"))
+    add_literal(coach, EX.birthDate, row.get("birth_date"))
+    add_literal(coach, EX.birthPlace, row.get("birth_place"))
+    add_literal(coach, EX.birthCountry, row.get("birth_country"))
+    add_literal(coach, EX.height, row.get("height"))
+    add_literal(coach, EX.weight, row.get("weight"))
+    add_literal(coach, EX.teamId, row.get("team_id"))
+    add_literal(coach, EX.teamName, row.get("team_name"))
+    add_literal(coach, EX.career, row.get("career"))
+    add_literal(coach, EX.photo, row.get("photo"))
+    add_literal(coach, RDFS.label, name)
+
+
+referees = {}
+for row in load_csv("referees.csv"):
+    referee_id = row.get("referee_id") or row.get("id")
+    name = row.get("name")
+    if not name:
+        continue
+
+    referee = EX[f"referee/{make_uri_slug(referee_id or name)}"]
+    referees[name] = referee
+
+    g.add((referee, RDF.type, EX.Referee))
+    add_literal(referee, EX.name, name)
+    add_literal(referee, EX.matchesOfficiated, safe_int(row.get("matchesOfficiated")), XSD.integer)
+    add_literal(referee, EX.certificationLevel, row.get("certificationLevel"))
+    add_literal(referee, EX.age, safe_int(row.get("age")), XSD.integer)
+    add_literal(referee, RDFS.label, name)
+
+
+teams = {}
+teams_by_id = {}
+for row in load_csv("teams.csv"):
+    team_id = row.get("team_id") or row.get("id")
+    name = row.get("team_name") or row.get("name")
+    if not name:
+        continue
+
+    team = EX[f"team/{make_uri_slug(name)}"]
+    teams[name] = team
+    if team_id:
+        teams_by_id[team_id] = team
+
+    g.add((team, RDF.type, EX.Team))
+    add_literal(team, EX.name, name)
+    add_literal(team, EX.country, row.get("country"))
+    add_literal(team, EX.founded, safe_int(row.get("founded")), XSD.integer)
+    add_literal(team, EX.stadiumId, row.get("stadium_id"))
+    add_literal(team, RDFS.label, name)
+
+
+for row in load_csv("players.csv"):
+    player_id = row.get("player_id") or row.get("id")
+    name = row.get("name")
+    if not player_id or not name:
+        continue
+
+    player = EX[f"player/{make_uri_slug(player_id)}"]
+    team = None
+    if row.get("team_name") in teams:
+        team = teams[row["team_name"]]
+    elif row.get("team_id") in teams_by_id:
+        team = teams_by_id[row.get("team_id")]
+    elif row.get("team_name"):
+        team = EX[f"team/{make_uri_slug(row['team_name'])}"]
+
+    g.add((player, RDF.type, EX.Player))
+    add_literal(player, EX.name, name)
+    add_literal(player, EX.age, safe_float(row.get("age")), XSD.decimal)
+    add_literal(player, EX.nationality, row.get("nationality"))
+    if team:
+        g.add((player, EX.playsFor, team))
+    add_literal(player, EX.position, row.get("position"))
+    add_literal(player, EX.appearances, safe_int(row.get("appearances")), XSD.integer)
+    add_literal(player, EX.rating, safe_float(row.get("rating")), XSD.decimal)
+    add_literal(player, EX.goals, safe_int(row.get("goals")), XSD.integer)
+    add_literal(player, EX.assists, safe_int(row.get("assists")), XSD.integer)
+    add_literal(player, EX.yellowCards, safe_int(row.get("yellow_cards")), XSD.integer)
+    add_literal(player, EX.redCards, safe_int(row.get("red_cards")), XSD.integer)
+    add_literal(player, RDFS.label, name)
+    add_literal(player, RDFS.seeAlso, DBP[make_uri_slug(name)])
+
+
+for row in load_csv("matches.csv"):
+    match_id = row.get("id")
+    if not match_id:
+        continue
+
+    match = EX[f"match/{make_uri_slug(match_id)}"]
+    home_team = teams.get(row.get("homeTeam")) or EX[f"team/{make_uri_slug(row.get('homeTeam'))}"]
+    away_team = teams.get(row.get("awayTeam")) or EX[f"team/{make_uri_slug(row.get('awayTeam'))}"]
+    stadium = stadiums.get(row.get("stadium")) or EX[f"stadium/{make_uri_slug(row.get('stadium'))}"]
+    referee = referees.get(row.get("referee")) or EX[f"referee/{make_uri_slug(row.get('referee'))}"]
+
+    g.add((match, RDF.type, EX.Match))
+    add_literal(match, EX.matchDate, row.get("matchDate"), XSD.date)
+    if home_team:
+        g.add((match, EX.homeTeam, home_team))
+    if away_team:
+        g.add((match, EX.awayTeam, away_team))
+    if stadium:
+        g.add((match, EX.stadium, stadium))
+    if referee:
+        g.add((match, EX.referee, referee))
+    add_literal(match, EX.score, row.get("score"))
+    add_literal(match, EX.competition, row.get("competition"))
+    add_literal(match, RDFS.label, f"{row.get('homeTeam', '')} vs {row.get('awayTeam', '')}")
+
+
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+g.serialize(destination=os.path.join(OUTPUT_DIR, "football.ttl"), format="turtle")

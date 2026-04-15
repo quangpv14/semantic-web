@@ -1,95 +1,152 @@
-@prefix dbp: <http://dbpedia.org/resource/> .
-@prefix ex: <http://example.org/football/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ex: <http://semanticweb.org/football/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://example.org/football/match/1> a ex:Match ;
-    rdfs:label "InterMiami vs AlNassr" ;
-    ex:awayTeam <http://example.org/football/team/AlNassr> ;
-    ex:competition "Friendly Match" ;
-    ex:homeTeam <http://example.org/football/team/InterMiami> ;
-    ex:matchDate "2024-01-15"^^xsd:date ;
-    ex:referee <http://example.org/football/referee/Michael%20Salisbury> ;
-    ex:score "2-1" ;
-    ex:stadium <http://example.org/football/stadium/DRV%20PNM%20Stadium> .
+<http://semanticweb.org/football/coach/10> a ex:Coach ;
+    rdfs:label "Marco Silva" ;
+    ex:age 48.0 ;
+    ex:birthCountry "Portugal" ;
+    ex:birthDate "1977-07-12" ;
+    ex:birthPlace "Lisboa" ;
+    ex:career "[{'team': {'id': 36, 'name': 'Fulham', 'logo': 'https://media.api-sports.io/football/teams/36.png'}, 'start': '2021-07-01', 'end': None}, {'team': {'id': 45, 'name': 'Everton', 'logo': 'https://media.api-sports.io/football/teams/45.png'}, 'start': '2018-05-01', 'end': '2019-12-01'}, {'team': {'id': 38, 'name': 'Watford', 'logo': 'https://media.api-sports.io/football/teams/38.png'}, 'start': '2017-05-01', 'end': '2018-01-01'}, {'team': {'id': 64, 'name': 'Hull City', 'logo': 'https://media.api-sports.io/football/teams/64.png'}, 'start': '2017-01-01', 'end': '2017-05-01'}, {'team': {'id': 553, 'name': 'Olympiakos', 'logo': 'https://media.api-sports.io/football/teams/553.png'}, 'start': '2015-07-01', 'end': '2016-06-01'}, {'team': {'id': 228, 'name': 'Sporting Lisbon', 'logo': 'https://media.api-sports.io/football/teams/228.png'}, 'start': '2014-07-01', 'end': '2015-07-01'}, {'team': {'id': 230, 'name': 'Estoril', 'logo': 'https://media.api-sports.io/football/teams/230.png'}, 'start': '2012-07-01', 'end': '2014-05-01'}]" ;
+    ex:firstName "Marco Alexandre" ;
+    ex:lastName "Saraiva da Silva" ;
+    ex:name "Marco Silva" ;
+    ex:nationality "Portugal" ;
+    ex:photo "https://media.api-sports.io/football/coachs/10.png" ;
+    ex:teamId "36" ;
+    ex:teamName "Fulham" .
 
-<http://example.org/football/match/2> a ex:Match ;
-    rdfs:label "Manchester United vs FC Barcelona" ;
-    ex:awayTeam <http://example.org/football/team/FC%20Barcelona> ;
-    ex:competition "Friendly Match" ;
-    ex:homeTeam <http://example.org/football/team/Manchester%20United> ;
-    ex:matchDate "2024-02-20"^^xsd:date ;
-    ex:referee <http://example.org/football/referee/Anthony%20Taylor> ;
-    ex:score "1-1" ;
-    ex:stadium <http://example.org/football/stadium/Old%20Trafford> .
+<http://semanticweb.org/football/coach/12777> a ex:Coach ;
+    rdfs:label "J. Tindall" ;
+    ex:age 48.0 ;
+    ex:birthCountry "England" ;
+    ex:birthDate "1977-11-15" ;
+    ex:birthPlace "Mile End" ;
+    ex:career "[{'team': {'id': 35, 'name': 'Bournemouth', 'logo': 'https://media.api-sports.io/football/teams/35.png'}, 'start': '2020-09-01', 'end': None}]" ;
+    ex:firstName "Jason" ;
+    ex:height "185 cm" ;
+    ex:lastName "Tindall" ;
+    ex:name "J. Tindall" ;
+    ex:nationality "England" ;
+    ex:photo "https://media.api-sports.io/football/coachs/12777.png" ;
+    ex:teamId "35" ;
+    ex:teamName "Bournemouth" ;
+    ex:weight "74 kg" .
 
-<http://example.org/football/match/3> a ex:Match ;
-    rdfs:label "FC Barcelona vs Paris Saint-Germain" ;
-    ex:awayTeam <http://example.org/football/team/Paris%20Saint-Germain> ;
-    ex:competition "Friendly Match" ;
-    ex:homeTeam <http://example.org/football/team/FC%20Barcelona> ;
-    ex:matchDate "2024-03-10"^^xsd:date ;
-    ex:referee <http://example.org/football/referee/Cl%C3%A9ment%20Turpin> ;
-    ex:score "2-0" ;
-    ex:stadium <http://example.org/football/stadium/Spotify%20Camp%20Nou> .
+<http://semanticweb.org/football/coach/1993> a ex:Coach ;
+    rdfs:label "E. ten Hag" ;
+    ex:age 55.0 ;
+    ex:birthCountry "Netherlands" ;
+    ex:birthDate "1970-02-02" ;
+    ex:birthPlace "Haaksbergen" ;
+    ex:career "[{'team': {'id': 33, 'name': 'Manchester United', 'logo': 'https://media.api-sports.io/football/teams/33.png'}, 'start': '2022-06-01', 'end': '2024-10-01'}, {'team': {'id': 194, 'name': 'Ajax', 'logo': 'https://media.api-sports.io/football/teams/194.png'}, 'start': '2018-01-01', 'end': '2022-05-01'}, {'team': {'id': 207, 'name': 'Utrecht', 'logo': 'https://media.api-sports.io/football/teams/207.png'}, 'start': '2015-07-01', 'end': '2017-12-01'}, {'team': {'id': 4674, 'name': 'Bayern München II', 'logo': 'https://media.api-sports.io/football/teams/4674.png'}, 'start': '2013-06-01', 'end': '2015-07-01'}, {'team': {'id': 410, 'name': 'Go Ahead Eagles', 'logo': 'https://media.api-sports.io/football/teams/410.png'}, 'start': '2012-07-01', 'end': '2013-06-01'}]" ;
+    ex:firstName "Erik" ;
+    ex:lastName "ten Hag" ;
+    ex:name "E. ten Hag" ;
+    ex:nationality "Netherlands" ;
+    ex:photo "https://media.api-sports.io/football/coachs/1993.png" ;
+    ex:teamId "33" ;
+    ex:teamName "Manchester United" .
 
-<http://example.org/football/match/4> a ex:Match ;
-    rdfs:label "Manchester United vs InterMiami" ;
-    ex:awayTeam <http://example.org/football/team/InterMiami> ;
-    ex:competition "Friendly Match" ;
-    ex:homeTeam <http://example.org/football/team/Manchester%20United> ;
-    ex:matchDate "2024-04-05"^^xsd:date ;
-    ex:referee <http://example.org/football/referee/Pierre%20Brissard> ;
-    ex:score "3-1" ;
-    ex:stadium <http://example.org/football/stadium/Old%20Trafford> .
+<http://semanticweb.org/football/coach/2108> a ex:Coach ;
+    rdfs:label "Andoni Iraola" ;
+    ex:age 43.0 ;
+    ex:birthCountry "Spain" ;
+    ex:birthDate "1982-06-22" ;
+    ex:birthPlace "Usurbil" ;
+    ex:career "[{'team': {'id': 35, 'name': 'AFC Bournemouth', 'logo': 'https://media.api-sports.io/football/teams/35.png'}, 'start': '2023-07-01', 'end': None}, {'team': {'id': 728, 'name': 'Rayo Vallecano', 'logo': 'https://media.api-sports.io/football/teams/728.png'}, 'start': '2020-08-01', 'end': '2023-06-01'}, {'team': {'id': 799, 'name': 'Mirandes', 'logo': 'https://media.api-sports.io/football/teams/799.png'}, 'start': '2019-07-01', 'end': '2020-07-01'}, {'team': {'id': 614, 'name': 'AEK Larnaca', 'logo': 'https://media.api-sports.io/football/teams/614.png'}, 'start': '2018-07-01', 'end': '2019-01-01'}]" ;
+    ex:firstName "Andoni" ;
+    ex:height "178 cm" ;
+    ex:lastName "Iraola Sagarna" ;
+    ex:name "Andoni Iraola" ;
+    ex:nationality "Spain" ;
+    ex:photo "https://media.api-sports.io/football/coachs/2108.png" ;
+    ex:teamId "35" ;
+    ex:teamName "AFC Bournemouth" ;
+    ex:weight "77 kg" .
 
-<http://example.org/football/match/5> a ex:Match ;
-    rdfs:label "Paris Saint-Germain vs AlNassr" ;
-    ex:awayTeam <http://example.org/football/team/AlNassr> ;
-    ex:competition "Friendly Match" ;
-    ex:homeTeam <http://example.org/football/team/Paris%20Saint-Germain> ;
-    ex:matchDate "2024-05-12"^^xsd:date ;
-    ex:referee <http://example.org/football/referee/Frasier%20Forman> ;
-    ex:score "4-2" ;
-    ex:stadium <http://example.org/football/stadium/Parc%20des%20Princes> .
+<http://semanticweb.org/football/coach/25762> a ex:Coach ;
+    rdfs:label "Michael Carrick" ;
+    ex:age 45.0 ;
+    ex:birthCountry "England" ;
+    ex:birthDate "1981-07-28" ;
+    ex:birthPlace "Wallsend" ;
+    ex:career "[{'team': {'id': 33, 'name': 'Manchester United', 'logo': 'https://media.api-sports.io/football/teams/33.png'}, 'start': '2025-08-01', 'end': None}]" ;
+    ex:firstName "Michael" ;
+    ex:height "188 cm" ;
+    ex:lastName "Carrick" ;
+    ex:name "Michael Carrick" ;
+    ex:nationality "England" ;
+    ex:photo "https://media.api-sports.io/football/coachs/25762.png" ;
+    ex:teamId "33" ;
+    ex:teamName "Manchester United" .
 
-<http://example.org/football/coach/Erik%20ten%20Hag> a ex:Coach ;
-    ex:currentTeam "Manchester United" ;
-    ex:experienceYears 15 ;
-    ex:formationPreference "4-2-3-1" ;
-    ex:name "Erik ten Hag" ;
-    foaf:name "Erik ten Hag" .
+<http://semanticweb.org/football/coach/4720> a ex:Coach ;
+    rdfs:label "Ruben Amorim" ;
+    ex:age 40.0 ;
+    ex:birthCountry "Portugal" ;
+    ex:birthDate "1985-01-27" ;
+    ex:birthPlace "Lisboa" ;
+    ex:career "[{'team': {'id': 33, 'name': 'Manchester United', 'logo': 'https://media.api-sports.io/football/teams/33.png'}, 'start': '2024-11-01', 'end': None}, {'team': {'id': 228, 'name': 'Sporting Lisbon', 'logo': 'https://media.api-sports.io/football/teams/228.png'}, 'start': '2020-03-01', 'end': '2024-11-01'}, {'team': {'id': 217, 'name': 'Sporting Braga', 'logo': 'https://media.api-sports.io/football/teams/217.png'}, 'start': '2019-12-01', 'end': '2020-03-01'}, {'team': {'id': 246, 'name': 'Sporting Braga II', 'logo': 'https://media.api-sports.io/football/teams/246.png'}, 'start': '2019-09-01', 'end': '2019-12-01'}]" ;
+    ex:firstName "Ruben Filipe" ;
+    ex:height "182 cm" ;
+    ex:lastName "Marques Diogo Amorim" ;
+    ex:name "Ruben Amorim" ;
+    ex:nationality "Portugal" ;
+    ex:photo "https://media.api-sports.io/football/coachs/4720.png" ;
+    ex:teamId "33" ;
+    ex:teamName "Manchester United" ;
+    ex:weight "72 kg" .
 
-<http://example.org/football/coach/Gerardo%20Martino> a ex:Coach ;
-    ex:currentTeam "InterMiami" ;
-    ex:experienceYears 25 ;
-    ex:formationPreference "4-2-3-1" ;
-    ex:name "Gerardo Martino" ;
-    foaf:name "Gerardo Martino" .
+<http://semanticweb.org/football/coach/5> a ex:Coach ;
+    rdfs:label "E. Howe" ;
+    ex:age 48.0 ;
+    ex:birthCountry "England" ;
+    ex:birthDate "1977-11-29" ;
+    ex:birthPlace "Amersham" ;
+    ex:career "[{'team': {'id': 34, 'name': 'Newcastle United', 'logo': 'https://media.api-sports.io/football/teams/34.png'}, 'start': '2021-11-01', 'end': None}, {'team': {'id': 35, 'name': 'AFC Bournemouth', 'logo': 'https://media.api-sports.io/football/teams/35.png'}, 'start': '2012-10-01', 'end': '2020-08-01'}, {'team': {'id': 44, 'name': 'Burnley', 'logo': 'https://media.api-sports.io/football/teams/44.png'}, 'start': '2011-01-01', 'end': '2012-10-01'}, {'team': {'id': 35, 'name': 'AFC Bournemouth', 'logo': 'https://media.api-sports.io/football/teams/35.png'}, 'start': '2008-12-01', 'end': '2011-01-01'}]" ;
+    ex:firstName "Edward John Frank" ;
+    ex:lastName "Howe" ;
+    ex:name "E. Howe" ;
+    ex:nationality "England" ;
+    ex:photo "https://media.api-sports.io/football/coachs/5.png" ;
+    ex:teamId "34" ;
+    ex:teamName "Newcastle United" .
 
-<http://example.org/football/coach/Luis%20Enrique> a ex:Coach ;
-    ex:currentTeam "Paris Saint-Germain" ;
-    ex:experienceYears 18 ;
-    ex:formationPreference "4-3-3" ;
-    ex:name "Luis Enrique" ;
-    foaf:name "Luis Enrique" .
+<http://semanticweb.org/football/coach/84> a ex:Coach ;
+    rdfs:label "G. Jones" ;
+    ex:age 55.0 ;
+    ex:birthCountry "England" ;
+    ex:birthDate "1970-03-13" ;
+    ex:birthPlace "Gateshead" ;
+    ex:career "[{'team': {'id': 34, 'name': 'Newcastle', 'logo': 'https://media.api-sports.io/football/teams/34.png'}, 'start': '2021-10-01', 'end': None}, {'team': {'id': 1359, 'name': 'Luton', 'logo': 'https://media.api-sports.io/football/teams/1359.png'}, 'start': '2019-08-01', 'end': '2020-03-01'}]" ;
+    ex:firstName "Graeme Anthony" ;
+    ex:lastName "Jones" ;
+    ex:name "G. Jones" ;
+    ex:nationality "England" ;
+    ex:photo "https://media.api-sports.io/football/coachs/84.png" ;
+    ex:teamId "34" ;
+    ex:teamName "Newcastle" .
 
-<http://example.org/football/coach/Rudi%20Garcia> a ex:Coach ;
-    ex:currentTeam "AlNassr" ;
-    ex:experienceYears 20 ;
-    ex:formationPreference "4-3-3" ;
-    ex:name "Rudi Garcia" ;
-    foaf:name "Rudi Garcia" .
+<http://semanticweb.org/football/coach/85> a ex:Coach ;
+    rdfs:label "J. Woodgate" ;
+    ex:age 45.0 ;
+    ex:birthCountry "England" ;
+    ex:birthDate "1980-01-22" ;
+    ex:birthPlace "Nunthorpe" ;
+    ex:career "[{'team': {'id': 35, 'name': 'AFC Bournemouth', 'logo': 'https://media.api-sports.io/football/teams/35.png'}, 'start': '2021-02-01', 'end': '2021-06-01'}, {'team': {'id': 70, 'name': 'Middlesbrough', 'logo': 'https://media.api-sports.io/football/teams/70.png'}, 'start': '2019-06-01', 'end': '2020-06-01'}]" ;
+    ex:firstName "Jonathan" ;
+    ex:height "183 cm" ;
+    ex:lastName "Woodgate" ;
+    ex:name "J. Woodgate" ;
+    ex:nationality "England" ;
+    ex:photo "https://media.api-sports.io/football/coachs/85.png" ;
+    ex:teamId "35" ;
+    ex:teamName "AFC Bournemouth" ;
+    ex:weight "80 kg" .
 
-<http://example.org/football/coach/Xavi%20Hern%C3%A1ndez> a ex:Coach ;
-    ex:currentTeam "FC Barcelona" ;
-    ex:experienceYears 8 ;
-    ex:formationPreference "4-3-3" ;
-    ex:name "Xavi Hernández" ;
-    foaf:name "Xavi Hernández" .
-
-<http://example.org/football/league/1> a ex:League ;
+<http://semanticweb.org/football/league/1> a ex:League ;
     rdfs:label "MLS" ;
     ex:level "1" ;
     ex:name "MLS" ;
@@ -97,7 +154,7 @@
     ex:organizer "Major League Soccer" ;
     ex:season "2024" .
 
-<http://example.org/football/league/2> a ex:League ;
+<http://semanticweb.org/football/league/2> a ex:League ;
     rdfs:label "SPL" ;
     ex:level "1" ;
     ex:name "SPL" ;
@@ -105,7 +162,7 @@
     ex:organizer "Saudi Football Federation" ;
     ex:season "2024" .
 
-<http://example.org/football/league/3> a ex:League ;
+<http://semanticweb.org/football/league/3> a ex:League ;
     rdfs:label "Premier League" ;
     ex:level "1" ;
     ex:name "Premier League" ;
@@ -113,7 +170,7 @@
     ex:organizer "English Premier League" ;
     ex:season "2024" .
 
-<http://example.org/football/league/4> a ex:League ;
+<http://semanticweb.org/football/league/4> a ex:League ;
     rdfs:label "La Liga" ;
     ex:level "1" ;
     ex:name "La Liga" ;
@@ -121,7 +178,7 @@
     ex:organizer "RFEF - Professional Football League" ;
     ex:season "2024" .
 
-<http://example.org/football/league/5> a ex:League ;
+<http://semanticweb.org/football/league/5> a ex:League ;
     rdfs:label "Ligue 1" ;
     ex:level "1" ;
     ex:name "Ligue 1" ;
@@ -129,243 +186,1582 @@
     ex:organizer "Ligue de Football Professionnel" ;
     ex:season "2024" .
 
-<http://example.org/football/player/10> a ex:Player ;
-    rdfs:label "Lionel Messi" ;
-    ex:dateOfBirth "1987-06-24"^^xsd:date ;
-    ex:hasStatistic <http://example.org/football/stat/10> ;
-    ex:height 1.7e+00 ;
-    ex:name "Lionel Messi" ;
-    ex:nationality "Argentina" ;
-    ex:playsFor <http://example.org/football/team/InterMiami> ;
-    ex:position "Forward" ;
-    ex:weight 7.2e+01 ;
-    rdfs:seeAlso dbp:Lionel%20Messi ;
-    foaf:name "Lionel Messi" .
+<http://semanticweb.org/football/match/1> a ex:Match ;
+    rdfs:label "InterMiami vs AlNassr" ;
+    ex:awayTeam <http://semanticweb.org/football/team/AlNassr> ;
+    ex:competition "Friendly Match" ;
+    ex:homeTeam <http://semanticweb.org/football/team/InterMiami> ;
+    ex:matchDate "2024-01-15"^^xsd:date ;
+    ex:referee <http://semanticweb.org/football/referee/1> ;
+    ex:score "2-1" ;
+    ex:stadium <http://semanticweb.org/football/stadium/DRV%20PNM%20Stadium> .
 
-<http://example.org/football/player/11> a ex:Player ;
-    rdfs:label "Harry Kane" ;
-    ex:dateOfBirth "1993-07-28"^^xsd:date ;
-    ex:hasStatistic <http://example.org/football/stat/11> ;
-    ex:height 1.89e+00 ;
-    ex:name "Harry Kane" ;
+<http://semanticweb.org/football/match/2> a ex:Match ;
+    rdfs:label "Manchester United vs FC Barcelona" ;
+    ex:awayTeam <http://semanticweb.org/football/team/FC%20Barcelona> ;
+    ex:competition "Friendly Match" ;
+    ex:homeTeam <http://semanticweb.org/football/team/Manchester%20United> ;
+    ex:matchDate "2024-02-20"^^xsd:date ;
+    ex:referee <http://semanticweb.org/football/referee/3> ;
+    ex:score "1-1" ;
+    ex:stadium <http://semanticweb.org/football/stadium/Old%20Trafford> .
+
+<http://semanticweb.org/football/match/3> a ex:Match ;
+    rdfs:label "FC Barcelona vs Paris Saint-Germain" ;
+    ex:awayTeam <http://semanticweb.org/football/team/Paris%20Saint-Germain> ;
+    ex:competition "Friendly Match" ;
+    ex:homeTeam <http://semanticweb.org/football/team/FC%20Barcelona> ;
+    ex:matchDate "2024-03-10"^^xsd:date ;
+    ex:referee <http://semanticweb.org/football/referee/Cl%C3%A9ment%20Turpin> ;
+    ex:score "2-0" ;
+    ex:stadium <http://semanticweb.org/football/stadium/Spotify%20Camp%20Nou> .
+
+<http://semanticweb.org/football/match/4> a ex:Match ;
+    rdfs:label "Manchester United vs InterMiami" ;
+    ex:awayTeam <http://semanticweb.org/football/team/InterMiami> ;
+    ex:competition "Friendly Match" ;
+    ex:homeTeam <http://semanticweb.org/football/team/Manchester%20United> ;
+    ex:matchDate "2024-04-05"^^xsd:date ;
+    ex:referee <http://semanticweb.org/football/referee/2> ;
+    ex:score "3-1" ;
+    ex:stadium <http://semanticweb.org/football/stadium/Old%20Trafford> .
+
+<http://semanticweb.org/football/match/5> a ex:Match ;
+    rdfs:label "Paris Saint-Germain vs AlNassr" ;
+    ex:awayTeam <http://semanticweb.org/football/team/AlNassr> ;
+    ex:competition "Friendly Match" ;
+    ex:homeTeam <http://semanticweb.org/football/team/Paris%20Saint-Germain> ;
+    ex:matchDate "2024-05-12"^^xsd:date ;
+    ex:referee <http://semanticweb.org/football/referee/5> ;
+    ex:score "4-2" ;
+    ex:stadium <http://semanticweb.org/football/stadium/Parc%20des%20Princes> .
+
+<http://semanticweb.org/football/player/105> a ex:Player ;
+    rdfs:label "F. Ballo-Touré" ;
+    ex:age 28.0 ;
+    ex:name "F. Ballo-Touré" ;
+    ex:nationality "Senegal" ;
+    ex:playsFor <http://semanticweb.org/football/team/Fulham> ;
+    ex:position "Defender" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/F.%20Ballo-Tour%C3%A9" .
+
+<http://semanticweb.org/football/player/1150> a ex:Player ;
+    rdfs:label "T. Adams" ;
+    ex:age 26.0 ;
+    ex:appearances 29 ;
+    ex:assists 3 ;
+    ex:name "T. Adams" ;
+    ex:nationality "USA" ;
+    ex:playsFor <http://semanticweb.org/football/team/Bournemouth> ;
+    ex:position "Midfielder" ;
+    ex:rating 6.864285 ;
+    ex:redCards 0 ;
+    ex:yellowCards 7 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/T.%20Adams" .
+
+<http://semanticweb.org/football/player/1165> a ex:Player ;
+    rdfs:label "Matheus Cunha" ;
+    ex:age 26.0 ;
+    ex:appearances 33 ;
+    ex:assists 6 ;
+    ex:goals 15 ;
+    ex:name "Matheus Cunha" ;
+    ex:nationality "Brazil" ;
+    ex:playsFor <http://semanticweb.org/football/team/Wolves> ;
+    ex:position "Attacker" ;
+    ex:rating 7.630303 ;
+    ex:redCards 0 ;
+    ex:yellowCards 4 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/Matheus%20Cunha" .
+
+<http://semanticweb.org/football/player/126690> a ex:Player ;
+    rdfs:label "K. Bowie" ;
+    ex:age 23.0 ;
+    ex:name "K. Bowie" ;
+    ex:nationality "Scotland" ;
+    ex:playsFor <http://semanticweb.org/football/team/Fulham> ;
+    ex:position "Attacker" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/K.%20Bowie" .
+
+<http://semanticweb.org/football/player/129705> a ex:Player ;
+    rdfs:label "L. Ashby-Hammond" ;
+    ex:age 24.0 ;
+    ex:name "L. Ashby-Hammond" ;
     ex:nationality "England" ;
-    ex:playsFor <http://example.org/football/team/Manchester%20United> ;
-    ex:position "Forward" ;
-    ex:weight 8.9e+01 ;
-    rdfs:seeAlso dbp:Harry%20Kane ;
-    foaf:name "Harry Kane" .
+    ex:playsFor <http://semanticweb.org/football/team/Fulham> ;
+    ex:position "Goalkeeper" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/L.%20Ashby-Hammond" .
 
-<http://example.org/football/player/17> a ex:Player ;
-    rdfs:label "Robert Lewandowski" ;
-    ex:dateOfBirth "1988-08-21"^^xsd:date ;
-    ex:hasStatistic <http://example.org/football/stat/17> ;
-    ex:height 1.85e+00 ;
-    ex:name "Robert Lewandowski" ;
-    ex:nationality "Poland" ;
-    ex:playsFor <http://example.org/football/team/FC%20Barcelona> ;
-    ex:position "Forward" ;
-    ex:weight 8.1e+01 ;
-    rdfs:seeAlso dbp:Robert%20Lewandowski ;
-    foaf:name "Robert Lewandowski" .
+<http://semanticweb.org/football/player/131> a ex:Player ;
+    rdfs:label "Jorge Cuenca" ;
+    ex:age 26.0 ;
+    ex:appearances 26 ;
+    ex:assists 0 ;
+    ex:name "Jorge Cuenca" ;
+    ex:nationality "Spain" ;
+    ex:playsFor <http://semanticweb.org/football/team/Fulham> ;
+    ex:position "Defender" ;
+    ex:rating 6.5 ;
+    ex:redCards 0 ;
+    ex:yellowCards 0 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/Jorge%20Cuenca" .
 
-<http://example.org/football/player/7> a ex:Player ;
-    rdfs:label "Cristiano Ronaldo" ;
-    ex:dateOfBirth "1985-02-05"^^xsd:date ;
-    ex:hasStatistic <http://example.org/football/stat/7> ;
-    ex:height 1.87e+00 ;
-    ex:name "Cristiano Ronaldo" ;
+<http://semanticweb.org/football/player/135068> a ex:Player ;
+    rdfs:label "E. Agbadou" ;
+    ex:age 28.0 ;
+    ex:appearances 16 ;
+    ex:assists 0 ;
+    ex:goals 1 ;
+    ex:name "E. Agbadou" ;
+    ex:nationality "Côte d'Ivoire" ;
+    ex:playsFor <http://semanticweb.org/football/team/Wolves> ;
+    ex:position "Defender" ;
+    ex:rating 7.1125 ;
+    ex:redCards 0 ;
+    ex:yellowCards 3 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/E.%20Agbadou" .
+
+<http://semanticweb.org/football/player/135334> a ex:Player ;
+    rdfs:label "S. Bueno" ;
+    ex:age 27.0 ;
+    ex:appearances 37 ;
+    ex:assists 0 ;
+    ex:name "S. Bueno" ;
+    ex:nationality "Uruguay" ;
+    ex:playsFor <http://semanticweb.org/football/team/Wolves> ;
+    ex:position "Defender" ;
+    ex:rating 6.660714 ;
+    ex:redCards 0 ;
+    ex:yellowCards 2 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/S.%20Bueno" .
+
+<http://semanticweb.org/football/player/138822> a ex:Player ;
+    rdfs:label "A. Broja" ;
+    ex:age 24.0 ;
+    ex:name "A. Broja" ;
+    ex:nationality "Albania" ;
+    ex:playsFor <http://semanticweb.org/football/team/Fulham> ;
+    ex:position "Attacker" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/A.%20Broja" .
+
+<http://semanticweb.org/football/player/138908> a ex:Player ;
+    rdfs:label "E. Anderson" ;
+    ex:age 23.0 ;
+    ex:name "E. Anderson" ;
+    ex:nationality "Scotland" ;
+    ex:playsFor <http://semanticweb.org/football/team/Newcastle> ;
+    ex:position "Midfielder" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/E.%20Anderson" .
+
+<http://semanticweb.org/football/player/1438> a ex:Player ;
+    rdfs:label "B. Leno" ;
+    ex:age 33.0 ;
+    ex:appearances 38 ;
+    ex:assists 1 ;
+    ex:name "B. Leno" ;
+    ex:nationality "Germany" ;
+    ex:playsFor <http://semanticweb.org/football/team/Fulham> ;
+    ex:position "Goalkeeper" ;
+    ex:rating 7.013157 ;
+    ex:redCards 0 ;
+    ex:yellowCards 5 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/B.%20Leno" .
+
+<http://semanticweb.org/football/player/144741> a ex:Player ;
+    rdfs:label "L. Moulden" ;
+    ex:age 23.0 ;
+    ex:name "L. Moulden" ;
+    ex:nationality "England" ;
+    ex:playsFor <http://semanticweb.org/football/team/Wolves> ;
+    ex:position "Goalkeeper" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/L.%20Moulden" .
+
+<http://semanticweb.org/football/player/151756> a ex:Player ;
+    rdfs:label "W. Dennis" ;
+    ex:age 25.0 ;
+    ex:appearances 0 ;
+    ex:goals 0 ;
+    ex:name "W. Dennis" ;
+    ex:nationality "England" ;
+    ex:playsFor <http://semanticweb.org/football/team/Bournemouth> ;
+    ex:position "Goalkeeper" ;
+    ex:redCards 0 ;
+    ex:yellowCards 0 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/W.%20Dennis" .
+
+<http://semanticweb.org/football/player/152967> a ex:Player ;
+    rdfs:label "C. Bassey" ;
+    ex:age 26.0 ;
+    ex:appearances 37 ;
+    ex:assists 0 ;
+    ex:goals 1 ;
+    ex:name "C. Bassey" ;
+    ex:nationality "Nigeria" ;
+    ex:playsFor <http://semanticweb.org/football/team/Fulham> ;
+    ex:position "Defender" ;
+    ex:rating 6.865714 ;
+    ex:redCards 0 ;
+    ex:yellowCards 7 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/C.%20Bassey" .
+
+<http://semanticweb.org/football/player/153420> a ex:Player ;
+    rdfs:label "G. Wickens" ;
+    ex:age 24.0 ;
+    ex:name "G. Wickens" ;
+    ex:nationality "England" ;
+    ex:playsFor <http://semanticweb.org/football/team/Fulham> ;
+    ex:position "Goalkeeper" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/G.%20Wickens" .
+
+<http://semanticweb.org/football/player/153434> a ex:Player ;
+    rdfs:label "W. Fish" ;
+    ex:age 22.0 ;
+    ex:name "W. Fish" ;
+    ex:nationality "England" ;
+    ex:playsFor <http://semanticweb.org/football/team/Manchester%20United> ;
+    ex:position "Defender" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/W.%20Fish" .
+
+<http://semanticweb.org/football/player/1590> a ex:Player ;
+    rdfs:label "José Sá" ;
+    ex:age 32.0 ;
+    ex:appearances 33 ;
+    ex:assists 0 ;
+    ex:name "José Sá" ;
     ex:nationality "Portugal" ;
-    ex:playsFor <http://example.org/football/team/AlNassr> ;
-    ex:position "Forward" ;
-    ex:weight 8.3e+01 ;
-    rdfs:seeAlso dbp:Cristiano%20Ronaldo ;
-    foaf:name "Cristiano Ronaldo" .
+    ex:playsFor <http://semanticweb.org/football/team/Wolves> ;
+    ex:position "Goalkeeper" ;
+    ex:rating 6.768965 ;
+    ex:redCards 0 ;
+    ex:yellowCards 2 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/Jos%C3%A9%20S%C3%A1" .
 
-<http://example.org/football/player/9> a ex:Player ;
-    rdfs:label "Kylian Mbappé" ;
-    ex:dateOfBirth "1998-12-20"^^xsd:date ;
-    ex:hasStatistic <http://example.org/football/stat/9> ;
-    ex:height 1.78e+00 ;
-    ex:name "Kylian Mbappé" ;
+<http://semanticweb.org/football/player/180560> a ex:Player ;
+    rdfs:label "H. Mejbri" ;
+    ex:age 22.0 ;
+    ex:appearances 0 ;
+    ex:assists 1 ;
+    ex:goals 0 ;
+    ex:name "H. Mejbri" ;
+    ex:nationality "Tunisia" ;
+    ex:playsFor <http://semanticweb.org/football/team/Manchester%20United> ;
+    ex:position "Midfielder" ;
+    ex:rating 7.7 ;
+    ex:redCards 0 ;
+    ex:yellowCards 0 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/H.%20Mejbri" .
+
+<http://semanticweb.org/football/player/1864> a ex:Player ;
+    rdfs:label "Pedro Neto" ;
+    ex:age 25.0 ;
+    ex:appearances 0 ;
+    ex:assists 6 ;
+    ex:goals 0 ;
+    ex:name "Pedro Neto" ;
+    ex:nationality "Portugal" ;
+    ex:playsFor <http://semanticweb.org/football/team/Wolves> ;
+    ex:position "Attacker" ;
+    ex:rating 7.014285 ;
+    ex:redCards 0 ;
+    ex:yellowCards 0 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/Pedro%20Neto" .
+
+<http://semanticweb.org/football/player/18742> a ex:Player ;
+    rdfs:label "M. Doherty" ;
+    ex:age 33.0 ;
+    ex:appearances 30 ;
+    ex:assists 1 ;
+    ex:goals 2 ;
+    ex:name "M. Doherty" ;
+    ex:nationality "Republic of Ireland" ;
+    ex:playsFor <http://semanticweb.org/football/team/Wolves> ;
+    ex:position "Defender" ;
+    ex:rating 7.0 ;
+    ex:redCards 0 ;
+    ex:yellowCards 6 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/M.%20Doherty" .
+
+<http://semanticweb.org/football/player/18744> a ex:Player ;
+    rdfs:label "M. Kilman" ;
+    ex:age 28.0 ;
+    ex:name "M. Kilman" ;
+    ex:nationality "England" ;
+    ex:playsFor <http://semanticweb.org/football/team/Wolves> ;
+    ex:position "Defender" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/M.%20Kilman" .
+
+<http://semanticweb.org/football/player/18814> a ex:Player ;
+    rdfs:label "I. Diop" ;
+    ex:age 28.0 ;
+    ex:appearances 30 ;
+    ex:assists 0 ;
+    ex:name "I. Diop" ;
     ex:nationality "France" ;
-    ex:playsFor <http://example.org/football/team/Paris%20Saint-Germain> ;
+    ex:playsFor <http://semanticweb.org/football/team/Fulham> ;
+    ex:position "Defender" ;
+    ex:rating 6.71 ;
+    ex:redCards 0 ;
+    ex:yellowCards 2 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/I.%20Diop" .
+
+<http://semanticweb.org/football/player/18860> a ex:Player ;
+    rdfs:label "M. Travers" ;
+    ex:age 26.0 ;
+    ex:appearances 5 ;
+    ex:assists 0 ;
+    ex:goals 0 ;
+    ex:name "M. Travers" ;
+    ex:nationality "Republic of Ireland" ;
+    ex:playsFor <http://semanticweb.org/football/team/Bournemouth> ;
+    ex:position "Goalkeeper" ;
+    ex:rating 7.64 ;
+    ex:redCards 0 ;
+    ex:yellowCards 0 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/M.%20Travers" .
+
+<http://semanticweb.org/football/player/18866> a ex:Player ;
+    rdfs:label "C. Mepham" ;
+    ex:age 28.0 ;
+    ex:appearances 0 ;
+    ex:goals 0 ;
+    ex:name "C. Mepham" ;
+    ex:nationality "Wales" ;
+    ex:playsFor <http://semanticweb.org/football/team/Bournemouth> ;
+    ex:position "Defender" ;
+    ex:redCards 0 ;
+    ex:yellowCards 0 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/C.%20Mepham" .
+
+<http://semanticweb.org/football/player/18869> a ex:Player ;
+    rdfs:label "A. Smith" ;
+    ex:age 34.0 ;
+    ex:appearances 25 ;
+    ex:assists 0 ;
+    ex:goals 0 ;
+    ex:name "A. Smith" ;
+    ex:nationality "England" ;
+    ex:playsFor <http://semanticweb.org/football/team/Bournemouth> ;
+    ex:position "Defender" ;
+    ex:rating 6.576 ;
+    ex:redCards 0 ;
+    ex:yellowCards 7 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/A.%20Smith" .
+
+<http://semanticweb.org/football/player/18873> a ex:Player ;
+    rdfs:label "R. Fraser" ;
+    ex:age 31.0 ;
+    ex:name "R. Fraser" ;
+    ex:nationality "Scotland" ;
+    ex:playsFor <http://semanticweb.org/football/team/Newcastle> ;
+    ex:position "Midfielder" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/R.%20Fraser" .
+
+<http://semanticweb.org/football/player/18883> a ex:Player ;
+    rdfs:label "D. Solanke" ;
+    ex:age 28.0 ;
+    ex:appearances 0 ;
+    ex:assists 3 ;
+    ex:goals 0 ;
+    ex:name "D. Solanke" ;
+    ex:nationality "England" ;
+    ex:playsFor <http://semanticweb.org/football/team/Bournemouth> ;
+    ex:position "Attacker" ;
+    ex:rating 6.862962 ;
+    ex:redCards 0 ;
+    ex:yellowCards 0 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/D.%20Solanke" .
+
+<http://semanticweb.org/football/player/18886> a ex:Player ;
+    rdfs:label "M. Dúbravka" ;
+    ex:age 36.0 ;
+    ex:appearances 2 ;
+    ex:assists 0 ;
+    ex:goals 0 ;
+    ex:name "M. Dúbravka" ;
+    ex:nationality "Slovakia" ;
+    ex:playsFor <http://semanticweb.org/football/team/Newcastle> ;
+    ex:position "Goalkeeper" ;
+    ex:rating 6.8 ;
+    ex:redCards 0 ;
+    ex:yellowCards 0 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/M.%20D%C3%BAbravka" .
+
+<http://semanticweb.org/football/player/18892> a ex:Player ;
+    rdfs:label "P. Dummett" ;
+    ex:age 34.0 ;
+    ex:name "P. Dummett" ;
+    ex:nationality "Wales" ;
+    ex:playsFor <http://semanticweb.org/football/team/Newcastle> ;
+    ex:position "Defender" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/P.%20Dummett" .
+
+<http://semanticweb.org/football/player/18899> a ex:Player ;
+    rdfs:label "I. Hayden" ;
+    ex:age 30.0 ;
+    ex:name "I. Hayden" ;
+    ex:nationality "England" ;
+    ex:playsFor <http://semanticweb.org/football/team/Newcastle> ;
+    ex:position "Midfielder" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/I.%20Hayden" .
+
+<http://semanticweb.org/football/player/18903> a ex:Player ;
+    rdfs:label "M. Ritchie" ;
+    ex:age 36.0 ;
+    ex:name "M. Ritchie" ;
+    ex:nationality "Scotland" ;
+    ex:playsFor <http://semanticweb.org/football/team/Newcastle> ;
+    ex:position "Midfielder" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/M.%20Ritchie" .
+
+<http://semanticweb.org/football/player/19004> a ex:Player ;
+    rdfs:label "B. De Cordova-Reid" ;
+    ex:age 32.0 ;
+    ex:name "B. De Cordova-Reid" ;
+    ex:nationality "Jamaica" ;
+    ex:playsFor <http://semanticweb.org/football/team/Fulham> ;
+    ex:position "Attacker" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/B.%20De%20Cordova-Reid" .
+
+<http://semanticweb.org/football/player/19143> a ex:Player ;
+    rdfs:label "S. Johnstone" ;
+    ex:age 32.0 ;
+    ex:appearances 7 ;
+    ex:goals 0 ;
+    ex:name "S. Johnstone" ;
+    ex:nationality "England" ;
+    ex:playsFor <http://semanticweb.org/football/team/Wolves> ;
+    ex:position "Goalkeeper" ;
+    ex:redCards 0 ;
+    ex:yellowCards 0 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/S.%20Johnstone" .
+
+<http://semanticweb.org/football/player/19145> a ex:Player ;
+    rdfs:label "T. Adarabioyo" ;
+    ex:age 28.0 ;
+    ex:name "T. Adarabioyo" ;
+    ex:nationality "England" ;
+    ex:playsFor <http://semanticweb.org/football/team/Fulham> ;
+    ex:position "Defender" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/T.%20Adarabioyo" .
+
+<http://semanticweb.org/football/player/19263> a ex:Player ;
+    rdfs:label "L. Kelly" ;
+    ex:age 27.0 ;
+    ex:name "L. Kelly" ;
+    ex:nationality "England" ;
+    ex:playsFor <http://semanticweb.org/football/team/Bournemouth> ;
+    ex:position "Defender" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/L.%20Kelly" .
+
+<http://semanticweb.org/football/player/19341> a ex:Player ;
+    rdfs:label "D. Bentley" ;
+    ex:age 32.0 ;
+    ex:appearances 18 ;
+    ex:assists 0 ;
+    ex:name "D. Bentley" ;
+    ex:nationality "England" ;
+    ex:playsFor <http://semanticweb.org/football/team/Wolves> ;
+    ex:position "Goalkeeper" ;
+    ex:rating 6.95 ;
+    ex:redCards 0 ;
+    ex:yellowCards 0 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/D.%20Bentley" .
+
+<http://semanticweb.org/football/player/19356> a ex:Player ;
+    rdfs:label "E. Marcondes" ;
+    ex:age 30.0 ;
+    ex:name "E. Marcondes" ;
+    ex:nationality "Denmark" ;
+    ex:playsFor <http://semanticweb.org/football/team/Bournemouth> ;
+    ex:position "Midfielder" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/E.%20Marcondes" .
+
+<http://semanticweb.org/football/player/195717> a ex:Player ;
+    rdfs:label "Y. Mosquera" ;
+    ex:age 24.0 ;
+    ex:appearances 5 ;
+    ex:assists 0 ;
+    ex:goals 0 ;
+    ex:name "Y. Mosquera" ;
+    ex:nationality "Colombia" ;
+    ex:playsFor <http://semanticweb.org/football/team/Wolves> ;
+    ex:position "Defender" ;
+    ex:rating 7.02 ;
+    ex:redCards 0 ;
+    ex:yellowCards 2 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/Y.%20Mosquera" .
+
+<http://semanticweb.org/football/player/19657> a ex:Player ;
+    rdfs:label "M. Rodák" ;
+    ex:age 29.0 ;
+    ex:name "M. Rodák" ;
+    ex:nationality "Slovakia" ;
+    ex:playsFor <http://semanticweb.org/football/team/Fulham> ;
+    ex:position "Goalkeeper" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/M.%20Rod%C3%A1k" .
+
+<http://semanticweb.org/football/player/1972> a ex:Player ;
+    rdfs:label "L. Karius" ;
+    ex:age 32.0 ;
+    ex:name "L. Karius" ;
+    ex:nationality "Germany" ;
+    ex:playsFor <http://semanticweb.org/football/team/Newcastle> ;
+    ex:position "Goalkeeper" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/L.%20Karius" .
+
+<http://semanticweb.org/football/player/19804> a ex:Player ;
+    rdfs:label "K. Moore" ;
+    ex:age 33.0 ;
+    ex:name "K. Moore" ;
+    ex:nationality "Wales" ;
+    ex:playsFor <http://semanticweb.org/football/team/Bournemouth> ;
+    ex:position "Attacker" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/K.%20Moore" .
+
+<http://semanticweb.org/football/player/20093> a ex:Player ;
+    rdfs:label "J. Hill" ;
+    ex:age 23.0 ;
+    ex:appearances 10 ;
+    ex:assists 1 ;
+    ex:goals 0 ;
+    ex:name "J. Hill" ;
+    ex:nationality "England" ;
+    ex:playsFor <http://semanticweb.org/football/team/Bournemouth> ;
+    ex:position "Defender" ;
+    ex:rating 6.722222 ;
+    ex:redCards 0 ;
+    ex:yellowCards 1 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/J.%20Hill" .
+
+<http://semanticweb.org/football/player/206254> a ex:Player ;
+    rdfs:label "M. Kerkez" ;
+    ex:age 22.0 ;
+    ex:appearances 38 ;
+    ex:assists 5 ;
+    ex:goals 2 ;
+    ex:name "M. Kerkez" ;
+    ex:nationality "Hungary" ;
+    ex:playsFor <http://semanticweb.org/football/team/Bournemouth> ;
+    ex:position "Defender" ;
+    ex:rating 7.042105 ;
+    ex:redCards 0 ;
+    ex:yellowCards 4 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/M.%20Kerkez" .
+
+<http://semanticweb.org/football/player/21138> a ex:Player ;
+    rdfs:label "R. Aït-Nouri" ;
+    ex:age 24.0 ;
+    ex:appearances 37 ;
+    ex:assists 7 ;
+    ex:goals 4 ;
+    ex:name "R. Aït-Nouri" ;
+    ex:nationality "Algeria" ;
+    ex:playsFor <http://semanticweb.org/football/team/Wolves> ;
+    ex:position "Defender" ;
+    ex:rating 7.008108 ;
+    ex:redCards 0 ;
+    ex:yellowCards 6 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/R.%20A%C3%AFt-Nouri" .
+
+<http://semanticweb.org/football/player/2273> a ex:Player ;
+    rdfs:label "Kepa" ;
+    ex:age 31.0 ;
+    ex:appearances 31 ;
+    ex:assists 0 ;
+    ex:goals 0 ;
+    ex:name "Kepa" ;
+    ex:nationality "Spain" ;
+    ex:playsFor <http://semanticweb.org/football/team/Bournemouth> ;
+    ex:position "Goalkeeper" ;
+    ex:rating 7.145161 ;
+    ex:redCards 0 ;
+    ex:yellowCards 3 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/Kepa" .
+
+<http://semanticweb.org/football/player/2729> a ex:Player ;
+    rdfs:label "J. Andersen" ;
+    ex:age 29.0 ;
+    ex:appearances 29 ;
+    ex:assists 0 ;
+    ex:goals 0 ;
+    ex:name "J. Andersen" ;
+    ex:nationality "Denmark" ;
+    ex:playsFor <http://semanticweb.org/football/team/Fulham> ;
+    ex:position "Defender" ;
+    ex:rating 6.3 ;
+    ex:redCards 1 ;
+    ex:yellowCards 6 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/J.%20Andersen" .
+
+<http://semanticweb.org/football/player/280687> a ex:Player ;
+    rdfs:label "Hugo Bueno" ;
+    ex:age 23.0 ;
+    ex:appearances 0 ;
+    ex:goals 0 ;
+    ex:name "Hugo Bueno" ;
+    ex:nationality "Spain" ;
+    ex:playsFor <http://semanticweb.org/football/team/Wolves> ;
+    ex:position "Defender" ;
+    ex:redCards 0 ;
+    ex:yellowCards 0 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/Hugo%20Bueno" .
+
+<http://semanticweb.org/football/player/282770> a ex:Player ;
+    rdfs:label "Rodrigo Gomes" ;
+    ex:age 22.0 ;
+    ex:appearances 34 ;
+    ex:assists 0 ;
+    ex:goals 2 ;
+    ex:name "Rodrigo Gomes" ;
+    ex:nationality "Portugal" ;
+    ex:playsFor <http://semanticweb.org/football/team/Wolves> ;
+    ex:position "Defender" ;
+    ex:rating 6.734782 ;
+    ex:redCards 0 ;
+    ex:yellowCards 0 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/Rodrigo%20Gomes" .
+
+<http://semanticweb.org/football/player/284242> a ex:Player ;
+    rdfs:label "O. Forson" ;
+    ex:age 21.0 ;
+    ex:name "O. Forson" ;
+    ex:nationality "England" ;
+    ex:playsFor <http://semanticweb.org/football/team/Manchester%20United> ;
+    ex:position "Attacker" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/O.%20Forson" .
+
+<http://semanticweb.org/football/player/284291> a ex:Player ;
+    rdfs:label "J. Turner-Cooke" ;
+    ex:age 22.0 ;
+    ex:name "J. Turner-Cooke" ;
+    ex:nationality "England" ;
+    ex:playsFor <http://semanticweb.org/football/team/Newcastle> ;
+    ex:position "Midfielder" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/J.%20Turner-Cooke" .
+
+<http://semanticweb.org/football/player/284305> a ex:Player ;
+    rdfs:label "Jamie Miley" ;
+    ex:age 21.0 ;
+    ex:name "Jamie Miley" ;
+    ex:nationality "England" ;
+    ex:playsFor <http://semanticweb.org/football/team/Newcastle> ;
+    ex:position "Midfielder" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/Jamie%20Miley" .
+
+<http://semanticweb.org/football/player/284307> a ex:Player ;
+    rdfs:label "Ethan Ennis" ;
+    ex:age 21.0 ;
+    ex:name "Ethan Ennis" ;
+    ex:nationality "England" ;
+    ex:playsFor <http://semanticweb.org/football/team/Manchester%20United> ;
+    ex:position "Attacker" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/Ethan%20Ennis" .
+
+<http://semanticweb.org/football/player/284324> a ex:Player ;
+    rdfs:label "A. Garnacho" ;
+    ex:age 21.0 ;
+    ex:appearances 36 ;
+    ex:assists 2 ;
+    ex:goals 6 ;
+    ex:name "A. Garnacho" ;
+    ex:nationality "Argentina" ;
+    ex:playsFor <http://semanticweb.org/football/team/Manchester%20United> ;
+    ex:position "Attacker" ;
+    ex:rating 6.797222 ;
+    ex:redCards 0 ;
+    ex:yellowCards 3 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/A.%20Garnacho" .
+
+<http://semanticweb.org/football/player/284363> a ex:Player ;
+    rdfs:label "R. Bennett" ;
+    ex:age 22.0 ;
+    ex:appearances 0 ;
+    ex:goals 0 ;
+    ex:name "R. Bennett" ;
+    ex:nationality "England" ;
+    ex:playsFor <http://semanticweb.org/football/team/Manchester%20United> ;
+    ex:position "Defender" ;
+    ex:redCards 0 ;
+    ex:yellowCards 0 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/R.%20Bennett" .
+
+<http://semanticweb.org/football/player/284391> a ex:Player ;
+    rdfs:label "S. Murray" ;
+    ex:age 21.0 ;
+    ex:name "S. Murray" ;
+    ex:nationality "England" ;
+    ex:playsFor <http://semanticweb.org/football/team/Manchester%20United> ;
+    ex:position "Defender" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/S.%20Murray" .
+
+<http://semanticweb.org/football/player/284470> a ex:Player ;
+    rdfs:label "M. Dibley-Dias" ;
+    ex:age 22.0 ;
+    ex:name "M. Dibley-Dias" ;
+    ex:nationality "England" ;
+    ex:playsFor <http://semanticweb.org/football/team/Fulham> ;
+    ex:position "Midfielder" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/M.%20Dibley-Dias" .
+
+<http://semanticweb.org/football/player/284475> a ex:Player ;
+    rdfs:label "L. Harris" ;
+    ex:age 20.0 ;
+    ex:appearances 0 ;
+    ex:assists 0 ;
+    ex:goals 0 ;
+    ex:name "L. Harris" ;
+    ex:nationality "Wales" ;
+    ex:playsFor <http://semanticweb.org/football/team/Fulham> ;
+    ex:position "Midfielder" ;
+    ex:rating 7.0 ;
+    ex:redCards 0 ;
+    ex:yellowCards 0 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/L.%20Harris" .
+
+<http://semanticweb.org/football/player/284797> a ex:Player ;
+    rdfs:label "D. Ouattara" ;
+    ex:age 23.0 ;
+    ex:appearances 32 ;
+    ex:assists 4 ;
+    ex:goals 7 ;
+    ex:name "D. Ouattara" ;
+    ex:nationality "Burkina Faso" ;
+    ex:playsFor <http://semanticweb.org/football/team/Bournemouth> ;
+    ex:position "Attacker" ;
+    ex:rating 7.071875 ;
+    ex:redCards 0 ;
+    ex:yellowCards 3 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/D.%20Ouattara" .
+
+<http://semanticweb.org/football/player/285> a ex:Player ;
+    rdfs:label "K. Hoever" ;
+    ex:age 23.0 ;
+    ex:appearances 0 ;
+    ex:goals 0 ;
+    ex:name "K. Hoever" ;
+    ex:nationality "Netherlands" ;
+    ex:playsFor <http://semanticweb.org/football/team/Wolves> ;
+    ex:position "Defender" ;
+    ex:redCards 0 ;
+    ex:yellowCards 0 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/K.%20Hoever" .
+
+<http://semanticweb.org/football/player/2931> a ex:Player ;
+    rdfs:label "T. Heaton" ;
+    ex:age 39.0 ;
+    ex:appearances 0 ;
+    ex:goals 0 ;
+    ex:name "T. Heaton" ;
+    ex:nationality "England" ;
+    ex:playsFor <http://semanticweb.org/football/team/Manchester%20United> ;
+    ex:position "Goalkeeper" ;
+    ex:redCards 0 ;
+    ex:yellowCards 0 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/T.%20Heaton" .
+
+<http://semanticweb.org/football/player/297635> a ex:Player ;
+    rdfs:label "Devan Austin Tanton Pedraza" ;
+    ex:age 21.0 ;
+    ex:name "Devan Austin Tanton Pedraza" ;
+    ex:nationality "Colombia" ;
+    ex:playsFor <http://semanticweb.org/football/team/Fulham> ;
+    ex:position "Defender" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/Devan%20Austin%20Tanton%20Pedraza" .
+
+<http://semanticweb.org/football/player/303016> a ex:Player ;
+    rdfs:label "M. Oyedele" ;
+    ex:age 21.0 ;
+    ex:name "M. Oyedele" ;
+    ex:nationality "Poland" ;
+    ex:playsFor <http://semanticweb.org/football/team/Manchester%20United> ;
+    ex:position "Midfielder" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/M.%20Oyedele" .
+
+<http://semanticweb.org/football/player/303017> a ex:Player ;
+    rdfs:label "Samuel Mather" ;
+    ex:age 21.0 ;
+    ex:name "Samuel Mather" ;
+    ex:nationality "England" ;
+    ex:playsFor <http://semanticweb.org/football/team/Manchester%20United> ;
     ex:position "Forward" ;
-    ex:weight 7.6e+01 ;
-    rdfs:seeAlso dbp:Kylian%20Mbapp%C3%A9 ;
-    foaf:name "Kylian Mbappé" .
+    rdfs:seeAlso "http://dbpedia.org/resource/Samuel%20Mather" .
 
-<http://example.org/football/referee/Anthony%20Taylor> a ex:Referee ;
-    ex:age 48 ;
-    ex:certificationLevel "International" ;
-    ex:matchesOfficiated 150 ;
-    ex:name "Anthony Taylor" ;
-    foaf:name "Anthony Taylor" .
+<http://semanticweb.org/football/player/30765> a ex:Player ;
+    rdfs:label "I. Radu" ;
+    ex:age 28.0 ;
+    ex:name "I. Radu" ;
+    ex:nationality "Romania" ;
+    ex:playsFor <http://semanticweb.org/football/team/Bournemouth> ;
+    ex:position "Goalkeeper" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/I.%20Radu" .
 
-<http://example.org/football/referee/Cl%C3%A9ment%20Turpin> a ex:Referee ;
+<http://semanticweb.org/football/player/313671> a ex:Player ;
+    rdfs:label "Ciaran Thompson" ;
+    ex:age 21.0 ;
+    ex:name "Ciaran Thompson" ;
+    ex:nationality "England" ;
+    ex:playsFor <http://semanticweb.org/football/team/Newcastle> ;
+    ex:position "Defender" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/Ciaran%20Thompson" .
+
+<http://semanticweb.org/football/player/322304> a ex:Player ;
+    rdfs:label "Cathal Heffernan" ;
+    ex:age 20.0 ;
+    ex:name "Cathal Heffernan" ;
+    ex:nationality "Republic of Ireland" ;
+    ex:playsFor <http://semanticweb.org/football/team/Newcastle> ;
+    ex:position "Defender" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/Cathal%20Heffernan" .
+
+<http://semanticweb.org/football/player/330636> a ex:Player ;
+    rdfs:label "Sonny Aljofree" ;
+    ex:age 21.0 ;
+    ex:name "Sonny Aljofree" ;
+    ex:nationality "England" ;
+    ex:playsFor <http://semanticweb.org/football/team/Manchester%20United> ;
+    ex:position "Defender" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/Sonny%20Aljofree" .
+
+<http://semanticweb.org/football/player/335116> a ex:Player ;
+    rdfs:label "K. Šekularac" ;
+    ex:age 22.0 ;
+    ex:name "K. Šekularac" ;
+    ex:nationality "Switzerland" ;
+    ex:playsFor <http://semanticweb.org/football/team/Fulham> ;
+    ex:position "Midfielder" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/K.%20S%CC%8Cekularac" .
+
+<http://semanticweb.org/football/player/338856> a ex:Player ;
+    rdfs:label "N. Lemina" ;
+    ex:age 20.0 ;
+    ex:name "N. Lemina" ;
+    ex:nationality "France" ;
+    ex:playsFor <http://semanticweb.org/football/team/Wolves> ;
+    ex:position "Midfielder" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/N.%20Lemina" .
+
+<http://semanticweb.org/football/player/340919> a ex:Player ;
+    rdfs:label "Ellis Stanton" ;
+    ex:age 20.0 ;
+    ex:name "Ellis Stanton" ;
+    ex:nationality "England" ;
+    ex:playsFor <http://semanticweb.org/football/team/Newcastle> ;
+    ex:position "Midfielder" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/Ellis%20Stanton" .
+
+<http://semanticweb.org/football/player/344233> a ex:Player ;
+    rdfs:label "J. Emerson" ;
+    ex:age 20.0 ;
+    ex:name "J. Emerson" ;
+    ex:nationality "Scotland" ;
+    ex:playsFor <http://semanticweb.org/football/team/Newcastle> ;
+    ex:position "Attacker" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/J.%20Emerson" .
+
+<http://semanticweb.org/football/player/352210> a ex:Player ;
+    rdfs:label "Dylan Charlton" ;
+    ex:age 19.0 ;
+    ex:name "Dylan Charlton" ;
+    ex:nationality "Iceland" ;
+    ex:playsFor <http://semanticweb.org/football/team/Newcastle> ;
+    ex:position "Defender" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/Dylan%20Charlton" .
+
+<http://semanticweb.org/football/player/359942> a ex:Player ;
+    rdfs:label "M. Akinmboni" ;
+    ex:age 19.0 ;
+    ex:appearances 0 ;
+    ex:goals 0 ;
+    ex:name "M. Akinmboni" ;
+    ex:nationality "USA" ;
+    ex:playsFor <http://semanticweb.org/football/team/Bournemouth> ;
+    ex:position "Defender" ;
+    ex:redCards 0 ;
+    ex:yellowCards 0 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/M.%20Akinmboni" .
+
+<http://semanticweb.org/football/player/363333> a ex:Player ;
+    rdfs:label "J. Soler" ;
+    ex:age 20.0 ;
+    ex:appearances 13 ;
+    ex:assists 0 ;
+    ex:name "J. Soler" ;
+    ex:nationality "Argentina" ;
+    ex:playsFor <http://semanticweb.org/football/team/Bournemouth> ;
+    ex:position "Defender" ;
+    ex:rating 6.5 ;
+    ex:redCards 0 ;
+    ex:yellowCards 0 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/J.%20Soler" .
+
+<http://semanticweb.org/football/player/365664> a ex:Player ;
+    rdfs:label "Ethan Williams" ;
+    ex:age 20.0 ;
+    ex:name "Ethan Williams" ;
+    ex:nationality "England" ;
+    ex:playsFor <http://semanticweb.org/football/team/Manchester%20United> ;
+    ex:position "Attacker" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/Ethan%20Williams" .
+
+<http://semanticweb.org/football/player/365988> a ex:Player ;
+    rdfs:label "Aidan Harris" ;
+    ex:age 19.0 ;
+    ex:name "Aidan Harris" ;
+    ex:nationality "England" ;
+    ex:playsFor <http://semanticweb.org/football/team/Newcastle> ;
+    ex:position "Goalkeeper" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/Aidan%20Harris" .
+
+<http://semanticweb.org/football/player/382344> a ex:Player ;
+    rdfs:label "A. Munda" ;
+    ex:age 19.0 ;
+    ex:name "A. Munda" ;
+    ex:nationality "England" ;
+    ex:playsFor <http://semanticweb.org/football/team/Newcastle> ;
+    ex:position "Midfielder" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/A.%20Munda" .
+
+<http://semanticweb.org/football/player/382345> a ex:Player ;
+    rdfs:label "Alfie Harrison" ;
+    ex:age 20.0 ;
+    ex:name "Alfie Harrison" ;
+    ex:nationality "England" ;
+    ex:playsFor <http://semanticweb.org/football/team/Newcastle> ;
+    ex:position "Midfielder" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/Alfie%20Harrison" .
+
+<http://semanticweb.org/football/player/383685> a ex:Player ;
+    rdfs:label "Y. Minteh" ;
+    ex:age 21.0 ;
+    ex:name "Y. Minteh" ;
+    ex:nationality "Gambia" ;
+    ex:playsFor <http://semanticweb.org/football/team/Newcastle> ;
+    ex:position "Attacker" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/Y.%20Minteh" .
+
+<http://semanticweb.org/football/player/394710> a ex:Player ;
+    rdfs:label "C. McKenna" ;
+    ex:age 19.0 ;
+    ex:appearances 0 ;
+    ex:goals 0 ;
+    ex:name "C. McKenna" ;
+    ex:nationality "Scotland" ;
+    ex:playsFor <http://semanticweb.org/football/team/Bournemouth> ;
+    ex:position "Goalkeeper" ;
+    ex:redCards 0 ;
+    ex:yellowCards 0 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/C.%20McKenna" .
+
+<http://semanticweb.org/football/player/402329> a ex:Player ;
+    rdfs:label "A. Heaven" ;
+    ex:age 19.0 ;
+    ex:appearances 4 ;
+    ex:goals 0 ;
+    ex:name "A. Heaven" ;
+    ex:nationality "England" ;
+    ex:playsFor <http://semanticweb.org/football/team/Manchester%20United> ;
+    ex:position "Defender" ;
+    ex:redCards 0 ;
+    ex:yellowCards 1 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/A.%20Heaven" .
+
+<http://semanticweb.org/football/player/402504> a ex:Player ;
+    rdfs:label "L. Benjamin" ;
+    ex:age 19.0 ;
+    ex:name "L. Benjamin" ;
+    ex:nationality "Wales" ;
+    ex:playsFor <http://semanticweb.org/football/team/Wolves> ;
+    ex:position "Goalkeeper" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/L.%20Benjamin" .
+
+<http://semanticweb.org/football/player/402524> a ex:Player ;
+    rdfs:label "A. Harrison" ;
+    ex:age 19.0 ;
+    ex:name "A. Harrison" ;
+    ex:nationality "England" ;
+    ex:playsFor <http://semanticweb.org/football/team/Newcastle> ;
+    ex:position "Goalkeeper" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/A.%20Harrison" .
+
+<http://semanticweb.org/football/player/41104> a ex:Player ;
+    rdfs:label "João Palhinha" ;
+    ex:age 30.0 ;
+    ex:appearances 0 ;
+    ex:goals 0 ;
+    ex:name "João Palhinha" ;
+    ex:nationality "Portugal" ;
+    ex:playsFor <http://semanticweb.org/football/team/Fulham> ;
+    ex:position "Midfielder" ;
+    ex:redCards 0 ;
+    ex:yellowCards 0 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/Jo%C3%A3o%20Palhinha" .
+
+<http://semanticweb.org/football/player/41606> a ex:Player ;
+    rdfs:label "Toti Gomes" ;
+    ex:age 26.0 ;
+    ex:appearances 31 ;
+    ex:assists 1 ;
+    ex:goals 0 ;
+    ex:name "Toti Gomes" ;
+    ex:nationality "Portugal" ;
+    ex:playsFor <http://semanticweb.org/football/team/Wolves> ;
+    ex:position "Defender" ;
+    ex:rating 6.890322 ;
+    ex:redCards 0 ;
+    ex:yellowCards 7 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/Toti%20Gomes" .
+
+<http://semanticweb.org/football/player/449245> a ex:Player ;
+    rdfs:label "Pedro Lima" ;
+    ex:age 19.0 ;
+    ex:appearances 21 ;
+    ex:assists 0 ;
+    ex:name "Pedro Lima" ;
+    ex:nationality "Brazil" ;
+    ex:playsFor <http://semanticweb.org/football/team/Wolves> ;
+    ex:position "Defender" ;
+    ex:rating 6.85 ;
+    ex:redCards 0 ;
+    ex:yellowCards 0 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/Pedro%20Lima" .
+
+<http://semanticweb.org/football/player/51051> a ex:Player ;
+    rdfs:label "J. Araujo" ;
+    ex:age 24.0 ;
+    ex:appearances 19 ;
+    ex:assists 0 ;
+    ex:name "J. Araujo" ;
+    ex:nationality "Mexico" ;
+    ex:playsFor <http://semanticweb.org/football/team/Bournemouth> ;
+    ex:position "Defender" ;
+    ex:rating 6.358333 ;
+    ex:redCards 0 ;
+    ex:yellowCards 2 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/J.%20Araujo" .
+
+<http://semanticweb.org/football/player/526> a ex:Player ;
+    rdfs:label "A. Onana" ;
+    ex:age 29.0 ;
+    ex:appearances 0 ;
+    ex:goals 0 ;
+    ex:name "A. Onana" ;
+    ex:nationality "Cameroon" ;
+    ex:playsFor <http://semanticweb.org/football/team/Manchester%20United> ;
+    ex:position "Goalkeeper" ;
+    ex:redCards 0 ;
+    ex:yellowCards 0 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/A.%20Onana" .
+
+<http://semanticweb.org/football/player/657> a ex:Player ;
+    rdfs:label "K. Tete" ;
+    ex:age 30.0 ;
+    ex:appearances 24 ;
+    ex:assists 2 ;
+    ex:name "K. Tete" ;
+    ex:nationality "Netherlands" ;
+    ex:playsFor <http://semanticweb.org/football/team/Fulham> ;
+    ex:position "Defender" ;
+    ex:rating 7.036363 ;
+    ex:redCards 0 ;
+    ex:yellowCards 5 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/K.%20Tete" .
+
+<http://semanticweb.org/football/player/6610> a ex:Player ;
+    rdfs:label "M. Senesi" ;
+    ex:age 28.0 ;
+    ex:appearances 21 ;
+    ex:assists 0 ;
+    ex:name "M. Senesi" ;
+    ex:nationality "Argentina" ;
+    ex:playsFor <http://semanticweb.org/football/team/Bournemouth> ;
+    ex:position "Defender" ;
+    ex:rating 6.823529 ;
+    ex:redCards 0 ;
+    ex:yellowCards 5 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/M.%20Senesi" .
+
+<http://semanticweb.org/football/player/68127> a ex:Player ;
+    rdfs:label "K. Watts" ;
+    ex:age 26.0 ;
+    ex:appearances 0 ;
+    ex:goals 0 ;
+    ex:name "K. Watts" ;
+    ex:nationality "England" ;
+    ex:playsFor <http://semanticweb.org/football/team/Newcastle> ;
+    ex:position "Defender" ;
+    ex:redCards 0 ;
+    ex:yellowCards 0 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/K.%20Watts" .
+
+<http://semanticweb.org/football/player/727> a ex:Player ;
+    rdfs:label "R. Nelson" ;
+    ex:age 26.0 ;
+    ex:appearances 11 ;
+    ex:assists 0 ;
+    ex:goals 1 ;
+    ex:name "R. Nelson" ;
+    ex:nationality "England" ;
+    ex:playsFor <http://semanticweb.org/football/team/Fulham> ;
+    ex:position "Attacker" ;
+    ex:redCards 0 ;
+    ex:yellowCards 1 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/R.%20Nelson" .
+
+<http://semanticweb.org/football/player/739> a ex:Player ;
+    rdfs:label "Reguilón" ;
+    ex:age 29.0 ;
+    ex:name "Reguilón" ;
+    ex:nationality "Spain" ;
+    ex:playsFor <http://semanticweb.org/football/team/Manchester%20United> ;
+    ex:position "Defender" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/Reguil%C3%B3n" .
+
+<http://semanticweb.org/football/player/74> a ex:Player ;
+    rdfs:label "S. Amrabat" ;
+    ex:age 29.0 ;
+    ex:name "S. Amrabat" ;
+    ex:nationality "Morocco" ;
+    ex:playsFor <http://semanticweb.org/football/team/Manchester%20United> ;
+    ex:position "Midfielder" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/S.%20Amrabat" .
+
+<http://semanticweb.org/football/player/742> a ex:Player ;
+    rdfs:label "R. Varane" ;
+    ex:age 31.0 ;
+    ex:name "R. Varane" ;
+    ex:nationality "France" ;
+    ex:playsFor <http://semanticweb.org/football/team/Manchester%20United> ;
+    ex:position "Defender" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/R.%20Varane" .
+
+<http://semanticweb.org/football/player/82855> a ex:Player ;
+    rdfs:label "T. King" ;
+    ex:age 30.0 ;
+    ex:appearances 1 ;
+    ex:assists 0 ;
+    ex:goals 0 ;
+    ex:name "T. King" ;
+    ex:nationality "Wales" ;
+    ex:playsFor <http://semanticweb.org/football/team/Wolves> ;
+    ex:position "Goalkeeper" ;
+    ex:redCards 0 ;
+    ex:yellowCards 0 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/T.%20King" .
+
+<http://semanticweb.org/football/player/889> a ex:Player ;
+    rdfs:label "V. Lindelöf" ;
+    ex:age 31.0 ;
+    ex:appearances 16 ;
+    ex:assists 0 ;
+    ex:goals 0 ;
+    ex:name "V. Lindelöf" ;
+    ex:nationality "Sweden" ;
+    ex:playsFor <http://semanticweb.org/football/team/Manchester%20United> ;
+    ex:position "Defender" ;
+    ex:rating 6.671428 ;
+    ex:redCards 0 ;
+    ex:yellowCards 1 ;
+    rdfs:seeAlso "http://dbpedia.org/resource/V.%20Lindel%C3%B6f" .
+
+<http://semanticweb.org/football/player/897> a ex:Player ;
+    rdfs:label "M. Greenwood" ;
+    ex:age 24.0 ;
+    ex:name "M. Greenwood" ;
+    ex:nationality "England" ;
+    ex:playsFor <http://semanticweb.org/football/team/Manchester%20United> ;
+    ex:position "Attacker" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/M.%20Greenwood" .
+
+<http://semanticweb.org/football/player/908> a ex:Player ;
+    rdfs:label "A. Martial" ;
+    ex:age 30.0 ;
+    ex:name "A. Martial" ;
+    ex:nationality "France" ;
+    ex:playsFor <http://semanticweb.org/football/team/Manchester%20United> ;
+    ex:position "Attacker" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/A.%20Martial" .
+
+<http://semanticweb.org/football/player/94360> a ex:Player ;
+    rdfs:label "A. Paulsen" ;
+    ex:age 23.0 ;
+    ex:name "A. Paulsen" ;
+    ex:nationality "New Zealand" ;
+    ex:playsFor <http://semanticweb.org/football/team/Bournemouth> ;
+    ex:position "Goalkeeper" ;
+    rdfs:seeAlso "http://dbpedia.org/resource/A.%20Paulsen" .
+
+<http://semanticweb.org/football/referee/4> a ex:Referee ;
+    rdfs:label "Clement Turpin" ;
     ex:age 46 ;
     ex:certificationLevel "International" ;
     ex:matchesOfficiated 130 ;
-    ex:name "Clément Turpin" ;
-    foaf:name "Clément Turpin" .
+    ex:name "Clement Turpin" .
 
-<http://example.org/football/referee/Frasier%20Forman> a ex:Referee ;
-    ex:age 38 ;
-    ex:certificationLevel "Domestic" ;
-    ex:matchesOfficiated 85 ;
-    ex:name "Frasier Forman" ;
-    foaf:name "Frasier Forman" .
+<http://semanticweb.org/football/stadium/American%20Express%20Stadium> a ex:Stadium ;
+    rdfs:label "American Express Stadium" ;
+    ex:address "Village Way" ;
+    ex:capacity 31872 ;
+    ex:city "Falmer, East Sussex" ;
+    ex:image "https://media.api-sports.io/football/venues/508.png" ;
+    ex:name "American Express Stadium" ;
+    ex:surface "grass" ;
+    ex:teamId "508" .
 
-<http://example.org/football/referee/Michael%20Salisbury> a ex:Referee ;
+<http://semanticweb.org/football/stadium/Anfield> a ex:Stadium ;
+    rdfs:label "Anfield" ;
+    ex:address "Anfield Road" ;
+    ex:capacity 61276 ;
+    ex:city "Liverpool" ;
+    ex:image "https://media.api-sports.io/football/venues/550.png" ;
+    ex:name "Anfield" ;
+    ex:surface "grass" ;
+    ex:teamId "550" .
+
+<http://semanticweb.org/football/stadium/Craven%20Cottage> a ex:Stadium ;
+    rdfs:label "Craven Cottage" ;
+    ex:address "Stevenage Road" ;
+    ex:capacity 29589 ;
+    ex:city "London" ;
+    ex:image "https://media.api-sports.io/football/venues/535.png" ;
+    ex:name "Craven Cottage" ;
+    ex:surface "grass" ;
+    ex:teamId "535" .
+
+<http://semanticweb.org/football/stadium/Emirates%20Stadium> a ex:Stadium ;
+    rdfs:label "Emirates Stadium" ;
+    ex:address "Hornsey Road" ;
+    ex:capacity 60383 ;
+    ex:city "London" ;
+    ex:image "https://media.api-sports.io/football/venues/494.png" ;
+    ex:name "Emirates Stadium" ;
+    ex:surface "grass" ;
+    ex:teamId "494" .
+
+<http://semanticweb.org/football/stadium/Etihad%20Stadium> a ex:Stadium ;
+    rdfs:label "Etihad Stadium" ;
+    ex:address "Rowsley Street" ;
+    ex:capacity 55097 ;
+    ex:city "Manchester" ;
+    ex:image "https://media.api-sports.io/football/venues/555.png" ;
+    ex:name "Etihad Stadium" ;
+    ex:surface "grass" ;
+    ex:teamId "555" .
+
+<http://semanticweb.org/football/stadium/Gtech%20Community%20Stadium> a ex:Stadium ;
+    rdfs:label "Gtech Community Stadium" ;
+    ex:address "166 Lionel Rd N, Brentford" ;
+    ex:capacity 17250 ;
+    ex:city "Brentford, Middlesex" ;
+    ex:image "https://media.api-sports.io/football/venues/10503.png" ;
+    ex:name "Gtech Community Stadium" ;
+    ex:surface "grass" ;
+    ex:teamId "10503" .
+
+<http://semanticweb.org/football/stadium/Hill%20Dickinson%20Stadium> a ex:Stadium ;
+    rdfs:label "Hill Dickinson Stadium" ;
+    ex:address "35 Regent Road, Bramley-Moore Dock, Vauxhall" ;
+    ex:capacity 52888 ;
+    ex:city "Liverpool, Merseyside" ;
+    ex:image "https://media.api-sports.io/football/venues/22033.png" ;
+    ex:name "Hill Dickinson Stadium" ;
+    ex:surface "grass" ;
+    ex:teamId "22033" .
+
+<http://semanticweb.org/football/stadium/King%20Power%20Stadium> a ex:Stadium ;
+    rdfs:label "King Power Stadium" ;
+    ex:address "Filbert Way" ;
+    ex:capacity 34310 ;
+    ex:city "Leicester, Leicestershire" ;
+    ex:image "https://media.api-sports.io/football/venues/547.png" ;
+    ex:name "King Power Stadium" ;
+    ex:surface "grass" ;
+    ex:teamId "547" .
+
+<http://semanticweb.org/football/stadium/London%20Stadium> a ex:Stadium ;
+    rdfs:label "London Stadium" ;
+    ex:address "Marshgate Lane, Stratford" ;
+    ex:capacity 64472 ;
+    ex:city "London" ;
+    ex:image "https://media.api-sports.io/football/venues/598.png" ;
+    ex:name "London Stadium" ;
+    ex:surface "grass" ;
+    ex:teamId "598" .
+
+<http://semanticweb.org/football/stadium/Molineux%20Stadium> a ex:Stadium ;
+    rdfs:label "Molineux Stadium" ;
+    ex:address "Waterloo Road" ;
+    ex:capacity 34624 ;
+    ex:city "Wolverhampton, West Midlands" ;
+    ex:image "https://media.api-sports.io/football/venues/600.png" ;
+    ex:name "Molineux Stadium" ;
+    ex:surface "grass" ;
+    ex:teamId "600" .
+
+<http://semanticweb.org/football/stadium/Portman%20Road> a ex:Stadium ;
+    rdfs:label "Portman Road" ;
+    ex:address "Portman Road" ;
+    ex:capacity 30311 ;
+    ex:city "Ipswich, Suffolk" ;
+    ex:image "https://media.api-sports.io/football/venues/545.png" ;
+    ex:name "Portman Road" ;
+    ex:surface "grass" ;
+    ex:teamId "545" .
+
+<http://semanticweb.org/football/stadium/Selhurst%20Park> a ex:Stadium ;
+    rdfs:label "Selhurst Park" ;
+    ex:address "Holmesdale Road" ;
+    ex:capacity 26309 ;
+    ex:city "London" ;
+    ex:image "https://media.api-sports.io/football/venues/525.png" ;
+    ex:name "Selhurst Park" ;
+    ex:surface "grass" ;
+    ex:teamId "525" .
+
+<http://semanticweb.org/football/stadium/St.%20James%27%20Park> a ex:Stadium ;
+    rdfs:label "St. James' Park" ;
+    ex:address "St. James&apos; Street" ;
+    ex:capacity 52758 ;
+    ex:city "Newcastle upon Tyne" ;
+    ex:image "https://media.api-sports.io/football/venues/562.png" ;
+    ex:name "St. James' Park" ;
+    ex:surface "grass" ;
+    ex:teamId "562" .
+
+<http://semanticweb.org/football/stadium/St.%20Mary%27s%20Stadium> a ex:Stadium ;
+    rdfs:label "St. Mary's Stadium" ;
+    ex:address "Britannia Road" ;
+    ex:capacity 32689 ;
+    ex:city "Southampton, Hampshire" ;
+    ex:image "https://media.api-sports.io/football/venues/585.png" ;
+    ex:name "St. Mary's Stadium" ;
+    ex:surface "grass" ;
+    ex:teamId "585" .
+
+<http://semanticweb.org/football/stadium/Stamford%20Bridge> a ex:Stadium ;
+    rdfs:label "Stamford Bridge" ;
+    ex:address "Fulham Road" ;
+    ex:capacity 41841 ;
+    ex:city "London" ;
+    ex:image "https://media.api-sports.io/football/venues/519.png" ;
+    ex:name "Stamford Bridge" ;
+    ex:surface "grass" ;
+    ex:teamId "519" .
+
+<http://semanticweb.org/football/stadium/The%20City%20Ground> a ex:Stadium ;
+    rdfs:label "The City Ground" ;
+    ex:address "Pavilion Road" ;
+    ex:capacity 30576 ;
+    ex:city "Nottingham, Nottinghamshire" ;
+    ex:image "https://media.api-sports.io/football/venues/566.png" ;
+    ex:name "The City Ground" ;
+    ex:surface "grass" ;
+    ex:teamId "566" .
+
+<http://semanticweb.org/football/stadium/Tottenham%20Hotspur%20Stadium> a ex:Stadium ;
+    rdfs:label "Tottenham Hotspur Stadium" ;
+    ex:address "Bill Nicholson Way, 748 High Road" ;
+    ex:capacity 62850 ;
+    ex:city "London" ;
+    ex:image "https://media.api-sports.io/football/venues/593.png" ;
+    ex:name "Tottenham Hotspur Stadium" ;
+    ex:surface "grass" ;
+    ex:teamId "593" .
+
+<http://semanticweb.org/football/stadium/Villa%20Park> a ex:Stadium ;
+    rdfs:label "Villa Park" ;
+    ex:address "Trinity Road" ;
+    ex:capacity 42824 ;
+    ex:city "Birmingham" ;
+    ex:image "https://media.api-sports.io/football/venues/495.png" ;
+    ex:name "Villa Park" ;
+    ex:surface "grass" ;
+    ex:teamId "495" .
+
+<http://semanticweb.org/football/stadium/Vitality%20Stadium> a ex:Stadium ;
+    rdfs:label "Vitality Stadium" ;
+    ex:address "Dean Court, Kings Park" ;
+    ex:capacity 12000 ;
+    ex:city "Bournemouth, Dorset" ;
+    ex:image "https://media.api-sports.io/football/venues/504.png" ;
+    ex:name "Vitality Stadium" ;
+    ex:surface "grass" ;
+    ex:teamId "504" .
+
+<http://semanticweb.org/football/team/Arsenal> a ex:Team ;
+    rdfs:label "Arsenal" ;
+    ex:country "England" ;
+    ex:founded 1886 ;
+    ex:name "Arsenal" ;
+    ex:stadiumId "494" .
+
+<http://semanticweb.org/football/team/Aston%20Villa> a ex:Team ;
+    rdfs:label "Aston Villa" ;
+    ex:country "England" ;
+    ex:founded 1874 ;
+    ex:name "Aston Villa" ;
+    ex:stadiumId "495" .
+
+<http://semanticweb.org/football/team/Brentford> a ex:Team ;
+    rdfs:label "Brentford" ;
+    ex:country "England" ;
+    ex:founded 1889 ;
+    ex:name "Brentford" ;
+    ex:stadiumId "10503" .
+
+<http://semanticweb.org/football/team/Brighton> a ex:Team ;
+    rdfs:label "Brighton" ;
+    ex:country "England" ;
+    ex:founded 1901 ;
+    ex:name "Brighton" ;
+    ex:stadiumId "508" .
+
+<http://semanticweb.org/football/team/Chelsea> a ex:Team ;
+    rdfs:label "Chelsea" ;
+    ex:country "England" ;
+    ex:founded 1905 ;
+    ex:name "Chelsea" ;
+    ex:stadiumId "519" .
+
+<http://semanticweb.org/football/team/Crystal%20Palace> a ex:Team ;
+    rdfs:label "Crystal Palace" ;
+    ex:country "England" ;
+    ex:founded 1861 ;
+    ex:name "Crystal Palace" ;
+    ex:stadiumId "525" .
+
+<http://semanticweb.org/football/team/Everton> a ex:Team ;
+    rdfs:label "Everton" ;
+    ex:country "England" ;
+    ex:founded 1878 ;
+    ex:name "Everton" ;
+    ex:stadiumId "22033" .
+
+<http://semanticweb.org/football/team/Ipswich> a ex:Team ;
+    rdfs:label "Ipswich" ;
+    ex:country "England" ;
+    ex:founded 1878 ;
+    ex:name "Ipswich" ;
+    ex:stadiumId "545" .
+
+<http://semanticweb.org/football/team/Leicester> a ex:Team ;
+    rdfs:label "Leicester" ;
+    ex:country "England" ;
+    ex:founded 1884 ;
+    ex:name "Leicester" ;
+    ex:stadiumId "547" .
+
+<http://semanticweb.org/football/team/Liverpool> a ex:Team ;
+    rdfs:label "Liverpool" ;
+    ex:country "England" ;
+    ex:founded 1892 ;
+    ex:name "Liverpool" ;
+    ex:stadiumId "550" .
+
+<http://semanticweb.org/football/team/Manchester%20City> a ex:Team ;
+    rdfs:label "Manchester City" ;
+    ex:country "England" ;
+    ex:founded 1880 ;
+    ex:name "Manchester City" ;
+    ex:stadiumId "555" .
+
+<http://semanticweb.org/football/team/Nottingham%20Forest> a ex:Team ;
+    rdfs:label "Nottingham Forest" ;
+    ex:country "England" ;
+    ex:founded 1865 ;
+    ex:name "Nottingham Forest" ;
+    ex:stadiumId "566" .
+
+<http://semanticweb.org/football/team/Southampton> a ex:Team ;
+    rdfs:label "Southampton" ;
+    ex:country "England" ;
+    ex:founded 1885 ;
+    ex:name "Southampton" ;
+    ex:stadiumId "585" .
+
+<http://semanticweb.org/football/team/Tottenham> a ex:Team ;
+    rdfs:label "Tottenham" ;
+    ex:country "England" ;
+    ex:founded 1882 ;
+    ex:name "Tottenham" ;
+    ex:stadiumId "593" .
+
+<http://semanticweb.org/football/team/West%20Ham> a ex:Team ;
+    rdfs:label "West Ham" ;
+    ex:country "England" ;
+    ex:founded 1895 ;
+    ex:name "West Ham" ;
+    ex:stadiumId "598" .
+
+<http://semanticweb.org/football/referee/1> a ex:Referee ;
+    rdfs:label "Michael Salisbury" ;
     ex:age 45 ;
     ex:certificationLevel "International" ;
     ex:matchesOfficiated 120 ;
-    ex:name "Michael Salisbury" ;
-    foaf:name "Michael Salisbury" .
+    ex:name "Michael Salisbury" .
 
-<http://example.org/football/referee/Pierre%20Brissard> a ex:Referee ;
+<http://semanticweb.org/football/referee/2> a ex:Referee ;
+    rdfs:label "Pierre Brissard" ;
     ex:age 42 ;
     ex:certificationLevel "International" ;
     ex:matchesOfficiated 95 ;
-    ex:name "Pierre Brissard" ;
-    foaf:name "Pierre Brissard" .
+    ex:name "Pierre Brissard" .
 
-<http://example.org/football/stadium/Al-Amir%20Muhammad%20Al-Fahd%20Stadium> a ex:Stadium ;
-    rdfs:label "Al-Amir Muhammad Al-Fahd Stadium" ;
-    ex:builtYear 1993 ;
-    ex:capacity 24801 ;
-    ex:location "Riyadh - Saudi Arabia" ;
-    ex:name "Al-Amir Muhammad Al-Fahd Stadium" ;
-    ex:owner "General Authority for Youth and Sports" ;
-    ex:surfaceType "Natural Grass" .
+<http://semanticweb.org/football/referee/3> a ex:Referee ;
+    rdfs:label "Anthony Taylor" ;
+    ex:age 48 ;
+    ex:certificationLevel "International" ;
+    ex:matchesOfficiated 150 ;
+    ex:name "Anthony Taylor" .
 
-<http://example.org/football/stat/10> a ex:Statistic ;
-    ex:appearances 42 ;
-    ex:assists 10 ;
-    ex:goals 25 ;
-    ex:minutesPlayed 3456 ;
-    ex:player <http://example.org/football/player/10> ;
-    ex:redCards 0 ;
-    ex:yellowCards 5 .
+<http://semanticweb.org/football/referee/5> a ex:Referee ;
+    rdfs:label "Frasier Forman" ;
+    ex:age 38 ;
+    ex:certificationLevel "Domestic" ;
+    ex:matchesOfficiated 85 ;
+    ex:name "Frasier Forman" .
 
-<http://example.org/football/stat/11> a ex:Statistic ;
-    ex:appearances 40 ;
-    ex:assists 7 ;
-    ex:goals 28 ;
-    ex:minutesPlayed 3600 ;
-    ex:player <http://example.org/football/player/11> ;
-    ex:redCards 0 ;
-    ex:yellowCards 4 .
-
-<http://example.org/football/stat/17> a ex:Statistic ;
-    ex:appearances 38 ;
-    ex:assists 6 ;
-    ex:goals 26 ;
-    ex:minutesPlayed 3200 ;
-    ex:player <http://example.org/football/player/17> ;
-    ex:redCards 0 ;
-    ex:yellowCards 3 .
-
-<http://example.org/football/stat/7> a ex:Statistic ;
-    ex:appearances 51 ;
-    ex:assists 5 ;
-    ex:goals 30 ;
-    ex:minutesPlayed 4189 ;
-    ex:player <http://example.org/football/player/7> ;
-    ex:redCards 1 ;
-    ex:yellowCards 8 .
-
-<http://example.org/football/stat/9> a ex:Statistic ;
-    ex:appearances 44 ;
-    ex:assists 12 ;
-    ex:goals 32 ;
-    ex:minutesPlayed 3800 ;
-    ex:player <http://example.org/football/player/9> ;
-    ex:redCards 0 ;
-    ex:yellowCards 6 .
-
-<http://example.org/football/stadium/DRV%20PNM%20Stadium> a ex:Stadium ;
-    rdfs:label "DRV PNM Stadium" ;
-    ex:builtYear 1999 ;
-    ex:capacity 65326 ;
-    ex:location "Miami - USA" ;
-    ex:name "DRV PNM Stadium" ;
-    ex:owner "Miami-Dade County" ;
-    ex:surfaceType "Natural Grass" .
-
-<http://example.org/football/stadium/Parc%20des%20Princes> a ex:Stadium ;
-    rdfs:label "Parc des Princes" ;
-    ex:builtYear 1897 ;
-    ex:capacity 47929 ;
-    ex:location "Paris - France" ;
-    ex:name "Parc des Princes" ;
-    ex:owner "Paris Saint-Germain" ;
-    ex:surfaceType "Hybrid Grass" .
-
-<http://example.org/football/stadium/Spotify%20Camp%20Nou> a ex:Stadium ;
-    rdfs:label "Spotify Camp Nou" ;
-    ex:builtYear 1957 ;
-    ex:capacity 99354 ;
-    ex:location "Barcelona - Spain" ;
-    ex:name "Spotify Camp Nou" ;
-    ex:owner "FC Barcelona" ;
-    ex:surfaceType "Natural Grass" .
-
-<http://example.org/football/stadium/Old%20Trafford> a ex:Stadium ;
+<http://semanticweb.org/football/stadium/Old%20Trafford> a ex:Stadium ;
     rdfs:label "Old Trafford" ;
-    ex:builtYear 1910 ;
-    ex:capacity 74310 ;
-    ex:location "Manchester - England" ;
+    ex:address "Sir Matt Busby Way" ;
+    ex:capacity 76212 ;
+    ex:city "Manchester" ;
+    ex:image "https://media.api-sports.io/football/venues/556.png" ;
     ex:name "Old Trafford" ;
-    ex:owner "Manchester United PLC" ;
-    ex:surfaceType "Hybrid Grass" .
+    ex:surface "grass" ;
+    ex:teamId "556" .
 
-<http://example.org/football/team/AlNassr> a ex:Team ;
-    rdfs:label "AlNassr" ;
-    ex:coach <http://example.org/football/coach/Rudi%20Garcia> ;
-    ex:country "Saudi Arabia" ;
-    ex:foundedYear 1955 ;
-    ex:homeStadium <http://example.org/football/stadium/Al-Amir%20Muhammad%20Al-Fahd%20Stadium> ;
-    ex:league <http://example.org/football/league/2> ;
-    ex:name "AlNassr" ;
-    ex:numberOfPlayers 28 .
-
-<http://example.org/football/team/FC%20Barcelona> a ex:Team ;
-    rdfs:label "FC Barcelona" ;
-    ex:coach <http://example.org/football/coach/Xavi%20Hern%C3%A1ndez> ;
-    ex:country "Spain" ;
-    ex:foundedYear 1899 ;
-    ex:homeStadium <http://example.org/football/stadium/Spotify%20Camp%20Nou> ;
-    ex:league <http://example.org/football/league/4> ;
-    ex:name "FC Barcelona" ;
-    ex:numberOfPlayers 27 .
-
-<http://example.org/football/team/InterMiami> a ex:Team ;
-    rdfs:label "InterMiami" ;
-    ex:coach <http://example.org/football/coach/Gerardo%20Martino> ;
-    ex:country "USA" ;
-    ex:foundedYear 1994 ;
-    ex:homeStadium <http://example.org/football/stadium/DRV%20PNM%20Stadium> ;
-    ex:league <http://example.org/football/league/1> ;
-    ex:name "InterMiami" ;
-    ex:numberOfPlayers 26 .
-
-<http://example.org/football/team/Manchester%20United> a ex:Team ;
-    rdfs:label "Manchester United" ;
-    ex:coach <http://example.org/football/coach/Erik%20ten%20Hag> ;
+<http://semanticweb.org/football/team/Bournemouth> a ex:Team ;
+    rdfs:label "Bournemouth" ;
     ex:country "England" ;
-    ex:foundedYear 1878 ;
-    ex:homeStadium <http://example.org/football/stadium/Old%20Trafford> ;
-    ex:league <http://example.org/football/league/3> ;
-    ex:name "Manchester United" ;
-    ex:numberOfPlayers 25 .
+    ex:founded 1899 ;
+    ex:name "Bournemouth" ;
+    ex:stadiumId "504" .
 
-<http://example.org/football/team/Paris%20Saint-Germain> a ex:Team ;
-    rdfs:label "Paris Saint-Germain" ;
-    ex:coach <http://example.org/football/coach/Luis%20Enrique> ;
-    ex:country "France" ;
-    ex:foundedYear 1970 ;
-    ex:homeStadium <http://example.org/football/stadium/Parc%20des%20Princes> ;
-    ex:league <http://example.org/football/league/5> ;
-    ex:name "Paris Saint-Germain" ;
-    ex:numberOfPlayers 26 .
+<http://semanticweb.org/football/team/Fulham> a ex:Team ;
+    rdfs:label "Fulham" ;
+    ex:country "England" ;
+    ex:founded 1879 ;
+    ex:name "Fulham" ;
+    ex:stadiumId "535" .
+
+<http://semanticweb.org/football/team/Newcastle> a ex:Team ;
+    rdfs:label "Newcastle" ;
+    ex:country "England" ;
+    ex:founded 1892 ;
+    ex:name "Newcastle" ;
+    ex:stadiumId "562" .
+
+<http://semanticweb.org/football/team/Wolves> a ex:Team ;
+    rdfs:label "Wolves" ;
+    ex:country "England" ;
+    ex:founded 1877 ;
+    ex:name "Wolves" ;
+    ex:stadiumId "600" .
+
+<http://semanticweb.org/football/team/Manchester%20United> a ex:Team ;
+    rdfs:label "Manchester United" ;
+    ex:country "England" ;
+    ex:founded 1878 ;
+    ex:name "Manchester United" ;
+    ex:stadiumId "556" .
 
