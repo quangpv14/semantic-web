@@ -198,13 +198,14 @@ for row in load_csv("matches.csv"):
         continue
 
     match = EX[f"match/{make_uri_slug(match_id)}"]
-    home_team = teams.get(row.get("homeTeam")) or EX[f"team/{make_uri_slug(row.get('homeTeam'))}"]
-    away_team = teams.get(row.get("awayTeam")) or EX[f"team/{make_uri_slug(row.get('awayTeam'))}"]
-    stadium = stadiums.get(row.get("stadium")) or EX[f"stadium/{make_uri_slug(row.get('stadium'))}"]
-    referee = referees.get(row.get("referee")) or EX[f"referee/{make_uri_slug(row.get('referee'))}"]
+    home_team = teams.get(row.get("homeTeam")) if row.get("homeTeam") else None
+    away_team = teams.get(row.get("awayTeam")) if row.get("awayTeam") else None
+    stadium = stadiums.get(row.get("stadium")) if row.get("stadium") else None
+    referee = referees.get(row.get("referee")) if row.get("referee") else None
 
     g.add((match, RDF.type, EX.Match))
     add_literal(match, EX.matchDate, row.get("matchDate"), XSD.date)
+    add_literal(match, EX.dateTime, row.get("dateTime"))
     if home_team:
         g.add((match, EX.homeTeam, home_team))
     if away_team:
@@ -214,7 +215,9 @@ for row in load_csv("matches.csv"):
     if referee:
         g.add((match, EX.referee, referee))
     add_literal(match, EX.score, row.get("score"))
-    add_literal(match, EX.competition, row.get("competition"))
+    add_literal(match, EX.formation, row.get("formation"))
+    add_literal(match, EX.round, row.get("round"))
+    add_literal(match, EX.result, row.get("result"))
     add_literal(match, RDFS.label, f"{row.get('homeTeam', '')} vs {row.get('awayTeam', '')}")
 
 
