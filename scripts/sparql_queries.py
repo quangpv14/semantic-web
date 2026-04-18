@@ -4,15 +4,16 @@ def QUERY_ALL_PLAYERS():
 PREFIX ex: <http://semanticweb.org/football/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-SELECT ?name ?nationality ?teamName ?goals ?assists
+SELECT ?name ?nationality ?teamName ?goals
+FROM <http://semanticweb.org/football>
 WHERE {
   ?player a ex:Player ;
           ex:name ?name ;
           ex:nationality ?nationality ;
           ex:playsFor ?team ;
-          ex:goals ?goals.
+          ex:goals ?goals .
   ?team rdfs:label ?teamName .
-  FILTER(?goals >= 10)
+  FILTER(?goals >= 5)
 }
 ORDER BY DESC(?goals) ?name
 """
@@ -22,25 +23,57 @@ def QUERY_ALL_MATCHES():
     return """
 PREFIX ex: <http://semanticweb.org/football/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-SELECT ?homeTeamName ?awayTeamName ?score ?refereeName ?stadiumName ?date
+SELECT ?homeTeamName ?awayTeamName ?score ?date
+FROM <http://semanticweb.org/football>
 WHERE {
   ?match a ex:Match ;
          ex:homeTeam ?homeTeam ;
          ex:awayTeam ?awayTeam ;
          ex:score ?score ;
-         ex:matchDate ?date ;
-         ex:referee ?referee ;
-         ex:stadium ?stadium .
+         ex:matchDate ?date .
+
   ?homeTeam rdfs:label ?homeTeamName .
   ?awayTeam rdfs:label ?awayTeamName .
-  ?referee rdfs:label ?refereeName .
-  ?stadium rdfs:label ?stadiumName .
+
+  BIND(xsd:integer(STRBEFORE(?score, "-")) AS ?homeGoals)
+  BIND(xsd:integer(STRAFTER(?score, "-")) AS ?awayGoals)
+  BIND(ABS(?homeGoals - ?awayGoals) AS ?diff)
+  FILTER(?diff >= 3)
 }
-ORDER BY ?date
+ORDER BY DESC(?diff)
 """
 
-# 3. List all referees with age and certification
+# 3. Club details for Manchester United
+
+def QUERY_CLUB_DETAILS():
+    return """
+PREFIX ex: <http://semanticweb.org/football/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?teamName ?teamCountry ?stadiumName ?stadiumCapacity 
+                ?coachName ?coachAge ?coachNationality
+FROM <http://semanticweb.org/football>
+WHERE {
+  ?team a ex:Team ;
+        ex:name "Manchester United" ;
+        rdfs:label ?teamName ;
+        ex:country ?teamCountry ;
+        ex:stadiumId ?stadiumId .
+
+  ?stadium ex:teamId ?stadiumId ;
+           rdfs:label ?stadiumName ;
+           ex:capacity ?stadiumCapacity .
+
+  ?coach ex:teamName "Manchester United" ;
+         ex:name ?coachName ;
+         ex:age ?coachAge ;
+         ex:nationality ?coachNationality .
+}
+"""
+
+# 4. List all referees with age and certification
 def QUERY_REFEREES():
     return """
 PREFIX ex: <http://semanticweb.org/football/>
@@ -103,6 +136,7 @@ ORDER BY ?date ?label
 QUERIES = {
     "all_players": QUERY_ALL_PLAYERS(),
     "matches": QUERY_ALL_MATCHES(),
+    "club_details": QUERY_CLUB_DETAILS(),
     "referees": QUERY_REFEREES(),
     "player_stats_join": QUERY_PLAYER_STATS_JOIN(),
     "match_referees_join": QUERY_MATCH_REFEREES_JOIN(),
