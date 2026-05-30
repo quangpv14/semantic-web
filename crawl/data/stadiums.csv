@@ -1,0 +1,21 @@
+stadium_id,stadium_name,city,address,capacity,surface,image,team_id
+556,Old Trafford,Manchester,Sir Matt Busby Way,76212,grass,https://media.api-sports.io/football/venues/556.png,33
+562,St. James' Park,Newcastle upon Tyne,St. James&apos; Street,52758,grass,https://media.api-sports.io/football/venues/562.png,34
+504,Vitality Stadium,"Bournemouth, Dorset","Dean Court, Kings Park",12000,grass,https://media.api-sports.io/football/venues/504.png,35
+535,Craven Cottage,London,Stevenage Road,29589,grass,https://media.api-sports.io/football/venues/535.png,36
+600,Molineux Stadium,"Wolverhampton, West Midlands",Waterloo Road,34624,grass,https://media.api-sports.io/football/venues/600.png,39
+550,Anfield,Liverpool,Anfield Road,61276,grass,https://media.api-sports.io/football/venues/550.png,40
+585,St. Mary's Stadium,"Southampton, Hampshire",Britannia Road,32689,grass,https://media.api-sports.io/football/venues/585.png,41
+494,Emirates Stadium,London,Hornsey Road,60383,grass,https://media.api-sports.io/football/venues/494.png,42
+22033,Hill Dickinson Stadium,"Liverpool, Merseyside","35 Regent Road, Bramley-Moore Dock, Vauxhall",52888,grass,https://media.api-sports.io/football/venues/22033.png,45
+547,King Power Stadium,"Leicester, Leicestershire",Filbert Way,34310,grass,https://media.api-sports.io/football/venues/547.png,46
+593,Tottenham Hotspur Stadium,London,"Bill Nicholson Way, 748 High Road",62850,grass,https://media.api-sports.io/football/venues/593.png,47
+598,London Stadium,London,"Marshgate Lane, Stratford",64472,grass,https://media.api-sports.io/football/venues/598.png,48
+519,Stamford Bridge,London,Fulham Road,41841,grass,https://media.api-sports.io/football/venues/519.png,49
+555,Etihad Stadium,Manchester,Rowsley Street,55097,grass,https://media.api-sports.io/football/venues/555.png,50
+508,American Express Stadium,"Falmer, East Sussex",Village Way,31872,grass,https://media.api-sports.io/football/venues/508.png,51
+525,Selhurst Park,London,Holmesdale Road,26309,grass,https://media.api-sports.io/football/venues/525.png,52
+10503,Gtech Community Stadium,"Brentford, Middlesex","166 Lionel Rd N, Brentford",17250,grass,https://media.api-sports.io/football/venues/10503.png,55
+545,Portman Road,"Ipswich, Suffolk",Portman Road,30311,grass,https://media.api-sports.io/football/venues/545.png,57
+566,The City Ground,"Nottingham, Nottinghamshire",Pavilion Road,30576,grass,https://media.api-sports.io/football/venues/566.png,65
+495,Villa Park,Birmingham,Trinity Road,42824,grass,https://media.api-sports.io/football/venues/495.png,66

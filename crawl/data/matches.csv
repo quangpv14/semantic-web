@@ -1,0 +1,1390 @@
+id,matchDate,dateTime,homeTeam,awayTeam,formation,referee,score,round,result
+1,2021-08-15,Sun 16:30,Tottenham,Manchester City,4-3-3,Anthony Taylor,0-1,Matchweek 1,Loss
+2,2021-08-21,Sat 15:00,Manchester City,Norwich City,4-3-3,Graham Scott,5-0,Matchweek 2,Win
+3,2021-08-28,Sat 12:30,Manchester City,Arsenal,4-3-3,Martin Atkinson,5-0,Matchweek 3,Win
+4,2021-09-11,Sat 15:00,Leicester City,Manchester City,4-3-3,Paul Tierney,1-0,Matchweek 4,Win
+5,2021-09-18,Sat 15:00,Manchester City,Southampton,4-3-3,Jonathan Moss,0-0,Matchweek 5,Draw
+6,2021-09-25,Sat 12:30,Chelsea,Manchester City,4-3-3,Michael Oliver,1-0,Matchweek 6,Win
+7,2021-10-03,Sun 16:30,Liverpool,Manchester City,4-3-3,Paul Tierney,2-2,Matchweek 7,Draw
+8,2021-10-16,Sat 15:00,Manchester City,Burnley,4-3-3,Martin Atkinson,2-0,Matchweek 8,Win
+9,2021-10-23,Sat 17:30,Brighton,Manchester City,4-3-3,Kevin Friend,4-1,Matchweek 9,Win
+10,2021-10-30,Sat 15:00,Manchester City,Crystal Palace,4-3-3,Andre Marriner,0-2,Matchweek 10,Loss
+11,2021-11-06,Sat 12:30,Manchester Utd,Manchester City,4-3-3,Michael Oliver,2-0,Matchweek 11,Win
+12,2021-11-21,Sun 14:00,Manchester City,Everton,4-3-3,Stuart Attwell,3-0,Matchweek 12,Win
+13,2021-11-28,Sun 14:00,Manchester City,West Ham,4-3-3,Michael Oliver,2-1,Matchweek 13,Win
+14,2021-12-01,Wed 20:15,Aston Villa,Manchester City,4-2-3-1,Mike Dean,2-1,Matchweek 14,Win
+15,2021-12-04,Sat 17:30,Watford,Manchester City,4-3-3,Simon Hooper,3-1,Matchweek 15,Win
+16,2021-12-11,Sat 12:30,Manchester City,Wolves,4-3-3,Jonathan Moss,1-0,Matchweek 16,Win
+17,2021-12-14,Tue 20:00,Manchester City,Leeds United,4-3-3,Paul Tierney,7-0,Matchweek 17,Win
+18,2021-12-19,Sun 14:15,Newcastle Utd,Manchester City,4-3-3,Martin Atkinson,4-0,Matchweek 18,Win
+19,2021-12-26,Sun 15:00,Manchester City,Leicester City,4-3-3,Chris Kavanagh,6-3,Matchweek 19,Win
+20,2021-12-29,Wed 20:15,Brentford,Manchester City,4-3-3,David Coote,1-0,Matchweek 20,Win
+21,2022-01-01,Sat 12:30,Arsenal,Manchester City,4-3-3,Stuart Attwell,2-1,Matchweek 21,Win
+22,2022-01-15,Sat 12:30,Manchester City,Chelsea,4-3-3,Craig Pawson,1-0,Matchweek 22,Win
+23,2022-01-22,Sat 17:30,Southampton,Manchester City,4-3-3,Simon Hooper,1-1,Matchweek 23,Draw
+24,2022-02-09,Wed 19:45,Manchester City,Brentford,4-3-3,Darren England,2-0,Matchweek 24,Win
+25,2022-02-12,Sat 17:30,Norwich City,Manchester City,4-3-3,Andre Marriner,4-0,Matchweek 25,Win
+26,2022-02-19,Sat 17:30,Manchester City,Tottenham,4-3-3,Anthony Taylor,2-3,Matchweek 26,Loss
+27,2022-02-26,Sat 17:30,Everton,Manchester City,4-3-3,Paul Tierney,1-0,Matchweek 27,Win
+28,2022-03-06,Sun 16:30,Manchester City,Manchester Utd,4-3-3,Michael Oliver,4-1,Matchweek 28,Win
+29,2022-03-14,Mon 20:00,Crystal Palace,Manchester City,4-3-3,Martin Atkinson,0-0,Matchweek 29,Draw
+30,2022-04-02,Sat 15:00,Burnley,Manchester City,4-3-3,Craig Pawson,2-0,Matchweek 31,Win
+31,2022-04-10,Sun 16:30,Manchester City,Liverpool,4-2-3-1,Anthony Taylor,2-2,Matchweek 32,Draw
+32,2022-04-20,Wed 20:00,Manchester City,Brighton,4-3-3,Mike Dean,3-0,Matchweek 30,Win
+33,2022-04-23,Sat 15:00,Manchester City,Watford,4-2-3-1,Kevin Friend,5-1,Matchweek 34,Win
+34,2021-08-14,Sat 15:00,Chelsea,Crystal Palace,3-4-3,Jonathan Moss,3-0,Matchweek 1,Win
+35,2021-08-22,Sun 16:30,Arsenal,Chelsea,3-4-3,Paul Tierney,2-0,Matchweek 2,Win
+36,2021-08-28,Sat 17:30,Liverpool,Chelsea,3-4-3,Anthony Taylor,1-1,Matchweek 3,Draw
+37,2021-09-11,Sat 17:30,Chelsea,Aston Villa,3-4-3,Stuart Attwell,3-0,Matchweek 4,Win
+38,2021-09-19,Sun 16:30,Tottenham,Chelsea,3-4-3,Paul Tierney,3-0,Matchweek 5,Win
+39,2021-09-25,Sat 12:30,Chelsea,Manchester City,3-5-2,Michael Oliver,0-1,Matchweek 6,Loss
+40,2021-10-02,Sat 15:00,Chelsea,Southampton,3-4-3,Martin Atkinson,3-1,Matchweek 7,Win
+41,2021-10-16,Sat 17:30,Brentford,Chelsea,3-5-2,Anthony Taylor,1-0,Matchweek 8,Win
+42,2021-10-23,Sat 12:30,Chelsea,Norwich City,3-4-3,Andy Madley,7-0,Matchweek 9,Win
+43,2021-10-30,Sat 15:00,Newcastle Utd,Chelsea,3-4-3,Paul Tierney,3-0,Matchweek 10,Win
+44,2021-11-06,Sat 15:00,Chelsea,Burnley,3-4-1-2,Andre Marriner,1-1,Matchweek 11,Draw
+45,2021-11-20,Sat 12:30,Leicester City,Chelsea,3-4-3,Paul Tierney,3-0,Matchweek 12,Win
+46,2021-11-28,Sun 16:30,Chelsea,Manchester Utd,3-4-3,Anthony Taylor,1-1,Matchweek 13,Draw
+47,2021-12-01,Wed 19:30,Watford,Chelsea,3-4-3,David Coote,2-1,Matchweek 14,Win
+48,2021-12-04,Sat 12:30,West Ham,Chelsea,3-4-3,Andre Marriner,2-3,Matchweek 15,Loss
+49,2021-12-11,Sat 15:00,Chelsea,Leeds United,3-4-3,Chris Kavanagh,3-2,Matchweek 16,Win
+50,2021-12-16,Thu 19:45,Chelsea,Everton,3-4-3,Michael Oliver,1-1,Matchweek 17,Draw
+51,2021-12-19,Sun 14:00,Wolves,Chelsea,3-4-3,David Coote,0-0,Matchweek 18,Draw
+52,2021-12-26,Sun 17:30,Aston Villa,Chelsea,3-4-3,Martin Atkinson,3-1,Matchweek 19,Win
+53,2021-12-29,Wed 19:30,Chelsea,Brighton,3-4-3,Mike Dean,1-1,Matchweek 20,Draw
+54,2022-01-02,Sun 16:30,Chelsea,Liverpool,3-4-3,Anthony Taylor,2-2,Matchweek 21,Draw
+55,2022-01-15,Sat 12:30,Manchester City,Chelsea,3-4-3,Craig Pawson,0-1,Matchweek 22,Loss
+56,2022-01-18,Tue 20:00,Brighton,Chelsea,4-2-2-2,Kevin Friend,1-1,Matchweek 24,Draw
+57,2022-01-23,Sun 16:30,Chelsea,Tottenham,4-3-3,Paul Tierney,2-0,Matchweek 23,Win
+58,2022-02-19,Sat 15:00,Crystal Palace,Chelsea,4-3-3,David Coote,1-0,Matchweek 26,Win
+59,2022-03-05,Sat 15:00,Burnley,Chelsea,3-4-3,Andre Marriner,4-0,Matchweek 28,Win
+60,2022-03-10,Thu 19:30,Norwich City,Chelsea,3-4-3,Martin Atkinson,3-1,Matchweek 30,Win
+61,2022-03-13,Sun 14:00,Chelsea,Newcastle Utd,4-3-3,David Coote,1-0,Matchweek 29,Win
+62,2022-04-02,Sat 15:00,Chelsea,Brentford,4-3-3,Andy Madley,1-4,Matchweek 31,Loss
+63,2022-04-09,Sat 15:00,Southampton,Chelsea,3-4-1-2,Kevin Friend,6-0,Matchweek 32,Win
+64,2022-04-20,Wed 19:45,Chelsea,Arsenal,3-4-1-2,Jonathan Moss,2-4,Matchweek 25,Loss
+65,2022-04-24,Sun 14:00,Chelsea,West Ham,3-4-1-2,Michael Oliver,1-0,Matchweek 34,Win
+66,2021-08-13,Fri 20:00,Brentford,Arsenal,4-2-3-1,Michael Oliver,0-2,Matchweek 1,Loss
+67,2021-08-22,Sun 16:30,Arsenal,Chelsea,4-2-3-1,Paul Tierney,0-2,Matchweek 2,Loss
+68,2021-08-28,Sat 12:30,Manchester City,Arsenal,3-4-3,Martin Atkinson,0-5,Matchweek 3,Loss
+69,2021-09-11,Sat 15:00,Arsenal,Norwich City,4-2-3-1,Michael Oliver,1-0,Matchweek 4,Win
+70,2021-09-18,Sat 15:00,Burnley,Arsenal,4-1-4-1,Anthony Taylor,1-0,Matchweek 5,Win
+71,2021-09-26,Sun 16:30,Arsenal,Tottenham,4-2-3-1,Craig Pawson,3-1,Matchweek 6,Win
+72,2021-10-02,Sat 17:30,Brighton,Arsenal,4-2-3-1,Jonathan Moss,0-0,Matchweek 7,Draw
+73,2021-10-18,Mon 20:00,Arsenal,Crystal Palace,4-1-4-1,Mike Dean,2-2,Matchweek 8,Draw
+74,2021-10-22,Fri 20:00,Arsenal,Aston Villa,4-2-3-1,Craig Pawson,3-1,Matchweek 9,Win
+75,2021-10-30,Sat 12:30,Leicester City,Arsenal,4-4-1-1,Michael Oliver,2-0,Matchweek 10,Win
+76,2021-11-07,Sun 14:00,Arsenal,Watford,4-4-1-1,Kevin Friend,1-0,Matchweek 11,Win
+77,2021-11-20,Sat 17:30,Liverpool,Arsenal,4-4-1-1,Michael Oliver,0-4,Matchweek 12,Loss
+78,2021-11-27,Sat 12:30,Arsenal,Newcastle Utd,4-4-1-1,Stuart Attwell,2-0,Matchweek 13,Win
+79,2021-12-02,Thu 20:15,Manchester Utd,Arsenal,4-4-1-1,Martin Atkinson,2-3,Matchweek 14,Loss
+80,2021-12-06,Mon 20:00,Everton,Arsenal,4-2-3-1,Mike Dean,1-2,Matchweek 15,Loss
+81,2021-12-11,Sat 15:00,Arsenal,Southampton,4-4-1-1,Jarred Gillett,3-0,Matchweek 16,Win
+82,2021-12-15,Wed 20:00,Arsenal,West Ham,4-4-1-1,Anthony Taylor,2-0,Matchweek 17,Win
+83,2021-12-18,Sat 17:30,Leeds United,Arsenal,4-2-3-1,Andre Marriner,4-1,Matchweek 18,Win
+84,2021-12-26,Sun 15:00,Norwich City,Arsenal,4-2-3-1,Graham Scott,5-0,Matchweek 19,Win
+85,2022-01-01,Sat 12:30,Arsenal,Manchester City,4-2-3-1,Stuart Attwell,1-2,Matchweek 21,Loss
+86,2022-01-23,Sun 14:00,Arsenal,Burnley,4-1-4-1,David Coote,0-0,Matchweek 23,Draw
+87,2022-02-10,Thu 19:45,Wolves,Arsenal,4-2-3-1,Michael Oliver,1-0,Matchweek 24,Win
+88,2022-02-19,Sat 15:00,Arsenal,Brentford,4-2-3-1,Jonathan Moss,2-1,Matchweek 26,Win
+89,2022-02-24,Thu 19:45,Arsenal,Wolves,4-2-3-1,Martin Atkinson,2-1,Matchweek 20,Win
+90,2022-03-06,Sun 14:00,Watford,Arsenal,4-2-3-1,Craig Pawson,3-2,Matchweek 28,Win
+91,2022-03-13,Sun 16:30,Arsenal,Leicester City,4-2-3-1,Anthony Taylor,2-0,Matchweek 29,Win
+92,2022-03-16,Wed 20:15,Arsenal,Liverpool,4-2-3-1,Andre Marriner,0-2,Matchweek 27,Loss
+93,2022-03-19,Sat 12:30,Aston Villa,Arsenal,4-3-3,Andy Madley,1-0,Matchweek 30,Win
+94,2022-04-04,Mon 20:00,Crystal Palace,Arsenal,4-2-3-1,Paul Tierney,0-3,Matchweek 31,Loss
+95,2022-04-09,Sat 15:00,Arsenal,Brighton,4-2-3-1,David Coote,1-2,Matchweek 32,Loss
+96,2022-04-16,Sat 15:00,Southampton,Arsenal,4-3-3,Peter Bankes,0-1,Matchweek 33,Loss
+97,2022-04-20,Wed 19:45,Chelsea,Arsenal,4-2-3-1,Jonathan Moss,4-2,Matchweek 25,Win
+98,2022-04-23,Sat 12:30,Arsenal,Manchester Utd,4-2-3-1,Craig Pawson,3-1,Matchweek 34,Win
+99,2021-08-15,Sun 16:30,Tottenham Hotspur,Manchester City,4-3-3,Anthony Taylor,1-0,Matchweek 1,Win
+100,2021-08-22,Sun 14:00,Wolves,Tottenham Hotspur,4-3-3,Stuart Attwell,1-0,Matchweek 2,Win
+101,2021-08-29,Sun 14:00,Tottenham Hotspur,Watford,4-2-3-1,Andre Marriner,1-0,Matchweek 3,Win
+102,2021-09-11,Sat 12:30,Crystal Palace,Tottenham Hotspur,4-4-2◆,Jonathan Moss,0-3,Matchweek 4,Loss
+103,2021-09-19,Sun 16:30,Tottenham Hotspur,Chelsea,4-3-2-1,Paul Tierney,0-3,Matchweek 5,Loss
+104,2021-09-26,Sun 16:30,Arsenal,Tottenham Hotspur,4-3-3,Craig Pawson,1-3,Matchweek 6,Loss
+105,2021-10-03,Sun 14:00,Tottenham Hotspur,Aston Villa,4-2-3-1,Chris Kavanagh,2-1,Matchweek 7,Win
+106,2021-10-17,Sun 16:30,Newcastle Utd,Tottenham Hotspur,4-2-3-1,Andre Marriner,3-2,Matchweek 8,Win
+107,2021-10-24,Sun 14:00,West Ham,Tottenham Hotspur,4-2-3-1,Paul Tierney,0-1,Matchweek 9,Loss
+108,2021-10-30,Sat 17:30,Tottenham Hotspur,Manchester Utd,4-2-3-1,Stuart Attwell,0-3,Matchweek 10,Loss
+109,2021-11-07,Sun 14:00,Everton,Tottenham Hotspur,3-4-3,Chris Kavanagh,0-0,Matchweek 11,Draw
+110,2021-11-21,Sun 16:30,Tottenham Hotspur,Leeds United,3-4-3,Andre Marriner,2-1,Matchweek 12,Win
+111,2021-12-02,Thu 19:30,Tottenham Hotspur,Brentford,3-4-3,Jonathan Moss,2-0,Matchweek 14,Win
+112,2021-12-05,Sun 14:00,Tottenham Hotspur,Norwich City,3-4-3,Jarred Gillett,3-0,Matchweek 15,Win
+113,2021-12-19,Sun 16:30,Tottenham Hotspur,Liverpool,3-5-2,Paul Tierney,2-2,Matchweek 18,Draw
+114,2021-12-26,Sun 15:00,Tottenham Hotspur,Crystal Palace,3-4-3,Jonathan Moss,3-0,Matchweek 19,Win
+115,2021-12-28,Tue 15:00,Southampton,Tottenham Hotspur,3-4-3,Anthony Taylor,1-1,Matchweek 20,Draw
+116,2022-01-01,Sat 15:00,Watford,Tottenham Hotspur,3-4-3,Robert Jones,1-0,Matchweek 21,Win
+117,2022-01-19,Wed 19:30,Leicester City,Tottenham Hotspur,3-5-2,Jonathan Moss,3-2,Matchweek 17,Win
+118,2022-01-23,Sun 16:30,Chelsea,Tottenham Hotspur,4-4-2,Paul Tierney,0-2,Matchweek 23,Loss
+119,2022-02-09,Wed 19:45,Tottenham Hotspur,Southampton,3-4-3,David Coote,2-3,Matchweek 24,Loss
+120,2022-02-13,Sun 14:00,Tottenham Hotspur,Wolves,3-4-3,Kevin Friend,0-2,Matchweek 25,Loss
+121,2022-02-19,Sat 17:30,Manchester City,Tottenham Hotspur,3-4-3,Anthony Taylor,3-2,Matchweek 26,Win
+122,2022-02-23,Wed 19:30,Burnley,Tottenham Hotspur,3-4-3,Graham Scott,0-1,Matchweek 13,Loss
+123,2022-02-26,Sat 12:30,Leeds United,Tottenham Hotspur,3-4-3,Craig Pawson,4-0,Matchweek 27,Win
+124,2022-03-07,Mon 20:00,Tottenham Hotspur,Everton,3-4-3,Stuart Attwell,5-0,Matchweek 28,Win
+125,2022-03-12,Sat 17:30,Manchester Utd,Tottenham Hotspur,3-4-3,Jonathan Moss,2-3,Matchweek 29,Loss
+126,2022-03-16,Wed 19:30,Brighton,Tottenham Hotspur,3-4-3,Robert Jones,2-0,Matchweek 16,Win
+127,2022-03-20,Sun 16:30,Tottenham Hotspur,West Ham,3-4-3,Anthony Taylor,3-1,Matchweek 30,Win
+128,2022-04-03,Sun 16:30,Tottenham Hotspur,Newcastle Utd,3-4-3,Martin Atkinson,5-1,Matchweek 31,Win
+129,2022-04-09,Sat 17:30,Aston Villa,Tottenham Hotspur,3-4-3,Graham Scott,4-0,Matchweek 32,Win
+130,2022-04-16,Sat 12:30,Tottenham Hotspur,Brighton,3-4-3,Craig Pawson,0-1,Matchweek 33,Loss
+131,2022-04-23,Sat 17:30,Brentford,Tottenham Hotspur,3-4-3,Martin Atkinson,0-0,Matchweek 34,Draw
+132,2021-08-14,Sat 12:30,Manchester United,Leeds United,4-2-3-1,Paul Tierney,5-1,Matchweek 1,Win
+133,2021-08-22,Sun 14:00,Southampton,Manchester United,4-2-3-1,Craig Pawson,1-1,Matchweek 2,Draw
+134,2021-08-29,Sun 16:30,Wolves,Manchester United,4-2-3-1,Mike Dean,1-0,Matchweek 3,Win
+135,2021-09-11,Sat 15:00,Manchester United,Newcastle Utd,4-2-3-1,Anthony Taylor,4-1,Matchweek 4,Win
+136,2021-09-19,Sun 14:00,West Ham,Manchester United,4-2-3-1,Martin Atkinson,2-1,Matchweek 5,Win
+137,2021-09-25,Sat 12:30,Manchester United,Aston Villa,4-2-3-1,Mike Dean,0-1,Matchweek 6,Loss
+138,2021-10-02,Sat 12:30,Manchester United,Everton,4-2-3-1,Michael Oliver,1-1,Matchweek 7,Draw
+139,2021-10-16,Sat 15:00,Leicester City,Manchester United,4-2-3-1,Craig Pawson,2-4,Matchweek 8,Loss
+140,2021-10-24,Sun 16:30,Manchester United,Liverpool,4-2-3-1,Anthony Taylor,0-5,Matchweek 9,Loss
+141,2021-10-30,Sat 17:30,Tottenham,Manchester United,3-4-1-2,Stuart Attwell,3-0,Matchweek 10,Win
+142,2021-11-06,Sat 12:30,Manchester United,Manchester City,3-5-2,Michael Oliver,0-2,Matchweek 11,Loss
+143,2021-11-20,Sat 15:00,Watford,Manchester United,4-2-3-1,Jonathan Moss,1-4,Matchweek 12,Loss
+144,2021-11-28,Sun 16:30,Chelsea,Manchester United,4-4-2◆,Anthony Taylor,1-1,Matchweek 13,Draw
+145,2021-12-02,Thu 20:15,Manchester United,Arsenal,4-2-3-1,Martin Atkinson,3-2,Matchweek 14,Win
+146,2021-12-05,Sun 14:00,Manchester United,Crystal Palace,4-2-2-2,Craig Pawson,1-0,Matchweek 15,Win
+147,2021-12-11,Sat 17:30,Norwich City,Manchester United,4-2-2-2,Darren England,1-0,Matchweek 16,Win
+148,2021-12-27,Mon 20:00,Newcastle Utd,Manchester United,4-2-2-2,Craig Pawson,1-1,Matchweek 19,Draw
+149,2021-12-30,Thu 20:15,Manchester United,Burnley,4-4-2,Jonathan Moss,3-1,Matchweek 20,Win
+150,2022-01-03,Mon 17:30,Manchester United,Wolves,4-4-2,Mike Dean,0-1,Matchweek 21,Loss
+151,2022-01-15,Sat 17:30,Aston Villa,Manchester United,4-3-3,David Coote,2-2,Matchweek 22,Draw
+152,2022-01-19,Wed 20:00,Brentford,Manchester United,4-2-3-1,Andre Marriner,3-1,Matchweek 17,Win
+153,2022-01-22,Sat 15:00,Manchester United,West Ham,4-2-3-1,Jonathan Moss,1-0,Matchweek 23,Win
+154,2022-02-08,Tue 20:00,Burnley,Manchester United,4-2-3-1,Mike Dean,1-1,Matchweek 24,Draw
+155,2022-02-12,Sat 12:30,Manchester United,Southampton,4-2-3-1,Stuart Attwell,1-1,Matchweek 25,Draw
+156,2022-02-15,Tue 20:15,Manchester United,Brighton,4-2-3-1,Peter Bankes,2-0,Matchweek 18,Win
+157,2022-02-20,Sun 14:00,Leeds United,Manchester United,4-2-3-1,Paul Tierney,4-2,Matchweek 26,Win
+158,2022-02-26,Sat 15:00,Manchester United,Watford,4-2-3-1,Kevin Friend,0-0,Matchweek 27,Draw
+159,2022-03-06,Sun 16:30,Manchester City,Manchester United,4-2-3-1,Michael Oliver,1-4,Matchweek 28,Loss
+160,2022-03-12,Sat 17:30,Manchester United,Tottenham,4-2-3-1,Jonathan Moss,3-2,Matchweek 29,Win
+161,2022-04-02,Sat 17:30,Manchester United,Leicester City,4-2-3-1,Andre Marriner,1-1,Matchweek 31,Draw
+162,2022-04-09,Sat 12:30,Everton,Manchester United,4-2-3-1,Jonathan Moss,0-1,Matchweek 32,Loss
+163,2022-04-16,Sat 15:00,Manchester United,Norwich City,4-3-3,Andy Madley,3-2,Matchweek 33,Win
+164,2022-04-19,Tue 20:00,Liverpool,Manchester United,3-4-3,Martin Atkinson,0-4,Matchweek 30,Loss
+165,2022-04-23,Sat 12:30,Arsenal,Manchester United,4-2-3-1,Craig Pawson,1-3,Matchweek 34,Loss
+166,2021-08-15,Sun 14:00,Newcastle Utd,West Ham United,4-2-3-1,Martin Atkinson,4-2,Matchweek 1,Win
+167,2021-08-23,Mon 20:00,West Ham United,Leicester City,4-2-3-1,Michael Oliver,4-1,Matchweek 2,Win
+168,2021-08-28,Sat 15:00,West Ham United,Crystal Palace,4-2-3-1,Stuart Attwell,2-2,Matchweek 3,Draw
+169,2021-09-11,Sat 15:00,Southampton,West Ham United,4-2-3-1,David Coote,0-0,Matchweek 4,Draw
+170,2021-09-19,Sun 14:00,West Ham United,Manchester Utd,4-4-2,Martin Atkinson,1-2,Matchweek 5,Loss
+171,2021-09-25,Sat 15:00,Leeds United,West Ham United,4-2-3-1,Kevin Friend,2-1,Matchweek 6,Win
+172,2021-10-03,Sun 14:00,West Ham United,Brentford,4-2-3-1,Peter Bankes,1-2,Matchweek 7,Loss
+173,2021-10-17,Sun 14:00,Everton,West Ham United,4-2-3-1,Stuart Attwell,1-0,Matchweek 8,Win
+174,2021-10-24,Sun 14:00,West Ham United,Tottenham,4-2-3-1,Paul Tierney,1-0,Matchweek 9,Win
+175,2021-10-31,Sun 16:30,Aston Villa,West Ham United,4-2-3-1,Chris Kavanagh,4-1,Matchweek 10,Win
+176,2021-11-07,Sun 16:30,West Ham United,Liverpool,4-2-3-1,Craig Pawson,3-2,Matchweek 11,Win
+177,2021-11-20,Sat 15:00,Wolves,West Ham United,4-2-3-1,Mike Dean,0-1,Matchweek 12,Loss
+178,2021-11-28,Sun 14:00,Manchester City,West Ham United,4-2-3-1,Michael Oliver,1-2,Matchweek 13,Loss
+179,2021-12-01,Wed 19:30,West Ham United,Brighton,4-2-3-1,Chris Kavanagh,1-1,Matchweek 14,Draw
+180,2021-12-04,Sat 12:30,West Ham United,Chelsea,3-4-3,Andre Marriner,3-2,Matchweek 15,Win
+181,2021-12-12,Sun 14:00,Burnley,West Ham United,4-2-3-1,Graham Scott,0-0,Matchweek 16,Draw
+182,2021-12-15,Wed 20:00,Arsenal,West Ham United,4-2-3-1,Anthony Taylor,0-2,Matchweek 17,Loss
+183,2021-12-26,Sun 15:00,West Ham United,Southampton,4-2-3-1,Kevin Friend,2-3,Matchweek 19,Loss
+184,2021-12-28,Tue 15:00,Watford,West Ham United,4-2-3-1,Darren England,4-1,Matchweek 20,Win
+185,2022-01-01,Sat 17:30,Crystal Palace,West Ham United,4-2-3-1,Darren England,3-2,Matchweek 21,Win
+186,2022-01-12,Wed 19:45,West Ham United,Norwich City,4-2-3-1,Simon Hooper,2-0,Matchweek 18,Win
+187,2022-01-16,Sun 14:00,West Ham United,Leeds United,4-2-3-1,Mike Dean,2-3,Matchweek 22,Loss
+188,2022-01-22,Sat 15:00,Manchester Utd,West Ham United,4-2-3-1,Jonathan Moss,0-1,Matchweek 23,Loss
+189,2022-02-08,Tue 19:45,West Ham United,Watford,4-2-3-1,Martin Atkinson,1-0,Matchweek 24,Win
+190,2022-02-13,Sun 16:30,Leicester City,West Ham United,4-2-3-1,Michael Oliver,2-2,Matchweek 25,Draw
+191,2022-02-19,Sat 12:30,West Ham United,Newcastle Utd,4-2-3-1,Chris Kavanagh,1-1,Matchweek 26,Draw
+192,2022-02-27,Sun 14:00,West Ham United,Wolves,4-2-3-1,Anthony Taylor,1-0,Matchweek 27,Win
+193,2022-03-05,Sat 17:30,Liverpool,West Ham United,4-4-2,Jonathan Moss,0-1,Matchweek 28,Loss
+194,2022-03-13,Sun 14:00,West Ham United,Aston Villa,4-2-3-1,Jarred Gillett,2-1,Matchweek 29,Win
+195,2022-03-20,Sun 16:30,Tottenham,West Ham United,3-4-3,Anthony Taylor,1-3,Matchweek 30,Loss
+196,2022-04-03,Sun 14:00,West Ham United,Everton,4-2-3-1,Michael Oliver,2-1,Matchweek 31,Win
+197,2022-04-10,Sun 14:00,Brentford,West Ham United,4-2-3-1,Martin Atkinson,0-2,Matchweek 32,Loss
+198,2022-04-17,Sun 14:15,West Ham United,Burnley,4-2-3-1,Paul Tierney,1-1,Matchweek 33,Draw
+199,2022-04-24,Sun 14:00,Chelsea,West Ham United,3-4-1-2,Michael Oliver,0-1,Matchweek 34,Loss
+200,2021-08-14,Sat 15:00,Leicester City,Wolverhampton Wanderers,3-4-3,Craig Pawson,0-1,Matchweek 1,Loss
+201,2021-08-22,Sun 14:00,Wolverhampton Wanderers,Tottenham,3-4-3,Stuart Attwell,0-1,Matchweek 2,Loss
+202,2021-08-29,Sun 16:30,Wolverhampton Wanderers,Manchester Utd,3-4-3,Mike Dean,0-1,Matchweek 3,Loss
+203,2021-09-11,Sat 15:00,Watford,Wolverhampton Wanderers,3-4-3,Peter Bankes,2-0,Matchweek 4,Win
+204,2021-09-18,Sat 12:30,Wolverhampton Wanderers,Brentford,3-4-3,Darren England,0-2,Matchweek 5,Loss
+205,2021-09-26,Sun 14:00,Southampton,Wolverhampton Wanderers,3-4-3,Andy Madley,1-0,Matchweek 6,Win
+206,2021-10-02,Sat 15:00,Wolverhampton Wanderers,Newcastle Utd,3-4-3,Graham Scott,2-1,Matchweek 7,Win
+207,2021-10-16,Sat 15:00,Aston Villa,Wolverhampton Wanderers,3-4-3,Michael Oliver,3-2,Matchweek 8,Win
+208,2021-10-23,Sat 15:00,Leeds United,Wolverhampton Wanderers,3-4-3,Robert Jones,1-1,Matchweek 9,Draw
+209,2021-11-01,Mon 20:00,Wolverhampton Wanderers,Everton,3-4-3,Martin Atkinson,2-1,Matchweek 10,Win
+210,2021-11-06,Sat 15:00,Crystal Palace,Wolverhampton Wanderers,3-4-3,Graham Scott,0-2,Matchweek 11,Loss
+211,2021-11-20,Sat 15:00,Wolverhampton Wanderers,West Ham,3-4-3,Mike Dean,1-0,Matchweek 12,Win
+212,2021-11-27,Sat 15:00,Norwich City,Wolverhampton Wanderers,3-4-3,Simon Hooper,0-0,Matchweek 13,Draw
+213,2021-12-01,Wed 19:30,Wolverhampton Wanderers,Burnley,3-4-3,John Brooks,0-0,Matchweek 14,Draw
+214,2021-12-04,Sat 15:00,Wolverhampton Wanderers,Liverpool,3-4-3,Chris Kavanagh,0-1,Matchweek 15,Loss
+215,2021-12-11,Sat 12:30,Manchester City,Wolverhampton Wanderers,3-5-2,Jonathan Moss,0-1,Matchweek 16,Loss
+216,2021-12-15,Wed 19:30,Brighton,Wolverhampton Wanderers,3-4-3,Tony Harrington,1-0,Matchweek 17,Win
+217,2021-12-19,Sun 14:00,Wolverhampton Wanderers,Chelsea,3-5-2,David Coote,0-0,Matchweek 18,Draw
+218,2022-01-03,Mon 17:30,Manchester Utd,Wolverhampton Wanderers,3-4-3,Mike Dean,1-0,Matchweek 21,Win
+219,2022-01-15,Sat 15:00,Wolverhampton Wanderers,Southampton,3-4-3,Michael Salisbury,3-1,Matchweek 22,Win
+220,2022-01-22,Sat 15:00,Brentford,Wolverhampton Wanderers,3-5-2,Peter Bankes,2-1,Matchweek 23,Win
+221,2022-02-10,Thu 19:45,Wolverhampton Wanderers,Arsenal,3-4-3,Michael Oliver,0-1,Matchweek 24,Loss
+222,2022-02-13,Sun 14:00,Tottenham,Wolverhampton Wanderers,3-5-2,Kevin Friend,2-0,Matchweek 25,Win
+223,2022-02-20,Sun 16:30,Wolverhampton Wanderers,Leicester City,3-5-2,Craig Pawson,2-1,Matchweek 26,Win
+224,2022-02-24,Thu 19:45,Arsenal,Wolverhampton Wanderers,3-4-3,Martin Atkinson,1-2,Matchweek 20,Loss
+225,2022-02-27,Sun 14:00,West Ham,Wolverhampton Wanderers,3-4-3,Anthony Taylor,0-1,Matchweek 27,Loss
+226,2022-03-05,Sat 15:00,Wolverhampton Wanderers,Crystal Palace,3-4-3,Andy Madley,0-2,Matchweek 28,Loss
+227,2022-03-10,Thu 19:30,Wolverhampton Wanderers,Watford,3-4-3,Darren England,4-0,Matchweek 19,Win
+228,2022-03-13,Sun 14:00,Everton,Wolverhampton Wanderers,3-5-2,Michael Oliver,1-0,Matchweek 29,Win
+229,2022-03-18,Fri 20:00,Wolverhampton Wanderers,Leeds United,3-4-3,Kevin Friend,2-3,Matchweek 30,Loss
+230,2022-04-02,Sat 15:00,Wolverhampton Wanderers,Aston Villa,3-4-3,Darren England,2-1,Matchweek 31,Win
+231,2022-04-08,Fri 20:00,Newcastle Utd,Wolverhampton Wanderers,3-4-3,Peter Bankes,0-1,Matchweek 32,Loss
+232,2022-04-24,Sun 14:00,Burnley,Wolverhampton Wanderers,3-4-3,Anthony Taylor,0-1,Matchweek 34,Loss
+233,2021-08-15,Sun 14:00,Newcastle United,West Ham,3-5-2,Martin Atkinson,2-4,Matchweek 1,Loss
+234,2021-08-21,Sat 15:00,Aston Villa,Newcastle United,3-5-2,David Coote,0-2,Matchweek 2,Loss
+235,2021-08-28,Sat 15:00,Newcastle United,Southampton,3-5-2,Paul Tierney,2-2,Matchweek 3,Draw
+236,2021-09-11,Sat 15:00,Manchester Utd,Newcastle United,3-5-1-1,Anthony Taylor,1-4,Matchweek 4,Loss
+237,2021-09-17,Fri 20:00,Newcastle United,Leeds United,3-4-3,Mike Dean,1-1,Matchweek 5,Draw
+238,2021-09-25,Sat 15:00,Watford,Newcastle United,4-1-4-1,Jarred Gillett,1-1,Matchweek 6,Draw
+239,2021-10-02,Sat 15:00,Wolves,Newcastle United,4-1-4-1,Graham Scott,1-2,Matchweek 7,Loss
+240,2021-10-17,Sun 16:30,Newcastle United,Tottenham,4-1-4-1,Andre Marriner,2-3,Matchweek 8,Loss
+241,2021-10-23,Sat 15:00,Crystal Palace,Newcastle United,3-5-2,Darren England,1-1,Matchweek 9,Draw
+242,2021-10-30,Sat 15:00,Newcastle United,Chelsea,3-5-2,Paul Tierney,0-3,Matchweek 10,Loss
+243,2021-11-06,Sat 17:30,Brighton,Newcastle United,3-4-3,David Coote,1-1,Matchweek 11,Draw
+244,2021-11-20,Sat 15:00,Newcastle United,Brentford,3-4-3,Robert Jones,3-3,Matchweek 12,Draw
+245,2021-11-27,Sat 12:30,Arsenal,Newcastle United,4-4-2,Stuart Attwell,0-2,Matchweek 13,Loss
+246,2021-11-30,Tue 19:30,Newcastle United,Norwich City,4-4-2,Andy Madley,1-1,Matchweek 14,Draw
+247,2021-12-04,Sat 15:00,Newcastle United,Burnley,4-4-2,Paul Tierney,1-0,Matchweek 15,Win
+248,2021-12-12,Sun 14:00,Leicester City,Newcastle United,4-4-2,Peter Bankes,0-4,Matchweek 16,Loss
+249,2021-12-16,Thu 20:00,Liverpool,Newcastle United,4-5-1,Mike Dean,1-3,Matchweek 17,Loss
+250,2021-12-19,Sun 14:15,Newcastle United,Manchester City,4-1-4-1,Martin Atkinson,0-4,Matchweek 18,Loss
+251,2021-12-27,Mon 20:00,Newcastle United,Manchester Utd,4-5-1,Craig Pawson,1-1,Matchweek 19,Draw
+252,2022-01-15,Sat 15:00,Newcastle United,Watford,4-3-3,Paul Tierney,1-1,Matchweek 22,Draw
+253,2022-01-22,Sat 15:00,Leeds United,Newcastle United,4-3-3,Chris Kavanagh,1-0,Matchweek 23,Win
+254,2022-02-08,Tue 19:45,Newcastle United,Everton,4-3-3,Anthony Taylor,3-1,Matchweek 24,Win
+255,2022-02-13,Sun 14:00,Newcastle United,Aston Villa,4-3-3,Craig Pawson,1-0,Matchweek 25,Win
+256,2022-02-19,Sat 12:30,West Ham,Newcastle United,4-3-3,Chris Kavanagh,1-1,Matchweek 26,Draw
+257,2022-02-26,Sat 15:00,Brentford,Newcastle United,4-3-3,Mike Dean,2-0,Matchweek 27,Win
+258,2022-03-05,Sat 15:00,Newcastle United,Brighton,4-3-3,Martin Atkinson,2-1,Matchweek 28,Win
+259,2022-03-10,Thu 19:30,Southampton,Newcastle United,4-3-3,Kevin Friend,2-1,Matchweek 21,Win
+260,2022-03-13,Sun 14:00,Chelsea,Newcastle United,3-4-3,David Coote,0-1,Matchweek 29,Loss
+261,2022-03-17,Thu 19:45,Everton,Newcastle United,4-3-3,Craig Pawson,0-1,Matchweek 20,Loss
+262,2022-04-03,Sun 16:30,Tottenham,Newcastle United,4-3-3,Martin Atkinson,1-5,Matchweek 31,Loss
+263,2022-04-08,Fri 20:00,Newcastle United,Wolves,4-3-3,Peter Bankes,1-0,Matchweek 32,Win
+264,2022-04-17,Sun 14:15,Newcastle United,Leicester City,4-3-3,Jarred Gillett,2-1,Matchweek 33,Win
+265,2022-04-20,Wed 19:45,Newcastle United,Crystal Palace,4-3-3,Tony Harrington,1-0,Matchweek 30,Win
+266,2022-04-23,Sat 15:00,Norwich City,Newcastle United,4-3-3,Chris Kavanagh,3-0,Matchweek 34,Win
+267,2021-08-14,Sat 15:00,Leicester City,Wolves,4-2-3-1,Craig Pawson,1-0,Matchweek 1,Win
+268,2021-08-23,Mon 20:00,West Ham,Leicester City,4-2-3-1,Michael Oliver,1-4,Matchweek 2,Loss
+269,2021-08-28,Sat 15:00,Norwich City,Leicester City,4-4-2,Robert Jones,2-1,Matchweek 3,Win
+270,2021-09-11,Sat 15:00,Leicester City,Manchester City,4-2-3-1,Paul Tierney,0-1,Matchweek 4,Loss
+271,2021-09-19,Sun 14:00,Brighton,Leicester City,4-3-3,Stuart Attwell,1-2,Matchweek 5,Loss
+272,2021-09-25,Sat 15:00,Leicester City,Burnley,4-3-3,Chris Kavanagh,2-2,Matchweek 6,Draw
+273,2021-10-03,Sun 14:00,Crystal Palace,Leicester City,4-4-2,Anthony Taylor,2-2,Matchweek 7,Draw
+274,2021-10-16,Sat 15:00,Leicester City,Manchester Utd,3-4-1-2,Craig Pawson,4-2,Matchweek 8,Win
+275,2021-10-24,Sun 14:00,Brentford,Leicester City,3-4-1-2,Simon Hooper,2-1,Matchweek 9,Win
+276,2021-10-30,Sat 12:30,Leicester City,Arsenal,3-4-1-2,Michael Oliver,0-2,Matchweek 10,Loss
+277,2021-11-07,Sun 14:00,Leeds United,Leicester City,4-3-3,Darren England,1-1,Matchweek 11,Draw
+278,2021-11-20,Sat 12:30,Leicester City,Chelsea,3-4-3,Paul Tierney,0-3,Matchweek 12,Loss
+279,2021-11-28,Sun 14:00,Leicester City,Watford,4-2-3-1,Andy Madley,4-2,Matchweek 13,Win
+280,2021-12-01,Wed 19:30,Southampton,Leicester City,4-2-3-1,Robert Jones,2-2,Matchweek 14,Draw
+281,2021-12-05,Sun 16:30,Aston Villa,Leicester City,4-2-3-1,Michael Oliver,1-2,Matchweek 15,Loss
+282,2021-12-12,Sun 14:00,Leicester City,Newcastle Utd,4-2-3-1,Peter Bankes,4-0,Matchweek 16,Win
+283,2021-12-26,Sun 15:00,Manchester City,Leicester City,4-4-1-1,Chris Kavanagh,3-6,Matchweek 19,Loss
+284,2021-12-28,Tue 20:00,Leicester City,Liverpool,4-4-2◆,Michael Oliver,1-0,Matchweek 20,Win
+285,2022-01-19,Wed 19:30,Leicester City,Tottenham,3-5-2,Jonathan Moss,2-3,Matchweek 17,Loss
+286,2022-01-23,Sun 14:00,Leicester City,Brighton,4-2-3-1,Martin Atkinson,1-1,Matchweek 23,Draw
+287,2022-02-10,Thu 19:45,Liverpool,Leicester City,4-2-3-1,Chris Kavanagh,0-2,Matchweek 24,Loss
+288,2022-02-13,Sun 16:30,Leicester City,West Ham,4-3-3,Michael Oliver,2-2,Matchweek 25,Draw
+289,2022-02-20,Sun 16:30,Wolves,Leicester City,4-3-3,Craig Pawson,1-2,Matchweek 26,Loss
+290,2022-03-01,Tue 19:45,Burnley,Leicester City,4-3-3,Chris Kavanagh,2-0,Matchweek 22,Win
+291,2022-03-05,Sat 12:30,Leicester City,Leeds United,4-3-3,David Coote,1-0,Matchweek 28,Win
+292,2022-03-13,Sun 16:30,Arsenal,Leicester City,4-2-3-1,Anthony Taylor,0-2,Matchweek 29,Loss
+293,2022-03-20,Sun 14:00,Leicester City,Brentford,4-2-3-1,Darren England,2-1,Matchweek 30,Win
+294,2022-04-02,Sat 17:30,Manchester Utd,Leicester City,4-2-3-1,Andre Marriner,1-1,Matchweek 31,Draw
+295,2022-04-10,Sun 14:00,Leicester City,Crystal Palace,4-2-3-1,Robert Jones,2-1,Matchweek 32,Win
+296,2022-04-17,Sun 14:15,Newcastle Utd,Leicester City,4-1-4-1,Jarred Gillett,1-2,Matchweek 33,Loss
+297,2022-04-20,Wed 19:45,Everton,Leicester City,4-2-3-1,David Coote,1-1,Matchweek 18,Draw
+298,2022-04-23,Sat 15:00,Leicester City,Aston Villa,4-1-4-1,Andy Madley,0-0,Matchweek 34,Draw
+299,2021-08-14,Sat 15:00,Burnley,Brighton and Hove Albion,4-1-4-1,David Coote,2-1,Matchweek 1,Win
+300,2021-08-21,Sat 17:30,Brighton and Hove Albion,Watford,3-4-3,Anthony Taylor,2-0,Matchweek 2,Win
+301,2021-08-28,Sat 15:00,Brighton and Hove Albion,Everton,3-4-3,Jonathan Moss,0-2,Matchweek 3,Loss
+302,2021-09-11,Sat 15:00,Brentford,Brighton and Hove Albion,3-4-1-2,Graham Scott,1-0,Matchweek 4,Win
+303,2021-09-19,Sun 14:00,Brighton and Hove Albion,Leicester City,4-4-2,Stuart Attwell,2-1,Matchweek 5,Win
+304,2021-09-27,Mon 20:00,Crystal Palace,Brighton and Hove Albion,3-4-3,Andre Marriner,1-1,Matchweek 6,Draw
+305,2021-10-02,Sat 17:30,Brighton and Hove Albion,Arsenal,3-5-2,Jonathan Moss,0-0,Matchweek 7,Draw
+306,2021-10-16,Sat 15:00,Norwich City,Brighton and Hove Albion,3-5-2,Peter Bankes,0-0,Matchweek 8,Draw
+307,2021-10-23,Sat 17:30,Brighton and Hove Albion,Manchester City,3-5-2,Kevin Friend,1-4,Matchweek 9,Loss
+308,2021-10-30,Sat 15:00,Liverpool,Brighton and Hove Albion,4-2-3-1,Mike Dean,2-2,Matchweek 10,Draw
+309,2021-11-06,Sat 17:30,Brighton and Hove Albion,Newcastle Utd,4-2-3-1,David Coote,1-1,Matchweek 11,Draw
+310,2021-11-20,Sat 15:00,Aston Villa,Brighton and Hove Albion,3-5-2,Anthony Taylor,0-2,Matchweek 12,Loss
+311,2021-11-27,Sat 17:30,Brighton and Hove Albion,Leeds United,4-2-3-1,Craig Pawson,0-0,Matchweek 13,Draw
+312,2021-12-01,Wed 19:30,West Ham,Brighton and Hove Albion,4-2-3-1,Chris Kavanagh,1-1,Matchweek 14,Draw
+313,2021-12-04,Sat 15:00,Southampton,Brighton and Hove Albion,3-5-2,Anthony Taylor,1-1,Matchweek 15,Draw
+314,2021-12-15,Wed 19:30,Brighton and Hove Albion,Wolves,4-3-3,Tony Harrington,0-1,Matchweek 17,Loss
+315,2021-12-26,Sun 20:00,Brighton and Hove Albion,Brentford,4-4-2◆,Darren England,2-0,Matchweek 19,Win
+316,2021-12-29,Wed 19:30,Chelsea,Brighton and Hove Albion,3-4-3,Mike Dean,1-1,Matchweek 20,Draw
+317,2022-01-02,Sun 14:00,Everton,Brighton and Hove Albion,4-4-2,John Brooks,3-2,Matchweek 21,Win
+318,2022-01-14,Fri 20:00,Brighton and Hove Albion,Crystal Palace,4-4-2◆,Robert Jones,1-1,Matchweek 22,Draw
+319,2022-01-18,Tue 20:00,Brighton and Hove Albion,Chelsea,4-1-4-1,Kevin Friend,1-1,Matchweek 24,Draw
+320,2022-01-23,Sun 14:00,Leicester City,Brighton and Hove Albion,4-4-2◆,Martin Atkinson,1-1,Matchweek 23,Draw
+321,2022-02-12,Sat 15:00,Watford,Brighton and Hove Albion,3-5-2,Jonathan Moss,2-0,Matchweek 25,Win
+322,2022-02-15,Tue 20:15,Manchester Utd,Brighton and Hove Albion,4-4-2◆,Peter Bankes,0-2,Matchweek 18,Loss
+323,2022-02-19,Sat 15:00,Brighton and Hove Albion,Burnley,4-4-2,Kevin Friend,0-3,Matchweek 26,Loss
+324,2022-02-26,Sat 15:00,Brighton and Hove Albion,Aston Villa,3-5-2,John Brooks,0-2,Matchweek 27,Loss
+325,2022-03-05,Sat 15:00,Newcastle Utd,Brighton and Hove Albion,4-4-2◆,Martin Atkinson,1-2,Matchweek 28,Loss
+326,2022-03-12,Sat 12:30,Brighton and Hove Albion,Liverpool,4-2-3-1,Mike Dean,0-2,Matchweek 29,Loss
+327,2022-03-16,Wed 19:30,Brighton and Hove Albion,Tottenham,4-2-3-1,Robert Jones,0-2,Matchweek 16,Loss
+328,2022-04-02,Sat 15:00,Brighton and Hove Albion,Norwich City,3-5-2,Simon Hooper,0-0,Matchweek 31,Draw
+329,2022-04-09,Sat 15:00,Arsenal,Brighton and Hove Albion,3-5-2,David Coote,2-1,Matchweek 32,Win
+330,2022-04-16,Sat 12:30,Tottenham,Brighton and Hove Albion,3-5-2,Craig Pawson,1-0,Matchweek 33,Win
+331,2022-04-20,Wed 20:00,Manchester City,Brighton and Hove Albion,3-5-2,Mike Dean,0-3,Matchweek 30,Loss
+332,2022-04-24,Sun 14:00,Brighton and Hove Albion,Southampton,4-4-2◆,Robert Jones,2-2,Matchweek 34,Draw
+333,2021-08-13,Fri 20:00,Brentford,Arsenal,3-5-2,Michael Oliver,2-0,Matchweek 1,Win
+334,2021-08-21,Sat 15:00,Crystal Palace,Brentford,3-5-2,Martin Atkinson,0-0,Matchweek 2,Draw
+335,2021-08-28,Sat 15:00,Aston Villa,Brentford,3-4-1-2,Peter Bankes,1-1,Matchweek 3,Draw
+336,2021-09-11,Sat 15:00,Brentford,Brighton,3-5-2,Graham Scott,0-1,Matchweek 4,Loss
+337,2021-09-18,Sat 12:30,Wolves,Brentford,3-5-2,Darren England,2-0,Matchweek 5,Win
+338,2021-09-25,Sat 17:30,Brentford,Liverpool,3-5-2,Stuart Attwell,3-3,Matchweek 6,Draw
+339,2021-10-03,Sun 14:00,West Ham,Brentford,3-5-2,Peter Bankes,2-1,Matchweek 7,Win
+340,2021-10-16,Sat 17:30,Brentford,Chelsea,3-5-2,Anthony Taylor,0-1,Matchweek 8,Loss
+341,2021-10-24,Sun 14:00,Brentford,Leicester City,3-5-2,Simon Hooper,1-2,Matchweek 9,Loss
+342,2021-10-30,Sat 15:00,Burnley,Brentford,3-5-2,Jonathan Moss,1-3,Matchweek 10,Loss
+343,2021-11-06,Sat 15:00,Brentford,Norwich City,3-5-2,Jarred Gillett,1-2,Matchweek 11,Loss
+344,2021-11-20,Sat 15:00,Newcastle Utd,Brentford,3-4-3,Robert Jones,3-3,Matchweek 12,Draw
+345,2021-11-28,Sun 14:00,Brentford,Everton,3-5-2,Darren England,1-0,Matchweek 13,Win
+346,2021-12-02,Thu 19:30,Tottenham,Brentford,3-5-2,Jonathan Moss,0-2,Matchweek 14,Loss
+347,2021-12-05,Sun 14:00,Leeds United,Brentford,3-5-2,David Coote,2-2,Matchweek 15,Draw
+348,2021-12-10,Fri 20:00,Brentford,Watford,3-5-2,Michael Oliver,2-1,Matchweek 16,Win
+349,2021-12-26,Sun 20:00,Brighton,Brentford,3-5-2,Darren England,0-2,Matchweek 19,Loss
+350,2021-12-29,Wed 20:15,Brentford,Manchester City,3-5-2,David Coote,0-1,Matchweek 20,Loss
+351,2022-01-02,Sun 14:00,Brentford,Aston Villa,3-5-2,Craig Pawson,2-1,Matchweek 21,Win
+352,2022-01-11,Tue 19:45,Southampton,Brentford,3-5-2,Stuart Attwell,1-4,Matchweek 18,Loss
+353,2022-01-16,Sun 14:00,Liverpool,Brentford,3-5-2,Jonathan Moss,0-3,Matchweek 22,Loss
+354,2022-01-19,Wed 20:00,Brentford,Manchester Utd,3-5-2,Andre Marriner,1-3,Matchweek 17,Loss
+355,2022-01-22,Sat 15:00,Brentford,Wolves,3-5-2,Peter Bankes,1-2,Matchweek 23,Loss
+356,2022-02-09,Wed 19:45,Manchester City,Brentford,3-5-2,Darren England,0-2,Matchweek 24,Loss
+357,2022-02-12,Sat 15:00,Brentford,Crystal Palace,3-5-2,Simon Hooper,0-0,Matchweek 25,Draw
+358,2022-02-19,Sat 15:00,Arsenal,Brentford,3-5-2,Jonathan Moss,1-2,Matchweek 26,Loss
+359,2022-02-26,Sat 15:00,Brentford,Newcastle Utd,4-3-3,Mike Dean,0-2,Matchweek 27,Loss
+360,2022-03-05,Sat 15:00,Norwich City,Brentford,4-1-4-1,Anthony Taylor,3-1,Matchweek 28,Win
+361,2022-03-12,Sat 15:00,Brentford,Burnley,4-5-1,Paul Tierney,2-0,Matchweek 29,Win
+362,2022-03-20,Sun 14:00,Leicester City,Brentford,4-5-1,Darren England,1-2,Matchweek 30,Loss
+363,2022-04-02,Sat 15:00,Chelsea,Brentford,3-5-2,Andy Madley,4-1,Matchweek 31,Win
+364,2022-04-10,Sun 14:00,Brentford,West Ham,4-3-3,Martin Atkinson,2-0,Matchweek 32,Win
+365,2022-04-16,Sat 15:00,Watford,Brentford,4-3-3,Simon Hooper,2-1,Matchweek 33,Win
+366,2022-04-23,Sat 17:30,Brentford,Tottenham,3-5-2,Martin Atkinson,0-0,Matchweek 34,Draw
+367,2021-08-14,Sat 15:00,Everton,Southampton,4-4-2,Andy Madley,1-3,Matchweek 1,Loss
+368,2021-08-22,Sun 14:00,Southampton,Manchester Utd,4-4-2,Craig Pawson,1-1,Matchweek 2,Draw
+369,2021-08-28,Sat 15:00,Newcastle Utd,Southampton,4-4-2,Paul Tierney,2-2,Matchweek 3,Draw
+370,2021-09-11,Sat 15:00,Southampton,West Ham,4-1-4-1,David Coote,0-0,Matchweek 4,Draw
+371,2021-09-18,Sat 15:00,Manchester City,Southampton,4-4-2,Jonathan Moss,0-0,Matchweek 5,Draw
+372,2021-09-26,Sun 14:00,Southampton,Wolves,4-4-2,Andy Madley,0-1,Matchweek 6,Loss
+373,2021-10-02,Sat 15:00,Chelsea,Southampton,4-4-2,Martin Atkinson,1-3,Matchweek 7,Loss
+374,2021-10-16,Sat 15:00,Southampton,Leeds United,4-4-2,David Coote,1-0,Matchweek 8,Win
+375,2021-10-23,Sat 15:00,Southampton,Burnley,4-4-2,Chris Kavanagh,2-2,Matchweek 9,Draw
+376,2021-10-30,Sat 15:00,Watford,Southampton,4-4-2,Peter Bankes,1-0,Matchweek 10,Win
+377,2021-11-05,Fri 20:00,Southampton,Aston Villa,4-4-2,Andy Madley,1-0,Matchweek 11,Win
+378,2021-11-20,Sat 15:00,Norwich City,Southampton,4-4-2,Martin Atkinson,1-2,Matchweek 12,Loss
+379,2021-11-27,Sat 15:00,Liverpool,Southampton,3-4-3,Andre Marriner,0-4,Matchweek 13,Loss
+380,2021-12-01,Wed 19:30,Southampton,Leicester City,4-4-2,Robert Jones,2-2,Matchweek 14,Draw
+381,2021-12-04,Sat 15:00,Southampton,Brighton,4-4-2,Anthony Taylor,1-1,Matchweek 15,Draw
+382,2021-12-11,Sat 15:00,Arsenal,Southampton,4-4-2,Jarred Gillett,0-3,Matchweek 16,Loss
+383,2021-12-15,Wed 19:30,Crystal Palace,Southampton,4-4-2,Simon Hooper,2-2,Matchweek 17,Draw
+384,2021-12-26,Sun 15:00,West Ham,Southampton,4-1-4-1,Kevin Friend,3-2,Matchweek 19,Win
+385,2021-12-28,Tue 15:00,Southampton,Tottenham,3-5-2,Anthony Taylor,1-1,Matchweek 20,Draw
+386,2022-01-11,Tue 19:45,Southampton,Brentford,3-5-2,Stuart Attwell,4-1,Matchweek 18,Win
+387,2022-01-15,Sat 15:00,Wolves,Southampton,3-5-2,Michael Salisbury,1-3,Matchweek 22,Loss
+388,2022-01-22,Sat 17:30,Southampton,Manchester City,4-4-2,Simon Hooper,1-1,Matchweek 23,Draw
+389,2022-02-09,Wed 19:45,Tottenham,Southampton,4-4-2,David Coote,3-2,Matchweek 24,Win
+390,2022-02-12,Sat 12:30,Manchester Utd,Southampton,4-4-2,Stuart Attwell,1-1,Matchweek 25,Draw
+391,2022-02-19,Sat 15:00,Southampton,Everton,4-4-2,Andy Madley,2-0,Matchweek 26,Win
+392,2022-02-25,Fri 20:00,Southampton,Norwich City,4-4-2,Simon Hooper,2-0,Matchweek 27,Win
+393,2022-03-05,Sat 15:00,Aston Villa,Southampton,4-4-2,Peter Bankes,0-4,Matchweek 28,Loss
+394,2022-03-10,Thu 19:30,Southampton,Newcastle Utd,4-2-2-2,Kevin Friend,1-2,Matchweek 21,Loss
+395,2022-03-13,Sun 14:00,Southampton,Watford,4-4-2,Graham Scott,1-2,Matchweek 29,Loss
+396,2022-04-02,Sat 15:00,Leeds United,Southampton,4-4-2◆,Anthony Taylor,1-1,Matchweek 31,Draw
+397,2022-04-09,Sat 15:00,Southampton,Chelsea,4-4-2,Kevin Friend,0-6,Matchweek 32,Loss
+398,2022-04-16,Sat 15:00,Southampton,Arsenal,3-4-3,Peter Bankes,1-0,Matchweek 33,Win
+399,2022-04-21,Thu 19:45,Burnley,Southampton,3-5-2,Stuart Attwell,0-2,Matchweek 30,Loss
+400,2022-04-24,Sun 14:00,Brighton,Southampton,4-4-2,Robert Jones,2-2,Matchweek 34,Draw
+401,2021-08-14,Sat 15:00,Chelsea,Crystal Palace,4-4-2,Jonathan Moss,0-3,Matchweek 1,Loss
+402,2021-08-21,Sat 15:00,Crystal Palace,Brentford,4-3-3,Martin Atkinson,0-0,Matchweek 2,Draw
+403,2021-08-28,Sat 15:00,West Ham,Crystal Palace,4-3-3,Stuart Attwell,2-2,Matchweek 3,Draw
+404,2021-09-11,Sat 12:30,Crystal Palace,Tottenham,4-3-3,Jonathan Moss,3-0,Matchweek 4,Win
+405,2021-09-18,Sat 15:00,Liverpool,Crystal Palace,4-3-3,Andy Madley,0-3,Matchweek 5,Loss
+406,2021-09-27,Mon 20:00,Crystal Palace,Brighton,4-3-3,Andre Marriner,1-1,Matchweek 6,Draw
+407,2021-10-03,Sun 14:00,Crystal Palace,Leicester City,4-3-3,Anthony Taylor,2-2,Matchweek 7,Draw
+408,2021-10-18,Mon 20:00,Arsenal,Crystal Palace,4-2-3-1,Mike Dean,2-2,Matchweek 8,Draw
+409,2021-10-23,Sat 15:00,Crystal Palace,Newcastle Utd,4-3-3,Darren England,1-1,Matchweek 9,Draw
+410,2021-10-30,Sat 15:00,Manchester City,Crystal Palace,4-3-3,Andre Marriner,2-0,Matchweek 10,Win
+411,2021-11-06,Sat 15:00,Crystal Palace,Wolves,4-3-3,Graham Scott,2-0,Matchweek 11,Win
+412,2021-11-20,Sat 15:00,Burnley,Crystal Palace,4-2-3-1,Simon Hooper,3-3,Matchweek 12,Draw
+413,2021-11-27,Sat 15:00,Crystal Palace,Aston Villa,4-2-3-1,Michael Salisbury,1-2,Matchweek 13,Loss
+414,2021-11-30,Tue 20:15,Leeds United,Crystal Palace,4-3-3,Kevin Friend,0-1,Matchweek 14,Loss
+415,2021-12-05,Sun 14:00,Manchester Utd,Crystal Palace,4-3-3,Craig Pawson,0-1,Matchweek 15,Loss
+416,2021-12-12,Sun 16:30,Crystal Palace,Everton,4-3-3,Andy Madley,3-1,Matchweek 16,Win
+417,2021-12-15,Wed 19:30,Crystal Palace,Southampton,4-3-3,Simon Hooper,2-2,Matchweek 17,Draw
+418,2021-12-26,Sun 15:00,Tottenham,Crystal Palace,4-3-3,Jonathan Moss,0-3,Matchweek 19,Loss
+419,2021-12-28,Tue 15:00,Crystal Palace,Norwich City,4-3-3,Paul Tierney,3-0,Matchweek 20,Win
+420,2022-01-01,Sat 17:30,Crystal Palace,West Ham,4-3-3,Darren England,2-3,Matchweek 21,Loss
+421,2022-01-14,Fri 20:00,Brighton,Crystal Palace,4-3-3,Robert Jones,1-1,Matchweek 22,Draw
+422,2022-01-23,Sun 14:00,Crystal Palace,Liverpool,4-3-3,Kevin Friend,1-3,Matchweek 23,Loss
+423,2022-02-09,Wed 19:45,Norwich City,Crystal Palace,4-3-3,Paul Tierney,1-1,Matchweek 24,Draw
+424,2022-02-12,Sat 15:00,Brentford,Crystal Palace,4-3-3,Simon Hooper,0-0,Matchweek 25,Draw
+425,2022-02-19,Sat 15:00,Crystal Palace,Chelsea,4-2-3-1,David Coote,0-1,Matchweek 26,Loss
+426,2022-02-23,Wed 19:30,Watford,Crystal Palace,4-3-3,Andre Marriner,4-1,Matchweek 18,Win
+427,2022-02-26,Sat 15:00,Crystal Palace,Burnley,4-3-3,Jonathan Moss,1-1,Matchweek 27,Draw
+428,2022-03-05,Sat 15:00,Wolves,Crystal Palace,4-2-3-1,Andy Madley,2-0,Matchweek 28,Win
+429,2022-03-14,Mon 20:00,Crystal Palace,Manchester City,4-2-3-1,Martin Atkinson,0-0,Matchweek 29,Draw
+430,2022-04-04,Mon 20:00,Crystal Palace,Arsenal,4-2-3-1,Paul Tierney,3-0,Matchweek 31,Win
+431,2022-04-10,Sun 14:00,Leicester City,Crystal Palace,4-2-3-1,Robert Jones,1-2,Matchweek 32,Loss
+432,2022-04-20,Wed 19:45,Newcastle Utd,Crystal Palace,4-2-3-1,Tony Harrington,0-1,Matchweek 30,Loss
+433,2022-04-25,Mon 20:00,Crystal Palace,Leeds United,4-3-3,Darren England,0-0,Matchweek 34,Draw
+434,2021-08-14,Sat 15:00,Watford,Aston Villa,4-2-3-1,Mike Dean,2-3,Matchweek 1,Loss
+435,2021-08-21,Sat 15:00,Aston Villa,Newcastle Utd,4-3-3,David Coote,2-0,Matchweek 2,Win
+436,2021-08-28,Sat 15:00,Aston Villa,Brentford,4-5-1,Peter Bankes,1-1,Matchweek 3,Draw
+437,2021-09-11,Sat 17:30,Chelsea,Aston Villa,3-5-2,Stuart Attwell,0-3,Matchweek 4,Loss
+438,2021-09-18,Sat 17:30,Aston Villa,Everton,3-5-2,Craig Pawson,3-0,Matchweek 5,Win
+439,2021-09-25,Sat 12:30,Manchester Utd,Aston Villa,3-5-2,Mike Dean,1-0,Matchweek 6,Win
+440,2021-10-03,Sun 14:00,Tottenham,Aston Villa,3-5-2,Chris Kavanagh,1-2,Matchweek 7,Loss
+441,2021-10-16,Sat 15:00,Aston Villa,Wolves,3-4-1-2,Michael Oliver,2-3,Matchweek 8,Loss
+442,2021-10-22,Fri 20:00,Arsenal,Aston Villa,3-4-1-2,Craig Pawson,1-3,Matchweek 9,Loss
+443,2021-10-31,Sun 16:30,Aston Villa,West Ham,4-3-3,Chris Kavanagh,1-4,Matchweek 10,Loss
+444,2021-11-05,Fri 20:00,Southampton,Aston Villa,4-2-3-1,Andy Madley,0-1,Matchweek 11,Loss
+445,2021-11-20,Sat 15:00,Aston Villa,Brighton,4-3-3,Anthony Taylor,2-0,Matchweek 12,Win
+446,2021-11-27,Sat 15:00,Crystal Palace,Aston Villa,4-3-3,Michael Salisbury,2-1,Matchweek 13,Win
+447,2021-12-01,Wed 20:15,Aston Villa,Manchester City,4-3-3,Mike Dean,1-2,Matchweek 14,Loss
+448,2021-12-05,Sun 16:30,Aston Villa,Leicester City,4-3-3,Michael Oliver,2-1,Matchweek 15,Win
+449,2021-12-11,Sat 15:00,Liverpool,Aston Villa,4-3-3,Stuart Attwell,0-1,Matchweek 16,Loss
+450,2021-12-14,Tue 19:45,Norwich City,Aston Villa,4-3-3,David Coote,2-0,Matchweek 17,Win
+451,2021-12-26,Sun 17:30,Aston Villa,Chelsea,4-4-2◆,Martin Atkinson,1-3,Matchweek 19,Loss
+452,2022-01-02,Sun 14:00,Brentford,Aston Villa,4-3-3,Craig Pawson,1-2,Matchweek 21,Loss
+453,2022-01-15,Sat 17:30,Aston Villa,Manchester Utd,4-3-3,David Coote,2-2,Matchweek 22,Draw
+454,2022-01-22,Sat 12:30,Everton,Aston Villa,4-3-3,Craig Pawson,1-0,Matchweek 23,Win
+455,2022-02-09,Wed 20:00,Aston Villa,Leeds United,4-3-3,Jarred Gillett,3-3,Matchweek 24,Draw
+456,2022-02-13,Sun 14:00,Newcastle Utd,Aston Villa,4-3-3,Craig Pawson,0-1,Matchweek 25,Loss
+457,2022-02-19,Sat 15:00,Aston Villa,Watford,4-3-3,Robert Jones,0-1,Matchweek 26,Loss
+458,2022-02-26,Sat 15:00,Brighton,Aston Villa,4-4-2◆,John Brooks,2-0,Matchweek 27,Win
+459,2022-03-05,Sat 15:00,Aston Villa,Southampton,4-4-2◆,Peter Bankes,4-0,Matchweek 28,Win
+460,2022-03-10,Thu 19:45,Leeds United,Aston Villa,4-4-2◆,Simon Hooper,3-0,Matchweek 20,Win
+461,2022-03-13,Sun 14:00,West Ham,Aston Villa,4-4-2◆,Jarred Gillett,1-2,Matchweek 29,Loss
+462,2022-03-19,Sat 12:30,Aston Villa,Arsenal,4-3-2-1,Andy Madley,0-1,Matchweek 30,Loss
+463,2022-04-02,Sat 15:00,Wolves,Aston Villa,4-4-2◆,Darren England,1-2,Matchweek 31,Loss
+464,2022-04-09,Sat 17:30,Aston Villa,Tottenham,4-4-2◆,Graham Scott,0-4,Matchweek 32,Loss
+465,2022-04-23,Sat 15:00,Leicester City,Aston Villa,4-3-2-1,Andy Madley,0-0,Matchweek 34,Draw
+466,2021-08-14,Sat 12:30,Manchester Utd,Leeds United,4-4-1-1,Paul Tierney,1-5,Matchweek 1,Loss
+467,2021-08-21,Sat 15:00,Leeds United,Everton,3-4-3,Darren England,2-2,Matchweek 2,Draw
+468,2021-08-29,Sun 14:00,Burnley,Leeds United,3-5-1-1,Michael Oliver,1-1,Matchweek 3,Draw
+469,2021-09-12,Sun 16:30,Leeds United,Liverpool,4-1-4-1,Craig Pawson,0-3,Matchweek 4,Loss
+470,2021-09-17,Fri 20:00,Newcastle Utd,Leeds United,4-1-4-1,Mike Dean,1-1,Matchweek 5,Draw
+471,2021-09-25,Sat 15:00,Leeds United,West Ham,4-1-4-1,Kevin Friend,1-2,Matchweek 6,Loss
+472,2021-10-02,Sat 15:00,Leeds United,Watford,4-1-4-1,Simon Hooper,1-0,Matchweek 7,Win
+473,2021-10-16,Sat 15:00,Southampton,Leeds United,3-4-3◆,David Coote,0-1,Matchweek 8,Loss
+474,2021-10-23,Sat 15:00,Leeds United,Wolves,4-4-1-1,Robert Jones,1-1,Matchweek 9,Draw
+475,2021-10-31,Sun 14:00,Norwich City,Leeds United,3-5-1-1,Anthony Taylor,2-1,Matchweek 10,Win
+476,2021-11-07,Sun 14:00,Leeds United,Leicester City,4-2-3-1,Darren England,1-1,Matchweek 11,Draw
+477,2021-11-21,Sun 16:30,Tottenham,Leeds United,3-4-3,Andre Marriner,1-2,Matchweek 12,Loss
+478,2021-11-27,Sat 17:30,Brighton,Leeds United,4-2-3-1,Craig Pawson,0-0,Matchweek 13,Draw
+479,2021-11-30,Tue 20:15,Leeds United,Crystal Palace,4-1-4-1,Kevin Friend,1-0,Matchweek 14,Win
+480,2021-12-05,Sun 14:00,Leeds United,Brentford,3-4-3,David Coote,2-2,Matchweek 15,Draw
+481,2021-12-11,Sat 15:00,Chelsea,Leeds United,4-4-2◆,Chris Kavanagh,2-3,Matchweek 16,Loss
+482,2021-12-14,Tue 20:00,Manchester City,Leeds United,4-2-3-1,Paul Tierney,0-7,Matchweek 17,Loss
+483,2021-12-18,Sat 17:30,Leeds United,Arsenal,4-2-3-1,Andre Marriner,1-4,Matchweek 18,Loss
+484,2022-01-02,Sun 14:00,Leeds United,Burnley,3-4-3,Paul Tierney,3-1,Matchweek 21,Win
+485,2022-01-16,Sun 14:00,West Ham,Leeds United,4-1-4-1,Mike Dean,3-2,Matchweek 22,Win
+486,2022-01-22,Sat 15:00,Leeds United,Newcastle Utd,4-2-3-1,Chris Kavanagh,0-1,Matchweek 23,Loss
+487,2022-02-09,Wed 20:00,Aston Villa,Leeds United,4-2-3-1,Jarred Gillett,3-3,Matchweek 24,Draw
+488,2022-02-12,Sat 15:00,Everton,Leeds United,3-4-3,Graham Scott,0-3,Matchweek 25,Loss
+489,2022-02-20,Sun 14:00,Leeds United,Manchester Utd,4-2-3-1,Paul Tierney,2-4,Matchweek 26,Loss
+490,2022-02-23,Wed 19:45,Liverpool,Leeds United,4-1-4-1,Michael Oliver,0-6,Matchweek 19,Loss
+491,2022-02-26,Sat 12:30,Leeds United,Tottenham,4-1-4-1,Craig Pawson,0-4,Matchweek 27,Loss
+492,2022-03-05,Sat 12:30,Leicester City,Leeds United,4-2-3-1,David Coote,0-1,Matchweek 28,Loss
+493,2022-03-10,Thu 19:45,Leeds United,Aston Villa,4-2-3-1,Simon Hooper,0-3,Matchweek 20,Loss
+494,2022-03-13,Sun 14:00,Leeds United,Norwich City,4-2-3-1,Stuart Attwell,2-1,Matchweek 29,Win
+495,2022-03-18,Fri 20:00,Wolves,Leeds United,4-2-3-1,Kevin Friend,3-2,Matchweek 30,Win
+496,2022-04-02,Sat 15:00,Leeds United,Southampton,4-2-3-1,Anthony Taylor,1-1,Matchweek 31,Draw
+497,2022-04-09,Sat 15:00,Watford,Leeds United,4-2-3-1,Andre Marriner,3-0,Matchweek 32,Win
+498,2022-04-25,Mon 20:00,Crystal Palace,Leeds United,4-2-3-1,Darren England,0-0,Matchweek 34,Draw
+499,2021-08-14,Sat 15:00,Burnley,Brighton,4-4-2,David Coote,1-2,Matchweek 1,Loss
+500,2021-08-21,Sat 12:30,Liverpool,Burnley,4-4-2,Mike Dean,0-2,Matchweek 2,Loss
+501,2021-08-29,Sun 14:00,Burnley,Leeds United,4-4-2,Michael Oliver,1-1,Matchweek 3,Draw
+502,2021-09-13,Mon 20:00,Everton,Burnley,4-4-2,Martin Atkinson,1-3,Matchweek 4,Loss
+503,2021-09-18,Sat 15:00,Burnley,Arsenal,4-4-2,Anthony Taylor,0-1,Matchweek 5,Loss
+504,2021-09-25,Sat 15:00,Leicester City,Burnley,4-4-2,Chris Kavanagh,2-2,Matchweek 6,Draw
+505,2021-10-02,Sat 15:00,Burnley,Norwich City,4-4-2,Kevin Friend,0-0,Matchweek 7,Draw
+506,2021-10-16,Sat 15:00,Manchester City,Burnley,4-4-2,Martin Atkinson,0-2,Matchweek 8,Loss
+507,2021-10-23,Sat 15:00,Southampton,Burnley,4-4-2,Chris Kavanagh,2-2,Matchweek 9,Draw
+508,2021-10-30,Sat 15:00,Burnley,Brentford,4-4-2,Jonathan Moss,3-1,Matchweek 10,Win
+509,2021-11-06,Sat 15:00,Chelsea,Burnley,4-4-2,Andre Marriner,1-1,Matchweek 11,Draw
+510,2021-11-20,Sat 15:00,Burnley,Crystal Palace,4-4-2,Simon Hooper,3-3,Matchweek 12,Draw
+511,2021-12-01,Wed 19:30,Wolves,Burnley,4-4-2,John Brooks,0-0,Matchweek 14,Draw
+512,2021-12-04,Sat 15:00,Newcastle Utd,Burnley,4-4-2,Paul Tierney,0-1,Matchweek 15,Loss
+513,2021-12-12,Sun 14:00,Burnley,West Ham,4-4-2,Graham Scott,0-0,Matchweek 16,Draw
+514,2021-12-30,Thu 20:15,Manchester Utd,Burnley,4-4-2,Jonathan Moss,1-3,Matchweek 20,Loss
+515,2022-01-02,Sun 14:00,Leeds United,Burnley,4-4-2,Paul Tierney,1-3,Matchweek 21,Loss
+516,2022-01-23,Sun 14:00,Arsenal,Burnley,4-4-2,David Coote,0-0,Matchweek 23,Draw
+517,2022-02-05,Sat 18:00,Burnley,Watford,4-4-2,Craig Pawson,0-0,Matchweek 17,Draw
+518,2022-02-08,Tue 20:00,Burnley,Manchester Utd,4-4-2,Mike Dean,1-1,Matchweek 24,Draw
+519,2022-02-13,Sun 14:00,Burnley,Liverpool,4-4-2,Martin Atkinson,0-1,Matchweek 25,Loss
+520,2022-02-19,Sat 15:00,Brighton,Burnley,4-4-2,Kevin Friend,3-0,Matchweek 26,Win
+521,2022-02-23,Wed 19:30,Burnley,Tottenham,4-4-2,Graham Scott,1-0,Matchweek 13,Win
+522,2022-02-26,Sat 15:00,Crystal Palace,Burnley,4-4-2,Jonathan Moss,1-1,Matchweek 27,Draw
+523,2022-03-01,Tue 19:45,Burnley,Leicester City,4-4-2,Chris Kavanagh,0-2,Matchweek 22,Loss
+524,2022-03-05,Sat 15:00,Burnley,Chelsea,4-4-2,Andre Marriner,0-4,Matchweek 28,Loss
+525,2022-03-12,Sat 15:00,Brentford,Burnley,4-4-2,Paul Tierney,0-2,Matchweek 29,Loss
+526,2022-04-02,Sat 15:00,Burnley,Manchester City,4-5-1,Craig Pawson,0-2,Matchweek 31,Loss
+527,2022-04-06,Wed 19:30,Burnley,Everton,4-4-2,Mike Dean,3-2,Matchweek 19,Win
+528,2022-04-10,Sun 14:00,Norwich City,Burnley,4-4-2,Michael Oliver,0-2,Matchweek 32,Loss
+529,2022-04-17,Sun 14:15,West Ham,Burnley,4-4-2,Paul Tierney,1-1,Matchweek 33,Draw
+530,2022-04-21,Thu 19:45,Burnley,Southampton,4-4-2,Stuart Attwell,2-0,Matchweek 30,Win
+531,2022-04-24,Sun 14:00,Burnley,Wolves,4-4-2,Anthony Taylor,1-0,Matchweek 34,Win
+532,2021-08-14,Sat 15:00,Everton,Southampton,4-2-3-1,Andy Madley,3-1,Matchweek 1,Win
+533,2021-08-21,Sat 15:00,Leeds United,Everton,4-4-1-1,Darren England,2-2,Matchweek 2,Draw
+534,2021-08-28,Sat 15:00,Brighton,Everton,4-4-1-1,Jonathan Moss,2-0,Matchweek 3,Win
+535,2021-09-13,Mon 20:00,Everton,Burnley,3-4-3,Martin Atkinson,3-1,Matchweek 4,Win
+536,2021-09-18,Sat 17:30,Aston Villa,Everton,4-4-1-1,Craig Pawson,0-3,Matchweek 5,Loss
+537,2021-09-25,Sat 15:00,Everton,Norwich City,4-4-1-1,David Coote,2-0,Matchweek 6,Win
+538,2021-10-02,Sat 12:30,Manchester Utd,Everton,4-4-1-1,Michael Oliver,1-1,Matchweek 7,Draw
+539,2021-10-17,Sun 14:00,Everton,West Ham,4-4-1-1,Stuart Attwell,0-1,Matchweek 8,Loss
+540,2021-10-23,Sat 15:00,Everton,Watford,4-4-1-1,Graham Scott,2-5,Matchweek 9,Loss
+541,2021-11-01,Mon 20:00,Wolves,Everton,4-4-2,Martin Atkinson,1-2,Matchweek 10,Loss
+542,2021-11-07,Sun 14:00,Everton,Tottenham,4-4-1-1,Chris Kavanagh,0-0,Matchweek 11,Draw
+543,2021-11-21,Sun 14:00,Manchester City,Everton,4-4-1-1,Stuart Attwell,0-3,Matchweek 12,Loss
+544,2021-11-28,Sun 14:00,Brentford,Everton,4-4-1-1,Darren England,0-1,Matchweek 13,Loss
+545,2021-12-01,Wed 20:15,Everton,Liverpool,4-4-2,Paul Tierney,1-4,Matchweek 14,Loss
+546,2021-12-06,Mon 20:00,Everton,Arsenal,4-4-1-1,Mike Dean,2-1,Matchweek 15,Win
+547,2021-12-12,Sun 16:30,Crystal Palace,Everton,4-1-4-1,Andy Madley,1-3,Matchweek 16,Loss
+548,2021-12-16,Thu 19:45,Chelsea,Everton,3-4-3,Michael Oliver,1-1,Matchweek 17,Draw
+549,2022-01-02,Sun 14:00,Everton,Brighton,3-4-3,John Brooks,2-3,Matchweek 21,Loss
+550,2022-01-15,Sat 15:00,Norwich City,Everton,4-4-2,Andy Madley,1-2,Matchweek 22,Loss
+551,2022-01-22,Sat 12:30,Everton,Aston Villa,4-4-2,Craig Pawson,0-1,Matchweek 23,Loss
+552,2022-02-08,Tue 19:45,Newcastle Utd,Everton,3-4-3,Anthony Taylor,1-3,Matchweek 24,Loss
+553,2022-02-12,Sat 15:00,Everton,Leeds United,4-4-2,Graham Scott,3-0,Matchweek 25,Win
+554,2022-02-19,Sat 15:00,Southampton,Everton,4-4-2,Andy Madley,0-2,Matchweek 26,Loss
+555,2022-02-26,Sat 17:30,Everton,Manchester City,4-3-3,Paul Tierney,0-1,Matchweek 27,Loss
+556,2022-03-07,Mon 20:00,Tottenham,Everton,4-2-3-1,Stuart Attwell,0-5,Matchweek 28,Loss
+557,2022-03-13,Sun 14:00,Everton,Wolves,3-4-3,Michael Oliver,0-1,Matchweek 29,Loss
+558,2022-03-17,Thu 19:45,Everton,Newcastle Utd,4-2-3-1,Craig Pawson,1-0,Matchweek 20,Win
+559,2022-04-03,Sun 14:00,West Ham,Everton,4-3-3,Michael Oliver,1-2,Matchweek 31,Loss
+560,2022-04-06,Wed 19:30,Burnley,Everton,4-3-3,Mike Dean,2-3,Matchweek 19,Loss
+561,2022-04-09,Sat 12:30,Everton,Manchester Utd,4-3-3,Jonathan Moss,1-0,Matchweek 32,Win
+562,2022-04-20,Wed 19:45,Everton,Leicester City,4-3-3,David Coote,1-1,Matchweek 18,Draw
+563,2022-04-24,Sun 16:30,Liverpool,Everton,4-3-3,Stuart Attwell,0-2,Matchweek 34,Loss
+564,2021-08-14,Sat 15:00,Watford,Aston Villa,4-5-1,Mike Dean,3-2,Matchweek 1,Win
+565,2021-08-21,Sat 17:30,Brighton,Watford,4-1-4-1,Anthony Taylor,0-2,Matchweek 2,Loss
+566,2021-08-29,Sun 14:00,Tottenham,Watford,4-1-4-1,Andre Marriner,0-1,Matchweek 3,Loss
+567,2021-09-11,Sat 15:00,Watford,Wolves,4-5-1,Peter Bankes,0-2,Matchweek 4,Loss
+568,2021-09-18,Sat 15:00,Norwich City,Watford,4-2-3-1,Robert Jones,3-1,Matchweek 5,Win
+569,2021-09-25,Sat 15:00,Watford,Newcastle Utd,4-2-3-1,Jarred Gillett,1-1,Matchweek 6,Draw
+570,2021-10-02,Sat 15:00,Leeds United,Watford,4-2-3-1,Simon Hooper,0-1,Matchweek 7,Loss
+571,2021-10-16,Sat 12:30,Watford,Liverpool,3-4-3,Jonathan Moss,0-5,Matchweek 8,Loss
+572,2021-10-23,Sat 15:00,Everton,Watford,4-1-4-1,Graham Scott,5-2,Matchweek 9,Win
+573,2021-10-30,Sat 15:00,Watford,Southampton,4-4-1-1,Peter Bankes,0-1,Matchweek 10,Loss
+574,2021-11-07,Sun 14:00,Arsenal,Watford,4-5-1,Kevin Friend,0-1,Matchweek 11,Loss
+575,2021-11-20,Sat 15:00,Watford,Manchester Utd,4-1-4-1,Jonathan Moss,4-1,Matchweek 12,Win
+576,2021-11-28,Sun 14:00,Leicester City,Watford,4-5-1,Andy Madley,2-4,Matchweek 13,Loss
+577,2021-12-01,Wed 19:30,Watford,Chelsea,4-1-4-1,David Coote,1-2,Matchweek 14,Loss
+578,2021-12-04,Sat 17:30,Watford,Manchester City,4-5-1,Simon Hooper,1-3,Matchweek 15,Loss
+579,2021-12-10,Fri 20:00,Brentford,Watford,4-2-3-1,Michael Oliver,1-2,Matchweek 16,Loss
+580,2021-12-28,Tue 15:00,Watford,West Ham,4-1-4-1,Darren England,1-4,Matchweek 20,Loss
+581,2022-01-01,Sat 15:00,Watford,Tottenham,4-4-2,Robert Jones,0-1,Matchweek 21,Loss
+582,2022-01-15,Sat 15:00,Newcastle Utd,Watford,4-3-3,Paul Tierney,1-1,Matchweek 22,Draw
+583,2022-01-21,Fri 20:00,Watford,Norwich City,4-3-3,Mike Dean,0-3,Matchweek 23,Loss
+584,2022-02-05,Sat 18:00,Burnley,Watford,4-4-2,Craig Pawson,0-0,Matchweek 17,Draw
+585,2022-02-08,Tue 19:45,West Ham,Watford,4-4-2,Martin Atkinson,0-1,Matchweek 24,Loss
+586,2022-02-12,Sat 15:00,Watford,Brighton,4-4-2,Jonathan Moss,0-2,Matchweek 25,Loss
+587,2022-02-19,Sat 15:00,Aston Villa,Watford,4-3-3,Robert Jones,1-0,Matchweek 26,Win
+588,2022-02-23,Wed 19:30,Watford,Crystal Palace,4-3-3,Andre Marriner,1-4,Matchweek 18,Loss
+589,2022-02-26,Sat 15:00,Manchester Utd,Watford,4-3-3,Kevin Friend,0-0,Matchweek 27,Draw
+590,2022-03-06,Sun 14:00,Watford,Arsenal,4-3-3,Craig Pawson,2-3,Matchweek 28,Loss
+591,2022-03-10,Thu 19:30,Wolves,Watford,4-3-3,Darren England,0-4,Matchweek 19,Loss
+592,2022-03-13,Sun 14:00,Southampton,Watford,4-3-3,Graham Scott,2-1,Matchweek 29,Win
+593,2022-04-02,Sat 12:30,Liverpool,Watford,4-1-4-1,Stuart Attwell,0-2,Matchweek 31,Loss
+594,2022-04-09,Sat 15:00,Watford,Leeds United,4-3-3,Andre Marriner,0-3,Matchweek 32,Loss
+595,2022-04-16,Sat 15:00,Watford,Brentford,4-3-3,Simon Hooper,1-2,Matchweek 33,Loss
+596,2022-04-23,Sat 15:00,Manchester City,Watford,4-3-3,Kevin Friend,1-5,Matchweek 34,Loss
+597,2021-08-14,Sat 17:30,Norwich City,Liverpool,4-3-3,Andre Marriner,0-3,Matchweek 1,Loss
+598,2021-08-21,Sat 15:00,Manchester City,Norwich City,4-3-3,Graham Scott,0-5,Matchweek 2,Loss
+599,2021-08-28,Sat 15:00,Norwich City,Leicester City,4-3-3,Robert Jones,1-2,Matchweek 3,Loss
+600,2021-09-11,Sat 15:00,Arsenal,Norwich City,4-3-3,Michael Oliver,0-1,Matchweek 4,Loss
+601,2021-09-18,Sat 15:00,Norwich City,Watford,4-3-3,Robert Jones,1-3,Matchweek 5,Loss
+602,2021-09-25,Sat 15:00,Everton,Norwich City,3-5-2,David Coote,0-2,Matchweek 6,Loss
+603,2021-10-02,Sat 15:00,Burnley,Norwich City,3-5-2,Kevin Friend,0-0,Matchweek 7,Draw
+604,2021-10-16,Sat 15:00,Norwich City,Brighton,3-5-2,Peter Bankes,0-0,Matchweek 8,Draw
+605,2021-10-23,Sat 12:30,Chelsea,Norwich City,3-5-2,Andy Madley,0-7,Matchweek 9,Loss
+606,2021-10-31,Sun 14:00,Norwich City,Leeds United,3-5-2,Anthony Taylor,1-2,Matchweek 10,Loss
+607,2021-11-06,Sat 15:00,Brentford,Norwich City,4-2-3-1,Jarred Gillett,2-1,Matchweek 11,Win
+608,2021-11-20,Sat 15:00,Norwich City,Southampton,4-3-3,Martin Atkinson,2-1,Matchweek 12,Win
+609,2021-11-27,Sat 15:00,Norwich City,Wolves,4-1-4-1,Simon Hooper,0-0,Matchweek 13,Draw
+610,2021-11-30,Tue 19:30,Newcastle Utd,Norwich City,4-1-4-1,Andy Madley,1-1,Matchweek 14,Draw
+611,2021-12-05,Sun 14:00,Tottenham,Norwich City,3-5-2,Jarred Gillett,0-3,Matchweek 15,Loss
+612,2021-12-11,Sat 17:30,Norwich City,Manchester Utd,4-3-3,Darren England,0-1,Matchweek 16,Loss
+613,2021-12-14,Tue 19:45,Norwich City,Aston Villa,4-3-3,David Coote,0-2,Matchweek 17,Loss
+614,2021-12-26,Sun 15:00,Norwich City,Arsenal,4-4-1-1,Graham Scott,0-5,Matchweek 19,Loss
+615,2021-12-28,Tue 15:00,Crystal Palace,Norwich City,4-2-3-1,Paul Tierney,0-3,Matchweek 20,Loss
+616,2022-01-12,Wed 19:45,West Ham,Norwich City,4-2-3-1,Simon Hooper,0-2,Matchweek 18,Loss
+617,2022-01-15,Sat 15:00,Norwich City,Everton,4-4-2,Andy Madley,2-1,Matchweek 22,Win
+618,2022-01-21,Fri 20:00,Watford,Norwich City,4-4-2,Mike Dean,3-0,Matchweek 23,Win
+619,2022-02-09,Wed 19:45,Norwich City,Crystal Palace,4-4-2,Paul Tierney,1-1,Matchweek 24,Draw
+620,2022-02-12,Sat 17:30,Norwich City,Manchester City,4-3-3,Andre Marriner,0-4,Matchweek 25,Loss
+621,2022-02-19,Sat 15:00,Liverpool,Norwich City,4-3-3,Mike Dean,1-3,Matchweek 26,Loss
+622,2022-02-25,Fri 20:00,Southampton,Norwich City,4-1-4-1,Simon Hooper,0-2,Matchweek 27,Loss
+623,2022-03-05,Sat 15:00,Norwich City,Brentford,4-2-3-1,Anthony Taylor,1-3,Matchweek 28,Loss
+624,2022-03-10,Thu 19:30,Norwich City,Chelsea,3-5-2,Martin Atkinson,1-3,Matchweek 30,Loss
+625,2022-03-13,Sun 14:00,Leeds United,Norwich City,4-3-3,Stuart Attwell,1-2,Matchweek 29,Loss
+626,2022-04-02,Sat 15:00,Brighton,Norwich City,4-4-2◆,Simon Hooper,0-0,Matchweek 31,Draw
+627,2022-04-10,Sun 14:00,Norwich City,Burnley,4-2-3-1,Michael Oliver,2-0,Matchweek 32,Win
+628,2022-04-16,Sat 15:00,Manchester Utd,Norwich City,4-2-3-1,Andy Madley,2-3,Matchweek 33,Loss
+629,2022-04-23,Sat 15:00,Norwich City,Newcastle Utd,4-2-3-1,Chris Kavanagh,0-3,Matchweek 34,Loss
+630,2020-09-21,Mon 20:15,Wolves,Manchester City,4-2-3-1,Andre Marriner,3-1,Matchweek 2,Win
+631,2020-09-27,Sun 16:30,Manchester City,Leicester City,4-2-3-1,Michael Oliver,2-5,Matchweek 3,Loss
+632,2020-10-03,Sat 17:30,Leeds United,Manchester City,4-3-3,Mike Dean,1-1,Matchweek 4,Draw
+633,2020-10-17,Sat 17:30,Manchester City,Arsenal,3-5-2,Chris Kavanagh,1-0,Matchweek 5,Win
+634,2020-10-24,Sat 12:30,West Ham,Manchester City,4-3-3,Anthony Taylor,1-1,Matchweek 6,Draw
+635,2020-10-31,Sat 12:30,Sheffield Utd,Manchester City,4-3-3,Michael Oliver,1-0,Matchweek 7,Win
+636,2020-11-08,Sun 16:30,Manchester City,Liverpool,4-2-3-1,Craig Pawson,1-1,Matchweek 8,Draw
+637,2020-11-21,Sat 17:30,Tottenham,Manchester City,4-3-3,Mike Dean,0-2,Matchweek 9,Loss
+638,2020-11-28,Sat 15:00,Manchester City,Burnley,4-2-3-1,Lee Mason,5-0,Matchweek 10,Win
+639,2020-12-05,Sat 15:00,Manchester City,Fulham,4-2-3-1,Jonathan Moss,2-0,Matchweek 11,Win
+640,2020-12-12,Sat 17:30,Manchester Utd,Manchester City,4-2-3-1,Chris Kavanagh,0-0,Matchweek 12,Draw
+641,2020-12-15,Tue 20:00,Manchester City,West Brom,4-2-3-1,Peter Bankes,1-1,Matchweek 13,Draw
+642,2020-12-19,Sat 15:00,Southampton,Manchester City,4-2-3-1,Mike Dean,1-0,Matchweek 14,Win
+643,2020-12-26,Sat 20:00,Manchester City,Newcastle Utd,4-3-3◆,Andre Marriner,2-0,Matchweek 15,Win
+644,2021-01-03,Sun 16:30,Chelsea,Manchester City,4-2-3-1,Anthony Taylor,3-1,Matchweek 17,Win
+645,2021-01-13,Wed 18:00,Manchester City,Brighton,4-3-3,Darren England,1-0,Matchweek 18,Win
+646,2021-01-17,Sun 19:15,Manchester City,Crystal Palace,4-3-3,Lee Mason,4-0,Matchweek 19,Win
+647,2021-01-20,Wed 18:00,Manchester City,Aston Villa,4-3-3,Jonathan Moss,2-0,Matchweek 1,Win
+648,2021-01-26,Tue 20:15,West Brom,Manchester City,4-3-3,Chris Kavanagh,5-0,Matchweek 20,Win
+649,2021-01-30,Sat 15:00,Manchester City,Sheffield Utd,4-3-3,David Coote,1-0,Matchweek 21,Win
+650,2021-02-03,Wed 18:00,Burnley,Manchester City,4-3-3,Martin Atkinson,2-0,Matchweek 22,Win
+651,2021-02-07,Sun 16:30,Liverpool,Manchester City,4-3-3,Michael Oliver,4-1,Matchweek 23,Win
+652,2021-02-13,Sat 17:30,Manchester City,Tottenham,4-3-3,Paul Tierney,3-0,Matchweek 24,Win
+653,2021-02-17,Wed 20:15,Everton,Manchester City,4-3-3,Andre Marriner,3-1,Matchweek 16,Win
+654,2021-02-21,Sun 16:30,Arsenal,Manchester City,4-3-3,Jonathan Moss,1-0,Matchweek 25,Win
+655,2021-02-27,Sat 12:30,Manchester City,West Ham,4-3-3,Michael Oliver,2-1,Matchweek 26,Win
+656,2021-03-02,Tue 20:00,Manchester City,Wolves,4-3-3,Chris Kavanagh,4-1,Matchweek 29,Win
+657,2021-03-07,Sun 16:30,Manchester City,Manchester Utd,4-3-3,Anthony Taylor,0-2,Matchweek 27,Loss
+658,2021-03-10,Wed 18:00,Manchester City,Southampton,4-3-3,Jonathan Moss,5-2,Matchweek 33,Win
+659,2021-03-13,Sat 20:00,Fulham,Manchester City,3-4-3,Andre Marriner,3-0,Matchweek 28,Win
+660,2021-04-03,Sat 17:30,Leicester City,Manchester City,4-2-3-1,Anthony Taylor,2-0,Matchweek 30,Win
+661,2021-04-10,Sat 12:30,Manchester City,Leeds United,4-3-3,Andre Marriner,1-2,Matchweek 31,Loss
+662,2021-04-21,Wed 20:15,Aston Villa,Manchester City,4-3-3,Peter Bankes,2-1,Matchweek 32,Win
+663,2021-05-01,Sat 12:30,Crystal Palace,Manchester City,4-4-1-1,David Coote,2-0,Matchweek 34,Win
+664,2021-05-08,Sat 17:30,Manchester City,Chelsea,3-5-2,Anthony Taylor,1-2,Matchweek 35,Loss
+665,2021-05-14,Fri 20:00,Newcastle Utd,Manchester City,4-3-3,Kevin Friend,4-3,Matchweek 36,Win
+666,2021-05-18,Tue 19:00,Brighton,Manchester City,4-3-3,Stuart Attwell,2-3,Matchweek 37,Loss
+667,2021-05-23,Sun 16:00,Manchester City,Everton,4-3-3,Michael Oliver,5-0,Matchweek 38,Win
+668,2020-09-19,Sat 17:30,Manchester United,Crystal Palace,4-2-3-1,Martin Atkinson,1-3,Matchweek 2,Loss
+669,2020-09-26,Sat 12:30,Brighton,Manchester United,4-2-3-1,Chris Kavanagh,3-2,Matchweek 3,Win
+670,2020-10-04,Sun 16:30,Manchester United,Tottenham,4-2-3-1,Anthony Taylor,1-6,Matchweek 4,Loss
+671,2020-10-17,Sat 20:00,Newcastle Utd,Manchester United,4-2-3-1,Craig Pawson,4-1,Matchweek 5,Win
+672,2020-10-24,Sat 17:30,Manchester United,Chelsea,4-2-3-1,Martin Atkinson,0-0,Matchweek 6,Draw
+673,2020-11-01,Sun 16:30,Manchester United,Arsenal,4-4-2◆,Mike Dean,0-1,Matchweek 7,Loss
+674,2020-11-07,Sat 12:30,Everton,Manchester United,4-2-3-1,Paul Tierney,3-1,Matchweek 8,Win
+675,2020-11-21,Sat 20:00,Manchester United,West Brom,4-2-3-1,David Coote,1-0,Matchweek 9,Win
+676,2020-11-29,Sun 14:00,Southampton,Manchester United,4-4-2◆,Jonathan Moss,3-2,Matchweek 10,Win
+677,2020-12-05,Sat 17:30,West Ham,Manchester United,4-2-3-1,Andre Marriner,3-1,Matchweek 11,Win
+678,2020-12-12,Sat 17:30,Manchester United,Manchester City,4-2-3-1◆,Chris Kavanagh,0-0,Matchweek 12,Draw
+679,2020-12-17,Thu 20:00,Sheffield Utd,Manchester United,4-2-3-1,Michael Oliver,3-2,Matchweek 13,Win
+680,2020-12-20,Sun 16:30,Manchester United,Leeds United,4-2-3-1,Anthony Taylor,6-2,Matchweek 14,Win
+681,2020-12-26,Sat 12:30,Leicester City,Manchester United,4-2-3-1,Mike Dean,2-2,Matchweek 15,Draw
+682,2020-12-29,Tue 20:00,Manchester United,Wolves,4-2-3-1,Jonathan Moss,1-0,Matchweek 16,Win
+683,2021-01-01,Fri 20:00,Manchester United,Aston Villa,4-4-2◆,Michael Oliver,2-1,Matchweek 17,Win
+684,2021-01-12,Tue 20:15,Burnley,Manchester United,4-2-3-1,Kevin Friend,1-0,Matchweek 1,Win
+685,2021-01-17,Sun 16:30,Liverpool,Manchester United,4-2-3-1,Paul Tierney,0-0,Matchweek 19,Draw
+686,2021-01-20,Wed 20:15,Fulham,Manchester United,4-2-3-1,Martin Atkinson,2-1,Matchweek 18,Win
+687,2021-01-27,Wed 20:15,Manchester United,Sheffield Utd,4-2-3-1,Peter Bankes,1-2,Matchweek 20,Loss
+688,2021-01-30,Sat 17:30,Arsenal,Manchester United,4-2-3-1,Michael Oliver,0-0,Matchweek 21,Draw
+689,2021-02-02,Tue 20:15,Manchester United,Southampton,4-2-3-1,Mike Dean,9-0,Matchweek 22,Win
+690,2021-02-06,Sat 20:00,Manchester United,Everton,4-2-3-1,Jonathan Moss,3-3,Matchweek 23,Draw
+691,2021-02-14,Sun 14:00,West Brom,Manchester United,4-2-3-1,Craig Pawson,1-1,Matchweek 24,Draw
+692,2021-02-21,Sun 19:00,Manchester United,Newcastle Utd,4-2-3-1,Paul Tierney,3-1,Matchweek 25,Win
+693,2021-02-28,Sun 16:30,Chelsea,Manchester United,4-2-3-1,Stuart Attwell,0-0,Matchweek 26,Draw
+694,2021-03-03,Wed 20:15,Crystal Palace,Manchester United,4-2-3-1,Andre Marriner,0-0,Matchweek 29,Draw
+695,2021-03-07,Sun 16:30,Manchester City,Manchester United,4-2-3-1,Anthony Taylor,2-0,Matchweek 27,Win
+696,2021-03-14,Sun 19:15,Manchester United,West Ham,4-2-3-1,Martin Atkinson,1-0,Matchweek 28,Win
+697,2021-04-04,Sun 19:30,Manchester United,Brighton,4-2-3-1,Mike Dean,2-1,Matchweek 30,Win
+698,2021-04-11,Sun 16:30,Tottenham,Manchester United,4-2-3-1,Chris Kavanagh,3-1,Matchweek 31,Win
+699,2021-04-18,Sun 16:00,Manchester United,Burnley,4-2-3-1,Jonathan Moss,3-1,Matchweek 32,Win
+700,2021-04-25,Sun 14:00,Leeds United,Manchester United,4-2-3-1,Craig Pawson,0-0,Matchweek 33,Draw
+701,2021-05-09,Sun 14:05,Aston Villa,Manchester United,4-2-3-1,Chris Kavanagh,3-1,Matchweek 35,Win
+702,2021-05-11,Tue 18:00,Manchester United,Leicester City,4-2-3-1,Craig Pawson,1-2,Matchweek 36,Loss
+703,2021-05-13,Thu 20:15,Manchester United,Liverpool,4-2-3-1,Anthony Taylor,2-4,Matchweek 34,Loss
+704,2021-05-18,Tue 18:00,Manchester United,Fulham,4-2-3-1,Lee Mason,1-1,Matchweek 37,Draw
+705,2021-05-23,Sun 16:00,Wolves,Manchester United,4-2-3-1,Mike Dean,2-1,Matchweek 38,Win
+706,2020-09-12,Sat 17:30,Liverpool,Leeds United,4-3-3,Michael Oliver,4-3,Matchweek 1,Win
+707,2020-09-20,Sun 16:30,Chelsea,Liverpool,4-3-3,Paul Tierney,2-0,Matchweek 2,Win
+708,2020-09-28,Mon 20:00,Liverpool,Arsenal,4-3-3,Craig Pawson,3-1,Matchweek 3,Win
+709,2020-10-04,Sun 19:15,Aston Villa,Liverpool,4-3-3,Martin Atkinson,2-7,Matchweek 4,Loss
+710,2020-10-17,Sat 12:30,Everton,Liverpool,4-3-3,Michael Oliver,2-2,Matchweek 5,Draw
+711,2020-10-24,Sat 20:00,Liverpool,Sheffield Utd,4-2-3-1,Mike Dean,2-1,Matchweek 6,Win
+712,2020-10-31,Sat 17:30,Liverpool,West Ham,4-3-3,Kevin Friend,2-1,Matchweek 7,Win
+713,2020-11-08,Sun 16:30,Manchester City,Liverpool,4-2-3-1,Craig Pawson,1-1,Matchweek 8,Draw
+714,2020-11-22,Sun 19:15,Liverpool,Leicester City,4-3-3,Chris Kavanagh,3-0,Matchweek 9,Win
+715,2020-11-28,Sat 12:30,Brighton,Liverpool,4-3-3,Stuart Attwell,1-1,Matchweek 10,Draw
+716,2020-12-06,Sun 19:15,Liverpool,Wolves,4-3-3,Craig Pawson,4-0,Matchweek 11,Win
+717,2020-12-13,Sun 16:30,Fulham,Liverpool,4-3-3,Andre Marriner,1-1,Matchweek 12,Draw
+718,2020-12-16,Wed 20:00,Liverpool,Tottenham,4-3-3,Anthony Taylor,2-1,Matchweek 13,Win
+719,2020-12-19,Sat 12:30,Crystal Palace,Liverpool,4-3-3,Jonathan Moss,7-0,Matchweek 14,Win
+720,2020-12-27,Sun 16:30,Liverpool,West Brom,4-3-3,Kevin Friend,1-1,Matchweek 15,Draw
+721,2020-12-30,Wed 20:00,Newcastle Utd,Liverpool,4-3-3,Paul Tierney,0-0,Matchweek 16,Draw
+722,2021-01-04,Mon 20:00,Southampton,Liverpool,4-3-3,Andre Marriner,0-1,Matchweek 17,Loss
+723,2021-01-17,Sun 16:30,Liverpool,Manchester Utd,4-3-3,Paul Tierney,0-0,Matchweek 19,Draw
+724,2021-01-21,Thu 20:00,Liverpool,Burnley,4-3-3,Mike Dean,0-1,Matchweek 18,Loss
+725,2021-01-28,Thu 20:00,Tottenham,Liverpool,4-3-3,Martin Atkinson,3-1,Matchweek 20,Win
+726,2021-01-31,Sun 16:30,West Ham,Liverpool,4-4-2◆,Jonathan Moss,3-1,Matchweek 21,Win
+727,2021-02-03,Wed 20:15,Liverpool,Brighton,4-3-3,Kevin Friend,0-1,Matchweek 22,Loss
+728,2021-02-07,Sun 16:30,Liverpool,Manchester City,4-3-3,Michael Oliver,1-4,Matchweek 23,Loss
+729,2021-02-13,Sat 12:30,Leicester City,Liverpool,4-3-3,Anthony Taylor,1-3,Matchweek 24,Loss
+730,2021-02-20,Sat 17:30,Liverpool,Everton,4-3-3,Chris Kavanagh,0-2,Matchweek 25,Loss
+731,2021-02-28,Sun 19:15,Sheffield Utd,Liverpool,4-3-3,Jonathan Moss,2-0,Matchweek 26,Win
+732,2021-03-04,Thu 20:15,Liverpool,Chelsea,4-3-3,Martin Atkinson,0-1,Matchweek 29,Loss
+733,2021-03-07,Sun 14:00,Liverpool,Fulham,4-3-3,Kevin Friend,0-1,Matchweek 27,Loss
+734,2021-03-15,Mon 20:00,Wolves,Liverpool,4-3-3,Craig Pawson,1-0,Matchweek 28,Win
+735,2021-04-03,Sat 20:00,Arsenal,Liverpool,4-3-3,Stuart Attwell,3-0,Matchweek 30,Win
+736,2021-04-10,Sat 15:00,Liverpool,Aston Villa,4-3-3,Paul Tierney,2-1,Matchweek 31,Win
+737,2021-04-19,Mon 20:00,Leeds United,Liverpool,4-3-3,Anthony Taylor,1-1,Matchweek 32,Draw
+738,2021-04-24,Sat 12:30,Liverpool,Newcastle Utd,4-4-2,Andre Marriner,1-1,Matchweek 33,Draw
+739,2021-05-08,Sat 20:15,Liverpool,Southampton,4-3-3,Kevin Friend,2-0,Matchweek 35,Win
+740,2021-05-13,Thu 20:15,Manchester Utd,Liverpool,4-3-3,Anthony Taylor,4-2,Matchweek 34,Win
+741,2021-05-16,Sun 16:30,West Brom,Liverpool,4-3-3,Mike Dean,2-1,Matchweek 36,Win
+742,2021-05-19,Wed 20:15,Burnley,Liverpool,4-3-3,Chris Kavanagh,3-0,Matchweek 37,Win
+743,2021-05-23,Sun 16:00,Liverpool,Crystal Palace,4-3-3,Craig Pawson,2-0,Matchweek 38,Win
+744,2020-09-14,Mon 20:15,Brighton,Chelsea,4-2-2-2,Craig Pawson,3-1,Matchweek 1,Win
+745,2020-09-20,Sun 16:30,Chelsea,Liverpool,4-3-3,Paul Tierney,0-2,Matchweek 2,Loss
+746,2020-09-26,Sat 17:30,West Brom,Chelsea,4-2-3-1,Jonathan Moss,3-3,Matchweek 3,Draw
+747,2020-10-03,Sat 12:30,Chelsea,Crystal Palace,4-2-3-1,Michael Oliver,4-0,Matchweek 4,Win
+748,2020-10-17,Sat 15:00,Chelsea,Southampton,4-2-3-1,Peter Bankes,3-3,Matchweek 5,Draw
+749,2020-10-24,Sat 17:30,Manchester Utd,Chelsea,3-4-3,Martin Atkinson,0-0,Matchweek 6,Draw
+750,2020-10-31,Sat 15:00,Burnley,Chelsea,4-3-3,David Coote,3-0,Matchweek 7,Win
+751,2020-11-07,Sat 17:30,Chelsea,Sheffield Utd,4-3-3,Jonathan Moss,4-1,Matchweek 8,Win
+752,2020-11-21,Sat 12:30,Newcastle Utd,Chelsea,4-3-3,Craig Pawson,2-0,Matchweek 9,Win
+753,2020-11-29,Sun 16:30,Chelsea,Tottenham,4-3-3,Paul Tierney,0-0,Matchweek 10,Draw
+754,2020-12-05,Sat 20:00,Chelsea,Leeds United,4-3-3,Kevin Friend,3-1,Matchweek 11,Win
+755,2020-12-12,Sat 20:00,Everton,Chelsea,4-3-3,Jonathan Moss,0-1,Matchweek 12,Loss
+756,2020-12-15,Tue 18:00,Wolves,Chelsea,4-3-3,Stuart Attwell,1-2,Matchweek 13,Loss
+757,2020-12-21,Mon 20:00,Chelsea,West Ham,4-3-3,Chris Kavanagh,3-0,Matchweek 14,Win
+758,2020-12-26,Sat 17:30,Arsenal,Chelsea,4-3-3,Michael Oliver,1-3,Matchweek 15,Loss
+759,2020-12-28,Mon 17:30,Chelsea,Aston Villa,4-3-3,Stuart Attwell,1-1,Matchweek 16,Draw
+760,2021-01-03,Sun 16:30,Chelsea,Manchester City,4-3-3,Anthony Taylor,1-3,Matchweek 17,Loss
+761,2021-01-16,Sat 17:30,Fulham,Chelsea,4-3-3,Peter Bankes,1-0,Matchweek 19,Win
+762,2021-01-19,Tue 20:15,Leicester City,Chelsea,4-3-3,Craig Pawson,0-2,Matchweek 18,Loss
+763,2021-01-27,Wed 18:00,Chelsea,Wolves,4-2-3-1,Andy Madley,0-0,Matchweek 20,Draw
+764,2021-01-31,Sun 12:00,Chelsea,Burnley,3-4-3,Graham Scott,2-0,Matchweek 21,Win
+765,2021-02-04,Thu 20:00,Tottenham,Chelsea,3-4-3,Andre Marriner,1-0,Matchweek 22,Win
+766,2021-02-07,Sun 19:15,Sheffield Utd,Chelsea,3-4-1-2,Kevin Friend,2-1,Matchweek 23,Win
+767,2021-02-15,Mon 20:00,Chelsea,Newcastle Utd,3-4-3,Peter Bankes,2-0,Matchweek 24,Win
+768,2021-02-20,Sat 12:30,Southampton,Chelsea,3-4-3,Anthony Taylor,1-1,Matchweek 25,Draw
+769,2021-02-28,Sun 16:30,Chelsea,Manchester Utd,3-4-3,Stuart Attwell,0-0,Matchweek 26,Draw
+770,2021-03-04,Thu 20:15,Liverpool,Chelsea,3-4-3,Martin Atkinson,1-0,Matchweek 29,Win
+771,2021-03-08,Mon 18:00,Chelsea,Everton,3-4-3,David Coote,2-0,Matchweek 27,Win
+772,2021-03-13,Sat 12:30,Leeds United,Chelsea,4-2-3-1,Kevin Friend,0-0,Matchweek 28,Draw
+773,2021-04-03,Sat 12:30,Chelsea,West Brom,3-4-3,David Coote,2-5,Matchweek 30,Loss
+774,2021-04-10,Sat 17:30,Crystal Palace,Chelsea,3-4-3,Michael Oliver,4-1,Matchweek 31,Win
+775,2021-04-20,Tue 20:15,Chelsea,Brighton,3-4-3,Stuart Attwell,0-0,Matchweek 32,Draw
+776,2021-04-24,Sat 17:30,West Ham,Chelsea,3-4-3,Chris Kavanagh,1-0,Matchweek 33,Win
+777,2021-05-01,Sat 17:30,Chelsea,Fulham,3-5-2,Kevin Friend,2-0,Matchweek 34,Win
+778,2021-05-08,Sat 17:30,Manchester City,Chelsea,3-4-3,Anthony Taylor,2-1,Matchweek 35,Win
+779,2021-05-12,Wed 20:15,Chelsea,Arsenal,3-4-3,Andre Marriner,0-1,Matchweek 36,Loss
+780,2021-05-18,Tue 20:15,Chelsea,Leicester City,3-4-3,Mike Dean,2-1,Matchweek 37,Win
+781,2021-05-23,Sun 16:00,Aston Villa,Chelsea,3-4-3,Stuart Attwell,1-2,Matchweek 38,Loss
+782,2020-09-13,Sun 14:00,West Brom,Leicester City,4-1-4-1,Anthony Taylor,3-0,Matchweek 1,Win
+783,2020-09-20,Sun 19:00,Leicester City,Burnley,4-1-4-1,Lee Mason,4-2,Matchweek 2,Win
+784,2020-09-27,Sun 16:30,Manchester City,Leicester City,3-4-3,Michael Oliver,5-2,Matchweek 3,Win
+785,2020-10-04,Sun 12:00,Leicester City,West Ham,3-4-3,Andy Madley,0-3,Matchweek 4,Loss
+786,2020-10-18,Sun 19:15,Leicester City,Aston Villa,4-1-4-1,Jonathan Moss,0-1,Matchweek 5,Loss
+787,2020-10-25,Sun 19:15,Arsenal,Leicester City,3-4-3,Craig Pawson,1-0,Matchweek 6,Win
+788,2020-11-02,Mon 20:00,Leeds United,Leicester City,3-4-3,Andre Marriner,4-1,Matchweek 7,Win
+789,2020-11-08,Sun 14:00,Leicester City,Wolves,3-4-3,Anthony Taylor,1-0,Matchweek 8,Win
+790,2020-11-22,Sun 19:15,Liverpool,Leicester City,3-4-3,Chris Kavanagh,0-3,Matchweek 9,Loss
+791,2020-11-30,Mon 17:30,Leicester City,Fulham,3-4-3,Simon Hooper,1-2,Matchweek 10,Loss
+792,2020-12-06,Sun 14:15,Sheffield Utd,Leicester City,3-4-3,Stuart Attwell,2-1,Matchweek 11,Win
+793,2020-12-13,Sun 19:15,Leicester City,Brighton,3-4-3,Martin Atkinson,3-0,Matchweek 12,Win
+794,2020-12-16,Wed 18:00,Leicester City,Everton,4-2-3-1,Lee Mason,0-2,Matchweek 13,Loss
+795,2020-12-20,Sun 14:15,Tottenham,Leicester City,4-2-3-1,Craig Pawson,2-0,Matchweek 14,Win
+796,2020-12-26,Sat 12:30,Leicester City,Manchester Utd,4-2-3-1,Mike Dean,2-2,Matchweek 15,Draw
+797,2020-12-28,Mon 15:00,Crystal Palace,Leicester City,4-2-3-1,Graham Scott,1-1,Matchweek 16,Draw
+798,2021-01-03,Sun 14:15,Newcastle Utd,Leicester City,4-2-3-1,Robert Jones,2-1,Matchweek 17,Win
+799,2021-01-16,Sat 20:00,Leicester City,Southampton,4-2-3-1,Stuart Attwell,2-0,Matchweek 19,Win
+800,2021-01-19,Tue 20:15,Leicester City,Chelsea,4-1-4-1,Craig Pawson,2-0,Matchweek 18,Win
+801,2021-01-27,Wed 20:15,Everton,Leicester City,4-2-3-1,Mike Dean,1-1,Matchweek 20,Draw
+802,2021-01-31,Sun 14:00,Leicester City,Leeds United,4-2-3-1,Chris Kavanagh,1-3,Matchweek 21,Loss
+803,2021-02-03,Wed 18:00,Fulham,Leicester City,4-2-3-1,Robert Jones,2-0,Matchweek 22,Win
+804,2021-02-07,Sun 14:00,Wolves,Leicester City,4-2-3-1,Martin Atkinson,0-0,Matchweek 23,Draw
+805,2021-02-13,Sat 12:30,Leicester City,Liverpool,4-2-3-1,Anthony Taylor,3-1,Matchweek 24,Win
+806,2021-02-21,Sun 14:05,Aston Villa,Leicester City,4-2-3-1,Michael Oliver,2-1,Matchweek 25,Win
+807,2021-02-28,Sun 12:00,Leicester City,Arsenal,4-4-2,Paul Tierney,1-3,Matchweek 26,Loss
+808,2021-03-03,Wed 18:00,Burnley,Leicester City,3-5-2,Andy Madley,1-1,Matchweek 29,Draw
+809,2021-03-06,Sat 20:00,Brighton,Leicester City,3-5-2,Michael Oliver,2-1,Matchweek 27,Win
+810,2021-03-14,Sun 14:00,Leicester City,Sheffield Utd,3-4-1-2,Peter Bankes,5-0,Matchweek 28,Win
+811,2021-04-03,Sat 17:30,Leicester City,Manchester City,3-4-1-2,Anthony Taylor,0-2,Matchweek 30,Loss
+812,2021-04-11,Sun 14:05,West Ham,Leicester City,3-4-1-2,Mike Dean,2-3,Matchweek 31,Loss
+813,2021-04-22,Thu 20:00,Leicester City,West Brom,3-4-1-2,Andy Madley,3-0,Matchweek 32,Win
+814,2021-04-26,Mon 20:00,Leicester City,Crystal Palace,3-4-1-2,Graham Scott,2-1,Matchweek 33,Win
+815,2021-04-30,Fri 20:00,Southampton,Leicester City,3-4-1-2,Robert Jones,1-1,Matchweek 34,Draw
+816,2021-05-07,Fri 20:00,Leicester City,Newcastle Utd,3-4-1-2,Darren England,2-4,Matchweek 35,Loss
+817,2021-05-11,Tue 18:00,Manchester Utd,Leicester City,4-4-2,Craig Pawson,2-1,Matchweek 36,Win
+818,2021-05-18,Tue 20:15,Chelsea,Leicester City,3-4-3,Mike Dean,1-2,Matchweek 37,Loss
+819,2021-05-23,Sun 16:00,Leicester City,Tottenham,4-4-2,Anthony Taylor,2-4,Matchweek 38,Loss
+820,2020-09-12,Sat 20:00,West Ham United,Newcastle Utd,4-2-3-1,Stuart Attwell,0-2,Matchweek 1,Loss
+821,2020-09-19,Sat 20:00,Arsenal,West Ham United,3-4-3,Michael Oliver,1-2,Matchweek 2,Loss
+822,2020-09-27,Sun 19:00,West Ham United,Wolves,3-4-3,Martin Atkinson,4-0,Matchweek 3,Win
+823,2020-10-04,Sun 12:00,Leicester City,West Ham United,3-4-3,Andy Madley,3-0,Matchweek 4,Win
+824,2020-10-18,Sun 16:30,Tottenham,West Ham United,3-4-3,Paul Tierney,3-3,Matchweek 5,Draw
+825,2020-10-24,Sat 12:30,West Ham United,Manchester City,3-4-3,Anthony Taylor,1-1,Matchweek 6,Draw
+826,2020-10-31,Sat 17:30,Liverpool,West Ham United,3-4-3,Kevin Friend,1-2,Matchweek 7,Loss
+827,2020-11-07,Sat 20:00,West Ham United,Fulham,3-4-3,Robert Jones,1-0,Matchweek 8,Win
+828,2020-11-22,Sun 14:00,Sheffield Utd,West Ham United,3-4-3,Martin Atkinson,1-0,Matchweek 9,Win
+829,2020-11-30,Mon 20:00,West Ham United,Aston Villa,3-4-3,Peter Bankes,2-1,Matchweek 10,Win
+830,2020-12-05,Sat 17:30,West Ham United,Manchester Utd,3-4-3,Andre Marriner,1-3,Matchweek 11,Loss
+831,2020-12-11,Fri 20:00,Leeds United,West Ham United,4-2-3-1,Michael Oliver,2-1,Matchweek 12,Win
+832,2020-12-16,Wed 20:00,West Ham United,Crystal Palace,4-2-3-1,David Coote,1-1,Matchweek 13,Draw
+833,2020-12-21,Mon 20:00,Chelsea,West Ham United,4-2-3-1,Chris Kavanagh,0-3,Matchweek 14,Loss
+834,2020-12-27,Sun 14:15,West Ham United,Brighton,3-4-1-2,Simon Hooper,2-2,Matchweek 15,Draw
+835,2020-12-29,Tue 18:00,Southampton,West Ham United,4-5-1,Andy Madley,0-0,Matchweek 16,Draw
+836,2021-01-01,Fri 17:30,Everton,West Ham United,4-2-3-1,Kevin Friend,1-0,Matchweek 17,Win
+837,2021-01-16,Sat 15:00,West Ham United,Burnley,4-2-3-1,Chris Kavanagh,1-0,Matchweek 19,Win
+838,2021-01-19,Tue 18:00,West Ham United,West Brom,4-2-3-1,Graham Scott,2-1,Matchweek 18,Win
+839,2021-01-26,Tue 18:00,Crystal Palace,West Ham United,4-2-3-1,Stuart Attwell,3-2,Matchweek 20,Win
+840,2021-01-31,Sun 16:30,West Ham United,Liverpool,4-2-3-1,Jonathan Moss,1-3,Matchweek 21,Loss
+841,2021-02-03,Wed 20:15,Aston Villa,West Ham United,4-2-3-1,Andy Madley,3-1,Matchweek 22,Win
+842,2021-02-06,Sat 17:30,Fulham,West Ham United,4-2-3-1,Mike Dean,0-0,Matchweek 23,Draw
+843,2021-02-15,Mon 18:00,West Ham United,Sheffield Utd,3-4-3,Simon Hooper,3-0,Matchweek 24,Win
+844,2021-02-21,Sun 12:00,West Ham United,Tottenham,4-2-3-1,Craig Pawson,2-1,Matchweek 25,Win
+845,2021-02-27,Sat 12:30,Manchester City,West Ham United,3-4-3,Michael Oliver,1-2,Matchweek 26,Loss
+846,2021-03-08,Mon 20:00,West Ham United,Leeds United,4-2-3-1,Mike Dean,2-0,Matchweek 27,Win
+847,2021-03-14,Sun 19:15,Manchester Utd,West Ham United,3-5-2,Martin Atkinson,0-1,Matchweek 28,Loss
+848,2021-03-21,Sun 15:00,West Ham United,Arsenal,4-2-3-1,Jonathan Moss,3-3,Matchweek 29,Draw
+849,2021-04-05,Mon 20:15,Wolves,West Ham United,4-2-3-1,Michael Oliver,3-2,Matchweek 30,Win
+850,2021-04-11,Sun 14:05,West Ham United,Leicester City,4-2-3-1,Mike Dean,3-2,Matchweek 31,Win
+851,2021-04-17,Sat 12:30,Newcastle Utd,West Ham United,3-4-1-2,Kevin Friend,2-3,Matchweek 32,Loss
+852,2021-04-24,Sat 17:30,West Ham United,Chelsea,3-4-1-2,Chris Kavanagh,0-1,Matchweek 33,Loss
+853,2021-05-03,Mon 20:15,Burnley,West Ham United,4-2-3-1,Anthony Taylor,2-1,Matchweek 34,Win
+854,2021-05-09,Sun 16:30,West Ham United,Everton,4-2-3-1,Stuart Attwell,0-1,Matchweek 35,Loss
+855,2021-05-15,Sat 20:00,Brighton,West Ham United,4-2-3-1,Andre Marriner,1-1,Matchweek 36,Draw
+856,2021-05-19,Wed 20:15,West Brom,West Ham United,4-2-3-1,Michael Oliver,3-1,Matchweek 37,Win
+857,2021-05-23,Sun 16:00,West Ham United,Southampton,4-2-3-1,Martin Atkinson,3-0,Matchweek 38,Win
+858,2020-09-13,Sun 16:30,Tottenham Hotspur,Everton,4-2-3-1,Martin Atkinson,0-1,Matchweek 1,Loss
+859,2020-09-20,Sun 12:00,Southampton,Tottenham Hotspur,4-3-3,David Coote,5-2,Matchweek 2,Win
+860,2020-09-27,Sun 14:00,Tottenham Hotspur,Newcastle Utd,4-2-3-1,Peter Bankes,1-1,Matchweek 3,Draw
+861,2020-10-04,Sun 16:30,Manchester Utd,Tottenham Hotspur,4-3-3,Anthony Taylor,6-1,Matchweek 4,Win
+862,2020-10-18,Sun 16:30,Tottenham Hotspur,West Ham,4-2-3-1,Paul Tierney,3-3,Matchweek 5,Draw
+863,2020-10-26,Mon 20:00,Burnley,Tottenham Hotspur,4-2-3-1,Michael Oliver,1-0,Matchweek 6,Win
+864,2020-11-01,Sun 19:15,Tottenham Hotspur,Brighton,4-2-3-1,Graham Scott,2-1,Matchweek 7,Win
+865,2020-11-08,Sun 12:00,West Brom,Tottenham Hotspur,4-2-3-1,Andy Madley,1-0,Matchweek 8,Win
+866,2020-11-21,Sat 17:30,Tottenham Hotspur,Manchester City,4-2-3-1,Mike Dean,2-0,Matchweek 9,Win
+867,2020-11-29,Sun 16:30,Chelsea,Tottenham Hotspur,4-2-3-1,Paul Tierney,0-0,Matchweek 10,Draw
+868,2020-12-06,Sun 16:30,Tottenham Hotspur,Arsenal,4-2-3-1,Martin Atkinson,2-0,Matchweek 11,Win
+869,2020-12-13,Sun 14:15,Crystal Palace,Tottenham Hotspur,4-2-3-1,Kevin Friend,1-1,Matchweek 12,Draw
+870,2020-12-16,Wed 20:00,Liverpool,Tottenham Hotspur,4-4-2,Anthony Taylor,1-2,Matchweek 13,Loss
+871,2020-12-20,Sun 14:15,Tottenham Hotspur,Leicester City,4-2-3-1,Craig Pawson,0-2,Matchweek 14,Loss
+872,2020-12-27,Sun 19:15,Wolves,Tottenham Hotspur,3-4-1-2,Paul Tierney,1-1,Matchweek 15,Draw
+873,2021-01-02,Sat 12:30,Tottenham Hotspur,Leeds United,4-2-3-1,David Coote,3-0,Matchweek 17,Win
+874,2021-01-13,Wed 20:15,Tottenham Hotspur,Fulham,4-2-3-1,Paul Tierney,1-1,Matchweek 16,Draw
+875,2021-01-17,Sun 14:00,Sheffield Utd,Tottenham Hotspur,3-4-3,Andre Marriner,3-1,Matchweek 19,Win
+876,2021-01-28,Thu 20:00,Tottenham Hotspur,Liverpool,3-4-3,Martin Atkinson,1-3,Matchweek 20,Loss
+877,2021-01-31,Sun 19:15,Brighton,Tottenham Hotspur,3-4-3,Peter Bankes,0-1,Matchweek 21,Loss
+878,2021-02-04,Thu 20:00,Tottenham Hotspur,Chelsea,4-2-3-1,Andre Marriner,0-1,Matchweek 22,Loss
+879,2021-02-07,Sun 12:00,Tottenham Hotspur,West Brom,4-2-3-1,Stuart Attwell,2-0,Matchweek 23,Win
+880,2021-02-13,Sat 17:30,Manchester City,Tottenham Hotspur,4-2-3-1,Paul Tierney,0-3,Matchweek 24,Loss
+881,2021-02-21,Sun 12:00,West Ham,Tottenham Hotspur,4-2-3-1,Craig Pawson,1-2,Matchweek 25,Loss
+882,2021-02-28,Sun 14:00,Tottenham Hotspur,Burnley,4-2-3-1,Kevin Friend,4-0,Matchweek 26,Win
+883,2021-03-04,Thu 18:00,Fulham,Tottenham Hotspur,4-2-3-1,David Coote,1-0,Matchweek 33,Win
+884,2021-03-07,Sun 19:15,Tottenham Hotspur,Crystal Palace,4-2-3-1,Stuart Attwell,4-1,Matchweek 27,Win
+885,2021-03-14,Sun 16:30,Arsenal,Tottenham Hotspur,4-2-3-1,Michael Oliver,1-2,Matchweek 28,Loss
+886,2021-03-21,Sun 19:30,Aston Villa,Tottenham Hotspur,4-4-2,Mike Dean,2-0,Matchweek 18,Win
+887,2021-04-04,Sun 14:05,Newcastle Utd,Tottenham Hotspur,4-4-2,Craig Pawson,2-2,Matchweek 30,Draw
+888,2021-04-11,Sun 16:30,Tottenham Hotspur,Manchester Utd,4-3-3,Chris Kavanagh,1-3,Matchweek 31,Loss
+889,2021-04-16,Fri 20:00,Everton,Tottenham Hotspur,3-4-1-2,Michael Oliver,2-2,Matchweek 32,Draw
+890,2021-04-21,Wed 18:00,Tottenham Hotspur,Southampton,4-2-3-1,David Coote,2-1,Matchweek 29,Win
+891,2021-05-02,Sun 19:15,Tottenham Hotspur,Sheffield Utd,4-2-3-1,Andre Marriner,4-0,Matchweek 34,Win
+892,2021-05-08,Sat 12:30,Leeds United,Tottenham Hotspur,4-2-3-1,Michael Oliver,1-3,Matchweek 35,Loss
+893,2021-05-16,Sun 14:05,Tottenham Hotspur,Wolves,4-2-3-1,Martin Atkinson,2-0,Matchweek 36,Win
+894,2021-05-19,Wed 18:00,Tottenham Hotspur,Aston Villa,4-2-3-1,Craig Pawson,1-2,Matchweek 37,Loss
+895,2021-05-23,Sun 16:00,Leicester City,Tottenham Hotspur,4-2-3-1,Anthony Taylor,4-2,Matchweek 38,Win
+896,2020-09-12,Sat 12:30,Fulham,Arsenal,3-4-3,Chris Kavanagh,3-0,Matchweek 1,Win
+897,2020-09-19,Sat 20:00,Arsenal,West Ham,3-4-3,Michael Oliver,2-1,Matchweek 2,Win
+898,2020-09-28,Mon 20:00,Liverpool,Arsenal,3-4-3,Craig Pawson,1-3,Matchweek 3,Loss
+899,2020-10-04,Sun 14:00,Arsenal,Sheffield Utd,4-3-3,Lee Mason,2-1,Matchweek 4,Win
+900,2020-10-17,Sat 17:30,Manchester City,Arsenal,3-4-3,Chris Kavanagh,0-1,Matchweek 5,Loss
+901,2020-10-25,Sun 19:15,Arsenal,Leicester City,3-4-3,Craig Pawson,0-1,Matchweek 6,Loss
+902,2020-11-01,Sun 16:30,Manchester Utd,Arsenal,3-4-3,Mike Dean,1-0,Matchweek 7,Win
+903,2020-11-08,Sun 19:15,Arsenal,Aston Villa,3-4-3,Martin Atkinson,0-3,Matchweek 8,Loss
+904,2020-11-22,Sun 16:30,Leeds United,Arsenal,4-2-3-1,Anthony Taylor,0-0,Matchweek 9,Draw
+905,2020-11-29,Sun 19:15,Arsenal,Wolves,4-2-3-1,Michael Oliver,1-2,Matchweek 10,Loss
+906,2020-12-06,Sun 16:30,Tottenham,Arsenal,4-4-2,Martin Atkinson,0-2,Matchweek 11,Loss
+907,2020-12-13,Sun 19:15,Arsenal,Burnley,4-2-3-1,Graham Scott,0-1,Matchweek 12,Loss
+908,2020-12-16,Wed 18:00,Arsenal,Southampton,3-4-3,Paul Tierney,1-1,Matchweek 13,Draw
+909,2020-12-19,Sat 17:30,Everton,Arsenal,3-4-3,Andre Marriner,1-2,Matchweek 14,Loss
+910,2020-12-26,Sat 17:30,Arsenal,Chelsea,4-2-3-1,Michael Oliver,3-1,Matchweek 15,Win
+911,2020-12-29,Tue 18:00,Brighton,Arsenal,4-2-3-1,Martin Atkinson,1-0,Matchweek 16,Win
+912,2021-01-02,Sat 20:00,West Brom,Arsenal,4-2-3-1,Martin Atkinson,4-0,Matchweek 17,Win
+913,2021-01-14,Thu 20:00,Arsenal,Crystal Palace,4-2-3-1,Andre Marriner,0-0,Matchweek 18,Draw
+914,2021-01-18,Mon 20:00,Arsenal,Newcastle Utd,4-2-3-1,David Coote,3-0,Matchweek 19,Win
+915,2021-01-26,Tue 20:15,Southampton,Arsenal,4-2-3-1,Kevin Friend,3-1,Matchweek 20,Win
+916,2021-01-30,Sat 17:30,Arsenal,Manchester Utd,4-2-3-1,Michael Oliver,0-0,Matchweek 21,Draw
+917,2021-02-02,Tue 18:00,Wolves,Arsenal,4-2-3-1,Craig Pawson,1-2,Matchweek 22,Loss
+918,2021-02-06,Sat 12:30,Aston Villa,Arsenal,4-2-3-1,Chris Kavanagh,0-1,Matchweek 23,Loss
+919,2021-02-14,Sun 16:30,Arsenal,Leeds United,4-2-3-1,Stuart Attwell,4-2,Matchweek 24,Win
+920,2021-02-21,Sun 16:30,Arsenal,Manchester City,4-2-3-1,Jonathan Moss,0-1,Matchweek 25,Loss
+921,2021-02-28,Sun 12:00,Leicester City,Arsenal,4-2-3-1,Paul Tierney,3-1,Matchweek 26,Win
+922,2021-03-06,Sat 12:30,Burnley,Arsenal,4-2-3-1,Andre Marriner,1-1,Matchweek 27,Draw
+923,2021-03-14,Sun 16:30,Arsenal,Tottenham,4-2-3-1,Michael Oliver,2-1,Matchweek 28,Win
+924,2021-03-21,Sun 15:00,West Ham,Arsenal,4-2-3-1,Jonathan Moss,3-3,Matchweek 29,Draw
+925,2021-04-03,Sat 20:00,Arsenal,Liverpool,4-2-3-1,Stuart Attwell,0-3,Matchweek 30,Loss
+926,2021-04-11,Sun 19:00,Sheffield Utd,Arsenal,4-2-3-1,Peter Bankes,3-0,Matchweek 31,Win
+927,2021-04-18,Sun 13:30,Arsenal,Fulham,4-2-3-1,Craig Pawson,1-1,Matchweek 32,Draw
+928,2021-04-23,Fri 20:00,Arsenal,Everton,4-2-3-1,Jonathan Moss,0-1,Matchweek 33,Loss
+929,2021-05-02,Sun 14:00,Newcastle Utd,Arsenal,4-2-3-1,Mike Dean,2-0,Matchweek 34,Win
+930,2021-05-09,Sun 19:00,Arsenal,West Brom,4-2-3-1,Peter Bankes,3-1,Matchweek 35,Win
+931,2021-05-12,Wed 20:15,Chelsea,Arsenal,3-4-3,Andre Marriner,1-0,Matchweek 36,Win
+932,2021-05-19,Wed 19:00,Crystal Palace,Arsenal,4-2-3-1,Anthony Taylor,3-1,Matchweek 37,Win
+933,2021-05-23,Sun 16:00,Arsenal,Brighton,4-2-3-1,Jonathan Moss,2-0,Matchweek 38,Win
+934,2020-09-12,Sat 17:30,Liverpool,Leeds United,4-1-4-1,Michael Oliver,3-4,Matchweek 1,Loss
+935,2020-09-19,Sat 15:00,Leeds United,Fulham,4-1-4-1,Anthony Taylor,4-3,Matchweek 2,Win
+936,2020-09-27,Sun 12:00,Sheffield Utd,Leeds United,3-5-2,Paul Tierney,1-0,Matchweek 3,Win
+937,2020-10-03,Sat 17:30,Leeds United,Manchester City,4-5-1,Mike Dean,1-1,Matchweek 4,Draw
+938,2020-10-19,Mon 20:00,Leeds United,Wolves,4-1-4-1,David Coote,0-1,Matchweek 5,Loss
+939,2020-10-23,Fri 20:00,Aston Villa,Leeds United,4-4-1-1,Paul Tierney,3-0,Matchweek 6,Win
+940,2020-11-02,Mon 20:00,Leeds United,Leicester City,4-1-4-1,Andre Marriner,1-4,Matchweek 7,Loss
+941,2020-11-07,Sat 15:00,Crystal Palace,Leeds United,3-5-1-1,Chris Kavanagh,1-4,Matchweek 8,Loss
+942,2020-11-22,Sun 16:30,Leeds United,Arsenal,4-1-4-1,Anthony Taylor,0-0,Matchweek 9,Draw
+943,2020-11-28,Sat 17:30,Everton,Leeds United,4-4-1-1,Chris Kavanagh,1-0,Matchweek 10,Win
+944,2020-12-05,Sat 20:00,Chelsea,Leeds United,4-4-1-1,Kevin Friend,1-3,Matchweek 11,Loss
+945,2020-12-11,Fri 20:00,Leeds United,West Ham,4-1-4-1,Michael Oliver,1-2,Matchweek 12,Loss
+946,2020-12-16,Wed 18:00,Leeds United,Newcastle Utd,4-1-4-1,Simon Hooper,5-2,Matchweek 13,Win
+947,2020-12-20,Sun 16:30,Manchester Utd,Leeds United,4-1-4-1,Anthony Taylor,2-6,Matchweek 14,Loss
+948,2020-12-27,Sun 12:00,Leeds United,Burnley,3-5-1-1,Robert Jones,1-0,Matchweek 15,Win
+949,2020-12-29,Tue 18:00,West Brom,Leeds United,4-1-4-1,Lee Mason,5-0,Matchweek 16,Win
+950,2021-01-02,Sat 12:30,Tottenham,Leeds United,4-1-4-1,David Coote,0-3,Matchweek 17,Loss
+951,2021-01-16,Sat 15:00,Leeds United,Brighton,4-5-1,Kevin Friend,0-1,Matchweek 19,Loss
+952,2021-01-26,Tue 18:00,Newcastle Utd,Leeds United,4-1-4-1,Anthony Taylor,2-1,Matchweek 20,Win
+953,2021-01-31,Sun 14:00,Leicester City,Leeds United,4-1-4-1,Chris Kavanagh,3-1,Matchweek 21,Win
+954,2021-02-03,Wed 19:30,Leeds United,Everton,4-1-4-1,Michael Oliver,1-2,Matchweek 22,Loss
+955,2021-02-08,Mon 20:00,Leeds United,Crystal Palace,4-1-4-1,Andre Marriner,2-0,Matchweek 23,Win
+956,2021-02-14,Sun 16:30,Arsenal,Leeds United,4-1-4-1,Stuart Attwell,2-4,Matchweek 24,Loss
+957,2021-02-19,Fri 20:00,Wolves,Leeds United,4-4-1-1,David Coote,0-1,Matchweek 25,Loss
+958,2021-02-23,Tue 18:00,Leeds United,Southampton,3-5-1-1,Andre Marriner,3-0,Matchweek 18,Win
+959,2021-02-27,Sat 17:30,Leeds United,Aston Villa,4-1-4-1,Peter Bankes,0-1,Matchweek 26,Loss
+960,2021-03-08,Mon 20:00,West Ham,Leeds United,4-1-4-1,Mike Dean,0-2,Matchweek 27,Loss
+961,2021-03-13,Sat 12:30,Leeds United,Chelsea,4-1-4-1,Kevin Friend,0-0,Matchweek 28,Draw
+962,2021-03-19,Fri 20:00,Fulham,Leeds United,4-1-4-1,David Coote,2-1,Matchweek 29,Win
+963,2021-04-03,Sat 15:00,Leeds United,Sheffield Utd,4-1-4-1,Graham Scott,2-1,Matchweek 30,Win
+964,2021-04-10,Sat 12:30,Manchester City,Leeds United,4-3-3,Andre Marriner,2-1,Matchweek 31,Win
+965,2021-04-19,Mon 20:00,Leeds United,Liverpool,4-1-4-1,Anthony Taylor,1-1,Matchweek 32,Draw
+966,2021-04-25,Sun 14:00,Leeds United,Manchester Utd,4-1-4-1,Craig Pawson,0-0,Matchweek 33,Draw
+967,2021-05-01,Sat 15:00,Brighton,Leeds United,4-1-4-1,Chris Kavanagh,0-2,Matchweek 34,Loss
+968,2021-05-08,Sat 12:30,Leeds United,Tottenham,4-1-4-1,Michael Oliver,3-1,Matchweek 35,Win
+969,2021-05-15,Sat 12:30,Burnley,Leeds United,4-1-4-1,Graham Scott,4-0,Matchweek 36,Win
+970,2021-05-18,Tue 18:00,Southampton,Leeds United,3-5-1-1,Peter Bankes,2-0,Matchweek 37,Win
+971,2021-05-23,Sun 16:00,Leeds United,West Brom,3-4-3,David Coote,3-1,Matchweek 38,Win
+972,2020-09-13,Sun 16:30,Tottenham,Everton,4-3-3,Martin Atkinson,1-0,Matchweek 1,Win
+973,2020-09-19,Sat 12:30,Everton,West Brom,4-3-3,Mike Dean,5-2,Matchweek 2,Win
+974,2020-09-26,Sat 15:00,Crystal Palace,Everton,4-3-3,Kevin Friend,2-1,Matchweek 3,Win
+975,2020-10-03,Sat 15:00,Everton,Brighton,4-3-3,Simon Hooper,4-2,Matchweek 4,Win
+976,2020-10-17,Sat 12:30,Everton,Liverpool,4-3-3,Michael Oliver,2-2,Matchweek 5,Draw
+977,2020-10-25,Sun 14:00,Southampton,Everton,4-3-3,Kevin Friend,0-2,Matchweek 6,Loss
+978,2020-11-01,Sun 14:00,Newcastle Utd,Everton,4-3-2-1,Stuart Attwell,1-2,Matchweek 7,Loss
+979,2020-11-07,Sat 12:30,Everton,Manchester Utd,4-3-3,Paul Tierney,1-3,Matchweek 8,Loss
+980,2020-11-22,Sun 12:00,Fulham,Everton,3-4-3,Andy Madley,3-2,Matchweek 9,Win
+981,2020-11-28,Sat 17:30,Everton,Leeds United,3-4-3,Chris Kavanagh,0-1,Matchweek 10,Loss
+982,2020-12-05,Sat 12:30,Burnley,Everton,3-4-3,Anthony Taylor,1-1,Matchweek 11,Draw
+983,2020-12-12,Sat 20:00,Everton,Chelsea,4-3-3,Jonathan Moss,1-0,Matchweek 12,Win
+984,2020-12-16,Wed 18:00,Leicester City,Everton,4-3-3,Lee Mason,2-0,Matchweek 13,Win
+985,2020-12-19,Sat 17:30,Everton,Arsenal,4-2-3-1,Andre Marriner,2-1,Matchweek 14,Win
+986,2020-12-26,Sat 20:00,Sheffield Utd,Everton,4-2-3-1,David Coote,1-0,Matchweek 15,Win
+987,2021-01-01,Fri 17:30,Everton,West Ham,4-2-3-1,Kevin Friend,0-1,Matchweek 17,Loss
+988,2021-01-12,Tue 20:15,Wolves,Everton,4-4-2,Martin Atkinson,2-1,Matchweek 18,Win
+989,2021-01-27,Wed 20:15,Everton,Leicester City,4-4-2,Mike Dean,1-1,Matchweek 20,Draw
+990,2021-01-30,Sat 12:30,Everton,Newcastle Utd,4-2-3-1,Stuart Attwell,0-2,Matchweek 21,Loss
+991,2021-02-03,Wed 19:30,Leeds United,Everton,4-2-3-1,Michael Oliver,2-1,Matchweek 22,Win
+992,2021-02-06,Sat 20:00,Manchester Utd,Everton,4-4-2◆,Jonathan Moss,3-3,Matchweek 23,Draw
+993,2021-02-14,Sun 19:00,Everton,Fulham,4-4-2◆,Andy Madley,0-2,Matchweek 24,Loss
+994,2021-02-17,Wed 20:15,Everton,Manchester City,4-4-1-1,Andre Marriner,1-3,Matchweek 16,Loss
+995,2021-02-20,Sat 17:30,Liverpool,Everton,3-5-2,Chris Kavanagh,2-0,Matchweek 25,Win
+996,2021-03-01,Mon 20:00,Everton,Southampton,4-4-2◆,Martin Atkinson,1-0,Matchweek 26,Win
+997,2021-03-04,Thu 18:00,West Brom,Everton,3-4-1-2,Darren England,1-0,Matchweek 29,Win
+998,2021-03-08,Mon 18:00,Chelsea,Everton,3-4-1-2,David Coote,0-2,Matchweek 27,Loss
+999,2021-03-13,Sat 17:30,Everton,Burnley,4-4-2◆,Jonathan Moss,1-2,Matchweek 28,Loss
+1000,2021-04-05,Mon 18:00,Everton,Crystal Palace,3-4-1-2,Kevin Friend,1-1,Matchweek 30,Draw
+1001,2021-04-12,Mon 20:15,Brighton,Everton,3-5-2,Darren England,0-0,Matchweek 31,Draw
+1002,2021-04-16,Fri 20:00,Everton,Tottenham,3-5-1-1,Michael Oliver,2-2,Matchweek 32,Draw
+1003,2021-04-23,Fri 20:00,Arsenal,Everton,4-2-3-1,Jonathan Moss,1-0,Matchweek 33,Win
+1004,2021-05-01,Sat 20:00,Everton,Aston Villa,4-2-3-1,Simon Hooper,1-2,Matchweek 34,Loss
+1005,2021-05-09,Sun 16:30,West Ham,Everton,3-5-2,Stuart Attwell,1-0,Matchweek 35,Win
+1006,2021-05-13,Thu 18:00,Aston Villa,Everton,4-4-2,Martin Atkinson,0-0,Matchweek 19,Draw
+1007,2021-05-16,Sun 19:00,Everton,Sheffield Utd,4-2-3-1,Jonathan Moss,0-1,Matchweek 36,Loss
+1008,2021-05-19,Wed 18:00,Everton,Wolves,4-4-2,Andy Madley,1-0,Matchweek 37,Win
+1009,2021-05-23,Sun 16:00,Manchester City,Everton,4-4-2◆,Michael Oliver,0-5,Matchweek 38,Loss
+1010,2020-09-21,Mon 18:00,Aston Villa,Sheffield Utd,4-3-3,Graham Scott,1-0,Matchweek 2,Win
+1011,2020-09-28,Mon 17:45,Fulham,Aston Villa,4-3-3,Stuart Attwell,3-0,Matchweek 3,Win
+1012,2020-10-04,Sun 19:15,Aston Villa,Liverpool,4-2-3-1,Martin Atkinson,7-2,Matchweek 4,Win
+1013,2020-10-18,Sun 19:15,Leicester City,Aston Villa,4-2-3-1,Jonathan Moss,1-0,Matchweek 5,Win
+1014,2020-10-23,Fri 20:00,Aston Villa,Leeds United,4-2-3-1,Paul Tierney,0-3,Matchweek 6,Loss
+1015,2020-11-01,Sun 12:00,Aston Villa,Southampton,4-2-3-1,Darren England,3-4,Matchweek 7,Loss
+1016,2020-11-08,Sun 19:15,Arsenal,Aston Villa,4-2-3-1,Martin Atkinson,3-0,Matchweek 8,Win
+1017,2020-11-21,Sat 15:00,Aston Villa,Brighton,4-2-3-1,Michael Oliver,1-2,Matchweek 9,Loss
+1018,2020-11-30,Mon 20:00,West Ham,Aston Villa,4-3-3,Peter Bankes,1-2,Matchweek 10,Loss
+1019,2020-12-12,Sat 12:30,Wolves,Aston Villa,4-3-3,Mike Dean,1-0,Matchweek 12,Win
+1020,2020-12-17,Thu 18:00,Aston Villa,Burnley,4-2-3-1,Craig Pawson,0-0,Matchweek 13,Draw
+1021,2020-12-20,Sun 19:15,West Brom,Aston Villa,4-2-3-1,Martin Atkinson,3-0,Matchweek 14,Win
+1022,2020-12-26,Sat 15:00,Aston Villa,Crystal Palace,4-2-3-1,Anthony Taylor,3-0,Matchweek 15,Win
+1023,2020-12-28,Mon 17:30,Chelsea,Aston Villa,4-2-3-1,Stuart Attwell,1-1,Matchweek 16,Draw
+1024,2021-01-01,Fri 20:00,Manchester Utd,Aston Villa,4-2-3-1,Michael Oliver,1-2,Matchweek 17,Loss
+1025,2021-01-20,Wed 18:00,Manchester City,Aston Villa,4-2-3-1,Jonathan Moss,0-2,Matchweek 1,Loss
+1026,2021-01-23,Sat 20:00,Aston Villa,Newcastle Utd,4-2-3-1,Simon Hooper,2-0,Matchweek 11,Win
+1027,2021-01-27,Wed 18:00,Burnley,Aston Villa,4-2-3-1,Paul Tierney,2-3,Matchweek 20,Loss
+1028,2021-01-30,Sat 20:00,Southampton,Aston Villa,4-2-3-1,Lee Mason,1-0,Matchweek 21,Win
+1029,2021-02-03,Wed 20:15,Aston Villa,West Ham,4-2-3-1,Andy Madley,1-3,Matchweek 22,Loss
+1030,2021-02-06,Sat 12:30,Aston Villa,Arsenal,4-2-3-1,Chris Kavanagh,1-0,Matchweek 23,Win
+1031,2021-02-13,Sat 20:00,Brighton,Aston Villa,4-2-3-1,Darren England,0-0,Matchweek 24,Draw
+1032,2021-02-21,Sun 14:05,Aston Villa,Leicester City,4-2-3-1,Michael Oliver,1-2,Matchweek 25,Loss
+1033,2021-02-27,Sat 17:30,Leeds United,Aston Villa,4-3-3,Peter Bankes,1-0,Matchweek 26,Win
+1034,2021-03-03,Wed 18:00,Sheffield Utd,Aston Villa,4-3-3,Robert Jones,0-1,Matchweek 29,Loss
+1035,2021-03-06,Sat 17:30,Aston Villa,Wolves,4-3-3,Andy Madley,0-0,Matchweek 27,Draw
+1036,2021-03-12,Fri 20:00,Newcastle Utd,Aston Villa,4-3-3,Paul Tierney,1-1,Matchweek 28,Draw
+1037,2021-03-21,Sun 19:30,Aston Villa,Tottenham,4-3-3,Mike Dean,0-2,Matchweek 18,Loss
+1038,2021-04-04,Sun 16:30,Aston Villa,Fulham,4-2-3-1,Andy Madley,3-1,Matchweek 30,Win
+1039,2021-04-10,Sat 15:00,Liverpool,Aston Villa,4-2-3-1,Paul Tierney,1-2,Matchweek 31,Loss
+1040,2021-04-21,Wed 20:15,Aston Villa,Manchester City,4-1-4-1,Peter Bankes,1-2,Matchweek 32,Loss
+1041,2021-04-25,Sun 19:00,Aston Villa,West Brom,4-2-3-1,Stuart Attwell,2-2,Matchweek 33,Draw
+1042,2021-05-01,Sat 20:00,Everton,Aston Villa,4-2-3-1,Simon Hooper,2-1,Matchweek 34,Win
+1043,2021-05-09,Sun 14:05,Aston Villa,Manchester Utd,4-2-3-1,Chris Kavanagh,1-3,Matchweek 35,Loss
+1044,2021-05-13,Thu 18:00,Aston Villa,Everton,4-2-3-1,Martin Atkinson,0-0,Matchweek 19,Draw
+1045,2021-05-16,Sun 12:00,Crystal Palace,Aston Villa,4-2-3-1,David Coote,2-3,Matchweek 36,Loss
+1046,2021-05-19,Wed 18:00,Tottenham,Aston Villa,4-2-3-1,Craig Pawson,2-1,Matchweek 37,Win
+1047,2021-05-23,Sun 16:00,Aston Villa,Chelsea,4-2-3-1,Stuart Attwell,2-1,Matchweek 38,Win
+1048,2020-09-12,Sat 20:00,West Ham,Newcastle United,4-4-2,Stuart Attwell,2-0,Matchweek 1,Win
+1049,2020-09-20,Sun 14:00,Newcastle United,Brighton,4-4-2,Kevin Friend,0-3,Matchweek 2,Loss
+1050,2020-09-27,Sun 14:00,Tottenham,Newcastle United,3-4-3,Peter Bankes,1-1,Matchweek 3,Draw
+1051,2020-10-03,Sat 20:00,Newcastle United,Burnley,4-4-2,David Coote,3-1,Matchweek 4,Win
+1052,2020-10-17,Sat 20:00,Newcastle United,Manchester Utd,4-1-4-1,Craig Pawson,1-4,Matchweek 5,Loss
+1053,2020-10-25,Sun 16:30,Wolves,Newcastle United,3-5-2,Lee Mason,1-1,Matchweek 6,Draw
+1054,2020-11-01,Sun 14:00,Newcastle United,Everton,3-5-2,Stuart Attwell,2-1,Matchweek 7,Win
+1055,2020-11-06,Fri 20:00,Southampton,Newcastle United,3-5-2,Peter Bankes,0-2,Matchweek 8,Loss
+1056,2020-11-21,Sat 12:30,Newcastle United,Chelsea,3-4-3,Craig Pawson,0-2,Matchweek 9,Loss
+1057,2020-11-27,Fri 20:00,Crystal Palace,Newcastle United,4-4-2,Graham Scott,2-0,Matchweek 10,Win
+1058,2020-12-12,Sat 15:00,Newcastle United,West Brom,4-4-2,Darren England,2-1,Matchweek 12,Win
+1059,2020-12-16,Wed 18:00,Leeds United,Newcastle United,4-4-2,Simon Hooper,2-5,Matchweek 13,Loss
+1060,2020-12-19,Sat 20:00,Newcastle United,Fulham,4-4-2,Graham Scott,1-1,Matchweek 14,Draw
+1061,2020-12-26,Sat 20:00,Manchester City,Newcastle United,3-4-3,Andre Marriner,0-2,Matchweek 15,Loss
+1062,2020-12-30,Wed 20:00,Newcastle United,Liverpool,3-4-3,Paul Tierney,0-0,Matchweek 16,Draw
+1063,2021-01-03,Sun 14:15,Newcastle United,Leicester City,3-4-3,Robert Jones,1-2,Matchweek 17,Loss
+1064,2021-01-12,Tue 18:00,Sheffield Utd,Newcastle United,3-4-3,Andy Madley,0-1,Matchweek 18,Loss
+1065,2021-01-18,Mon 20:00,Arsenal,Newcastle United,4-4-2,David Coote,0-3,Matchweek 19,Loss
+1066,2021-01-23,Sat 20:00,Aston Villa,Newcastle United,3-5-2,Simon Hooper,0-2,Matchweek 11,Loss
+1067,2021-01-26,Tue 18:00,Newcastle United,Leeds United,4-4-1-1,Anthony Taylor,1-2,Matchweek 20,Loss
+1068,2021-01-30,Sat 12:30,Everton,Newcastle United,4-4-2◆,Stuart Attwell,2-0,Matchweek 21,Win
+1069,2021-02-02,Tue 20:15,Newcastle United,Crystal Palace,4-4-2◆,Darren England,1-2,Matchweek 22,Loss
+1070,2021-02-06,Sat 15:00,Newcastle United,Southampton,4-4-2◆,Craig Pawson,3-2,Matchweek 23,Win
+1071,2021-02-15,Mon 20:00,Chelsea,Newcastle United,4-3-3,Peter Bankes,0-2,Matchweek 24,Loss
+1072,2021-02-21,Sun 19:00,Manchester Utd,Newcastle United,4-4-2◆,Paul Tierney,1-3,Matchweek 25,Loss
+1073,2021-02-27,Sat 20:00,Newcastle United,Wolves,4-3-3,Mike Dean,1-1,Matchweek 26,Draw
+1074,2021-03-07,Sun 12:00,West Brom,Newcastle United,4-4-2◆,Martin Atkinson,0-0,Matchweek 27,Draw
+1075,2021-03-12,Fri 20:00,Newcastle United,Aston Villa,4-3-3,Paul Tierney,1-1,Matchweek 28,Draw
+1076,2021-03-20,Sat 20:00,Brighton,Newcastle United,4-3-3,Anthony Taylor,0-3,Matchweek 29,Loss
+1077,2021-04-04,Sun 14:05,Newcastle United,Tottenham,3-4-1-2,Craig Pawson,2-2,Matchweek 30,Draw
+1078,2021-04-11,Sun 12:00,Burnley,Newcastle United,3-5-2,Anthony Taylor,2-1,Matchweek 31,Win
+1079,2021-04-17,Sat 12:30,Newcastle United,West Ham,3-5-2,Kevin Friend,3-2,Matchweek 32,Win
+1080,2021-04-24,Sat 12:30,Liverpool,Newcastle United,3-5-2,Andre Marriner,1-1,Matchweek 33,Draw
+1081,2021-05-02,Sun 14:00,Newcastle United,Arsenal,3-5-2,Mike Dean,0-2,Matchweek 34,Loss
+1082,2021-05-07,Fri 20:00,Leicester City,Newcastle United,3-5-2,Darren England,4-2,Matchweek 35,Win
+1083,2021-05-14,Fri 20:00,Newcastle United,Manchester City,3-5-2,Kevin Friend,3-4,Matchweek 36,Loss
+1084,2021-05-19,Wed 18:00,Newcastle United,Sheffield Utd,3-5-2,Robert Jones,1-0,Matchweek 37,Win
+1085,2021-05-23,Sun 16:00,Fulham,Newcastle United,3-5-2,Chris Kavanagh,2-0,Matchweek 38,Win
+1086,2020-09-14,Mon 18:00,Sheffield Utd,Wolverhampton Wanderers,3-4-3,Mike Dean,2-0,Matchweek 1,Win
+1087,2020-09-21,Mon 20:15,Wolverhampton Wanderers,Manchester City,3-5-2,Andre Marriner,1-3,Matchweek 2,Loss
+1088,2020-09-27,Sun 19:00,West Ham,Wolverhampton Wanderers,3-4-3,Martin Atkinson,0-4,Matchweek 3,Loss
+1089,2020-10-04,Sun 14:00,Wolverhampton Wanderers,Fulham,3-5-2,Darren England,1-0,Matchweek 4,Win
+1090,2020-10-19,Mon 20:00,Leeds United,Wolverhampton Wanderers,3-5-2,David Coote,1-0,Matchweek 5,Win
+1091,2020-10-25,Sun 16:30,Wolverhampton Wanderers,Newcastle Utd,3-4-3,Lee Mason,1-1,Matchweek 6,Draw
+1092,2020-10-30,Fri 20:00,Wolverhampton Wanderers,Crystal Palace,3-4-3,Martin Atkinson,2-0,Matchweek 7,Win
+1093,2020-11-08,Sun 14:00,Leicester City,Wolverhampton Wanderers,3-4-3,Anthony Taylor,0-1,Matchweek 8,Loss
+1094,2020-11-23,Mon 20:00,Wolverhampton Wanderers,Southampton,4-3-3,Andre Marriner,1-1,Matchweek 9,Draw
+1095,2020-11-29,Sun 19:15,Arsenal,Wolverhampton Wanderers,4-2-3-1,Michael Oliver,2-1,Matchweek 10,Win
+1096,2020-12-06,Sun 19:15,Liverpool,Wolverhampton Wanderers,4-3-3,Craig Pawson,0-4,Matchweek 11,Loss
+1097,2020-12-12,Sat 12:30,Wolverhampton Wanderers,Aston Villa,4-2-3-1,Mike Dean,0-1,Matchweek 12,Loss
+1098,2020-12-15,Tue 18:00,Wolverhampton Wanderers,Chelsea,3-4-1-2,Stuart Attwell,2-1,Matchweek 13,Win
+1099,2020-12-21,Mon 17:30,Burnley,Wolverhampton Wanderers,3-4-1-2,Lee Mason,1-2,Matchweek 14,Loss
+1100,2020-12-27,Sun 19:15,Wolverhampton Wanderers,Tottenham,4-2-3-1,Paul Tierney,1-1,Matchweek 15,Draw
+1101,2020-12-29,Tue 20:00,Manchester Utd,Wolverhampton Wanderers,3-5-2,Jonathan Moss,0-1,Matchweek 16,Loss
+1102,2021-01-02,Sat 17:30,Brighton,Wolverhampton Wanderers,4-2-3-1,Andy Madley,3-3,Matchweek 17,Draw
+1103,2021-01-12,Tue 20:15,Wolverhampton Wanderers,Everton,4-3-3,Martin Atkinson,1-2,Matchweek 18,Loss
+1104,2021-01-16,Sat 12:30,Wolverhampton Wanderers,West Brom,4-3-3,Michael Oliver,2-3,Matchweek 19,Loss
+1105,2021-01-27,Wed 18:00,Chelsea,Wolverhampton Wanderers,3-4-1-2,Andy Madley,0-0,Matchweek 20,Draw
+1106,2021-01-30,Sat 15:00,Crystal Palace,Wolverhampton Wanderers,3-4-3,Simon Hooper,0-1,Matchweek 21,Loss
+1107,2021-02-02,Tue 18:00,Wolverhampton Wanderers,Arsenal,4-2-3-1,Craig Pawson,2-1,Matchweek 22,Win
+1108,2021-02-07,Sun 14:00,Wolverhampton Wanderers,Leicester City,3-4-3,Martin Atkinson,0-0,Matchweek 23,Draw
+1109,2021-02-14,Sun 12:00,Southampton,Wolverhampton Wanderers,3-4-3,Graham Scott,2-1,Matchweek 24,Win
+1110,2021-02-19,Fri 20:00,Wolverhampton Wanderers,Leeds United,3-4-3,David Coote,1-0,Matchweek 25,Win
+1111,2021-02-27,Sat 20:00,Newcastle Utd,Wolverhampton Wanderers,3-4-3,Mike Dean,1-1,Matchweek 26,Draw
+1112,2021-03-02,Tue 20:00,Manchester City,Wolverhampton Wanderers,3-4-3,Chris Kavanagh,1-4,Matchweek 29,Loss
+1113,2021-03-06,Sat 17:30,Aston Villa,Wolverhampton Wanderers,3-4-3,Andy Madley,0-0,Matchweek 27,Draw
+1114,2021-03-15,Mon 20:00,Wolverhampton Wanderers,Liverpool,3-4-3,Craig Pawson,0-1,Matchweek 28,Loss
+1115,2021-04-05,Mon 20:15,Wolverhampton Wanderers,West Ham,4-2-3-1,Michael Oliver,2-3,Matchweek 30,Loss
+1116,2021-04-09,Fri 20:00,Fulham,Wolverhampton Wanderers,4-2-3-1,Jonathan Moss,1-0,Matchweek 31,Win
+1117,2021-04-17,Sat 20:15,Wolverhampton Wanderers,Sheffield Utd,3-4-3,Robert Jones,1-0,Matchweek 32,Win
+1118,2021-04-25,Sun 12:00,Wolverhampton Wanderers,Burnley,3-4-1-2,Darren England,0-4,Matchweek 33,Loss
+1119,2021-05-03,Mon 18:00,West Brom,Wolverhampton Wanderers,4-2-3-1,Paul Tierney,1-1,Matchweek 34,Draw
+1120,2021-05-09,Sun 12:00,Wolverhampton Wanderers,Brighton,4-2-3-1,Jonathan Moss,2-1,Matchweek 35,Win
+1121,2021-05-16,Sun 14:05,Tottenham,Wolverhampton Wanderers,4-2-3-1,Martin Atkinson,0-2,Matchweek 36,Loss
+1122,2021-05-19,Wed 18:00,Everton,Wolverhampton Wanderers,3-4-1-2,Andy Madley,0-1,Matchweek 37,Loss
+1123,2021-05-23,Sun 16:00,Wolverhampton Wanderers,Manchester Utd,3-5-2,Mike Dean,1-2,Matchweek 38,Loss
+1124,2020-09-12,Sat 15:00,Crystal Palace,Southampton,4-4-2,Jonathan Moss,1-0,Matchweek 1,Win
+1125,2020-09-19,Sat 17:30,Manchester Utd,Crystal Palace,4-4-2,Martin Atkinson,3-1,Matchweek 2,Win
+1126,2020-09-26,Sat 15:00,Crystal Palace,Everton,4-4-2,Kevin Friend,1-2,Matchweek 3,Loss
+1127,2020-10-03,Sat 12:30,Chelsea,Crystal Palace,4-4-2,Michael Oliver,0-4,Matchweek 4,Loss
+1128,2020-10-18,Sun 14:00,Crystal Palace,Brighton,4-4-2,Stuart Attwell,1-1,Matchweek 5,Draw
+1129,2020-10-24,Sat 15:00,Fulham,Crystal Palace,4-4-2,Graham Scott,2-1,Matchweek 6,Win
+1130,2020-10-30,Fri 20:00,Wolves,Crystal Palace,4-4-2,Martin Atkinson,0-2,Matchweek 7,Loss
+1131,2020-11-07,Sat 15:00,Crystal Palace,Leeds United,4-4-2,Chris Kavanagh,4-1,Matchweek 8,Win
+1132,2020-11-23,Mon 17:30,Burnley,Crystal Palace,4-4-2,Kevin Friend,0-1,Matchweek 9,Loss
+1133,2020-11-27,Fri 20:00,Crystal Palace,Newcastle Utd,4-2-3-1,Graham Scott,0-2,Matchweek 10,Loss
+1134,2020-12-06,Sun 12:00,West Brom,Crystal Palace,4-4-2,Paul Tierney,5-1,Matchweek 11,Win
+1135,2020-12-13,Sun 14:15,Crystal Palace,Tottenham,4-4-2,Kevin Friend,1-1,Matchweek 12,Draw
+1136,2020-12-16,Wed 20:00,West Ham,Crystal Palace,4-4-2,David Coote,1-1,Matchweek 13,Draw
+1137,2020-12-19,Sat 12:30,Crystal Palace,Liverpool,4-4-2,Jonathan Moss,0-7,Matchweek 14,Loss
+1138,2020-12-26,Sat 15:00,Aston Villa,Crystal Palace,4-4-2,Anthony Taylor,0-3,Matchweek 15,Loss
+1139,2020-12-28,Mon 15:00,Crystal Palace,Leicester City,4-4-2,Graham Scott,1-1,Matchweek 16,Draw
+1140,2021-01-02,Sat 15:00,Crystal Palace,Sheffield Utd,4-4-2,Stuart Attwell,2-0,Matchweek 17,Win
+1141,2021-01-14,Thu 20:00,Arsenal,Crystal Palace,4-4-2,Andre Marriner,0-0,Matchweek 18,Draw
+1142,2021-01-17,Sun 19:15,Manchester City,Crystal Palace,4-1-4-1,Lee Mason,0-4,Matchweek 19,Loss
+1143,2021-01-26,Tue 18:00,Crystal Palace,West Ham,4-4-2,Stuart Attwell,2-3,Matchweek 20,Loss
+1144,2021-01-30,Sat 15:00,Crystal Palace,Wolves,4-2-3-1,Simon Hooper,1-0,Matchweek 21,Win
+1145,2021-02-02,Tue 20:15,Newcastle Utd,Crystal Palace,4-4-2,Darren England,2-1,Matchweek 22,Win
+1146,2021-02-08,Mon 20:00,Leeds United,Crystal Palace,4-4-2,Andre Marriner,0-2,Matchweek 23,Loss
+1147,2021-02-13,Sat 15:00,Crystal Palace,Burnley,4-4-2,Michael Oliver,0-3,Matchweek 24,Loss
+1148,2021-02-22,Mon 20:00,Brighton,Crystal Palace,4-3-3,Kevin Friend,2-1,Matchweek 25,Win
+1149,2021-02-28,Sun 12:00,Crystal Palace,Fulham,4-3-3,Anthony Taylor,0-0,Matchweek 26,Draw
+1150,2021-03-03,Wed 20:15,Crystal Palace,Manchester Utd,4-4-2,Andre Marriner,0-0,Matchweek 29,Draw
+1151,2021-03-07,Sun 19:15,Tottenham,Crystal Palace,4-4-2,Stuart Attwell,1-4,Matchweek 27,Loss
+1152,2021-03-13,Sat 15:00,Crystal Palace,West Brom,4-4-2,Simon Hooper,1-0,Matchweek 28,Win
+1153,2021-04-05,Mon 18:00,Everton,Crystal Palace,4-4-2,Kevin Friend,1-1,Matchweek 30,Draw
+1154,2021-04-10,Sat 17:30,Crystal Palace,Chelsea,4-4-2,Michael Oliver,1-4,Matchweek 31,Loss
+1155,2021-04-26,Mon 20:00,Leicester City,Crystal Palace,4-3-3,Graham Scott,1-2,Matchweek 33,Loss
+1156,2021-05-01,Sat 12:30,Crystal Palace,Manchester City,4-3-3,David Coote,0-2,Matchweek 34,Loss
+1157,2021-05-08,Sat 15:00,Sheffield Utd,Crystal Palace,4-3-3,Simon Hooper,2-0,Matchweek 35,Win
+1158,2021-05-11,Tue 20:15,Southampton,Crystal Palace,4-3-3,Andy Madley,1-3,Matchweek 32,Loss
+1159,2021-05-16,Sun 12:00,Crystal Palace,Aston Villa,4-3-3,David Coote,3-2,Matchweek 36,Win
+1160,2021-05-19,Wed 19:00,Crystal Palace,Arsenal,4-3-3,Anthony Taylor,1-3,Matchweek 37,Loss
+1161,2021-05-23,Sun 16:00,Liverpool,Crystal Palace,4-3-3,Craig Pawson,0-2,Matchweek 38,Loss
+1162,2020-09-12,Sat 15:00,Crystal Palace,Southampton,4-4-2,Jonathan Moss,0-1,Matchweek 1,Loss
+1163,2020-09-20,Sun 12:00,Southampton,Tottenham,4-4-2,David Coote,2-5,Matchweek 2,Loss
+1164,2020-09-26,Sat 20:00,Burnley,Southampton,4-4-2,Andre Marriner,1-0,Matchweek 3,Win
+1165,2020-10-04,Sun 12:00,Southampton,West Brom,4-4-2,Chris Kavanagh,2-0,Matchweek 4,Win
+1166,2020-10-17,Sat 15:00,Chelsea,Southampton,4-4-2,Peter Bankes,3-3,Matchweek 5,Draw
+1167,2020-10-25,Sun 14:00,Southampton,Everton,4-4-2,Kevin Friend,2-0,Matchweek 6,Win
+1168,2020-11-01,Sun 12:00,Aston Villa,Southampton,4-4-2,Darren England,4-3,Matchweek 7,Win
+1169,2020-11-06,Fri 20:00,Southampton,Newcastle Utd,4-4-2,Peter Bankes,2-0,Matchweek 8,Win
+1170,2020-11-23,Mon 20:00,Wolves,Southampton,4-4-2,Andre Marriner,1-1,Matchweek 9,Draw
+1171,2020-11-29,Sun 14:00,Southampton,Manchester Utd,4-4-2,Jonathan Moss,2-3,Matchweek 10,Loss
+1172,2020-12-07,Mon 20:00,Brighton,Southampton,4-4-2,David Coote,2-1,Matchweek 11,Win
+1173,2020-12-13,Sun 12:00,Southampton,Sheffield Utd,4-4-2,Andy Madley,3-0,Matchweek 12,Win
+1174,2020-12-16,Wed 18:00,Arsenal,Southampton,4-4-2,Paul Tierney,1-1,Matchweek 13,Draw
+1175,2020-12-19,Sat 15:00,Southampton,Manchester City,4-4-2,Mike Dean,0-1,Matchweek 14,Loss
+1176,2020-12-26,Sat 15:00,Fulham,Southampton,4-4-2,Darren England,0-0,Matchweek 15,Draw
+1177,2020-12-29,Tue 18:00,Southampton,West Ham,4-4-2,Andy Madley,0-0,Matchweek 16,Draw
+1178,2021-01-04,Mon 20:00,Southampton,Liverpool,4-4-2,Andre Marriner,1-0,Matchweek 17,Win
+1179,2021-01-16,Sat 20:00,Leicester City,Southampton,4-4-2,Stuart Attwell,0-2,Matchweek 19,Loss
+1180,2021-01-26,Tue 20:15,Southampton,Arsenal,4-4-2,Kevin Friend,1-3,Matchweek 20,Loss
+1181,2021-01-30,Sat 20:00,Southampton,Aston Villa,4-4-2,Lee Mason,0-1,Matchweek 21,Loss
+1182,2021-02-02,Tue 20:15,Manchester Utd,Southampton,4-4-2,Mike Dean,0-9,Matchweek 22,Loss
+1183,2021-02-06,Sat 15:00,Newcastle Utd,Southampton,4-4-2,Craig Pawson,2-3,Matchweek 23,Loss
+1184,2021-02-14,Sun 12:00,Southampton,Wolves,4-4-2,Graham Scott,1-2,Matchweek 24,Loss
+1185,2021-02-20,Sat 12:30,Southampton,Chelsea,4-4-2,Anthony Taylor,1-1,Matchweek 25,Draw
+1186,2021-02-23,Tue 18:00,Leeds United,Southampton,4-4-2,Andre Marriner,0-3,Matchweek 18,Loss
+1187,2021-03-01,Mon 20:00,Everton,Southampton,4-4-2,Martin Atkinson,0-1,Matchweek 26,Loss
+1188,2021-03-06,Sat 15:00,Sheffield Utd,Southampton,4-4-2,Paul Tierney,2-0,Matchweek 27,Win
+1189,2021-03-10,Wed 18:00,Manchester City,Southampton,4-2-3-1,Jonathan Moss,2-5,Matchweek 33,Loss
+1190,2021-03-14,Sun 12:00,Southampton,Brighton,4-3-3,Stuart Attwell,1-2,Matchweek 28,Loss
+1191,2021-04-04,Sun 12:00,Southampton,Burnley,4-4-2,Andre Marriner,3-2,Matchweek 30,Win
+1192,2021-04-12,Mon 18:00,West Brom,Southampton,4-4-2,Simon Hooper,0-3,Matchweek 31,Loss
+1193,2021-04-21,Wed 18:00,Tottenham,Southampton,4-4-2,David Coote,1-2,Matchweek 29,Loss
+1194,2021-04-30,Fri 20:00,Southampton,Leicester City,4-4-2,Robert Jones,1-1,Matchweek 34,Draw
+1195,2021-05-08,Sat 20:15,Liverpool,Southampton,4-4-2,Kevin Friend,0-2,Matchweek 35,Loss
+1196,2021-05-11,Tue 20:15,Southampton,Crystal Palace,4-4-2,Andy Madley,3-1,Matchweek 32,Win
+1197,2021-05-15,Sat 15:00,Southampton,Fulham,4-4-2,Craig Pawson,3-1,Matchweek 36,Win
+1198,2021-05-18,Tue 18:00,Southampton,Leeds United,4-4-2,Peter Bankes,0-2,Matchweek 37,Loss
+1199,2021-05-23,Sun 16:00,West Ham,Southampton,4-4-2,Martin Atkinson,0-3,Matchweek 38,Loss
+1200,2020-09-14,Mon 20:15,Brighton and Hove Albion,Chelsea,3-5-2,Craig Pawson,1-3,Matchweek 1,Loss
+1201,2020-09-20,Sun 14:00,Newcastle Utd,Brighton and Hove Albion,3-4-3,Kevin Friend,3-0,Matchweek 2,Win
+1202,2020-09-26,Sat 12:30,Brighton and Hove Albion,Manchester Utd,3-4-3,Chris Kavanagh,2-3,Matchweek 3,Loss
+1203,2020-10-03,Sat 15:00,Everton,Brighton and Hove Albion,3-4-3,Simon Hooper,2-4,Matchweek 4,Loss
+1204,2020-10-18,Sun 14:00,Crystal Palace,Brighton and Hove Albion,3-4-3,Stuart Attwell,1-1,Matchweek 5,Draw
+1205,2020-10-26,Mon 17:30,Brighton and Hove Albion,West Brom,3-4-3,Jonathan Moss,1-1,Matchweek 6,Draw
+1206,2020-11-01,Sun 19:15,Tottenham,Brighton and Hove Albion,3-5-1-1,Graham Scott,1-2,Matchweek 7,Loss
+1207,2020-11-06,Fri 17:30,Brighton and Hove Albion,Burnley,3-5-2,Mike Dean,0-0,Matchweek 8,Draw
+1208,2020-11-21,Sat 15:00,Aston Villa,Brighton and Hove Albion,3-4-1-2,Michael Oliver,2-1,Matchweek 9,Win
+1209,2020-11-28,Sat 12:30,Brighton and Hove Albion,Liverpool,3-4-1-2,Stuart Attwell,1-1,Matchweek 10,Draw
+1210,2020-12-07,Mon 20:00,Brighton and Hove Albion,Southampton,3-4-1-2,David Coote,1-2,Matchweek 11,Loss
+1211,2020-12-13,Sun 19:15,Leicester City,Brighton and Hove Albion,4-2-3-1,Martin Atkinson,0-3,Matchweek 12,Loss
+1212,2020-12-16,Wed 20:00,Fulham,Brighton and Hove Albion,3-4-3,Robert Jones,0-0,Matchweek 13,Draw
+1213,2020-12-20,Sun 12:00,Brighton and Hove Albion,Sheffield Utd,3-4-3,Peter Bankes,1-1,Matchweek 14,Draw
+1214,2020-12-27,Sun 14:15,West Ham,Brighton and Hove Albion,3-4-3,Simon Hooper,2-2,Matchweek 15,Draw
+1215,2020-12-29,Tue 18:00,Brighton and Hove Albion,Arsenal,4-4-2,Martin Atkinson,0-1,Matchweek 16,Loss
+1216,2021-01-02,Sat 17:30,Brighton and Hove Albion,Wolves,3-4-3,Andy Madley,3-3,Matchweek 17,Draw
+1217,2021-01-13,Wed 18:00,Manchester City,Brighton and Hove Albion,3-4-3,Darren England,0-1,Matchweek 18,Loss
+1218,2021-01-16,Sat 15:00,Leeds United,Brighton and Hove Albion,3-4-3,Kevin Friend,1-0,Matchweek 19,Win
+1219,2021-01-27,Wed 19:30,Brighton and Hove Albion,Fulham,3-5-2,Craig Pawson,0-0,Matchweek 20,Draw
+1220,2021-01-31,Sun 19:15,Brighton and Hove Albion,Tottenham,3-5-2,Peter Bankes,1-0,Matchweek 21,Win
+1221,2021-02-03,Wed 20:15,Liverpool,Brighton and Hove Albion,3-4-3,Kevin Friend,1-0,Matchweek 22,Win
+1222,2021-02-06,Sat 15:00,Burnley,Brighton and Hove Albion,3-4-1-2,Anthony Taylor,1-1,Matchweek 23,Draw
+1223,2021-02-13,Sat 20:00,Brighton and Hove Albion,Aston Villa,3-4-1-2,Darren England,0-0,Matchweek 24,Draw
+1224,2021-02-22,Mon 20:00,Brighton and Hove Albion,Crystal Palace,3-4-3,Kevin Friend,1-2,Matchweek 25,Loss
+1225,2021-02-27,Sat 15:00,West Brom,Brighton and Hove Albion,4-2-3-1,Lee Mason,0-1,Matchweek 26,Loss
+1226,2021-03-06,Sat 20:00,Brighton and Hove Albion,Leicester City,4-4-2,Michael Oliver,1-2,Matchweek 27,Loss
+1227,2021-03-14,Sun 12:00,Southampton,Brighton and Hove Albion,4-4-2,Stuart Attwell,2-1,Matchweek 28,Win
+1228,2021-03-20,Sat 20:00,Brighton and Hove Albion,Newcastle Utd,3-4-1-2,Anthony Taylor,3-0,Matchweek 29,Win
+1229,2021-04-04,Sun 19:30,Manchester Utd,Brighton and Hove Albion,3-4-1-2,Mike Dean,1-2,Matchweek 30,Loss
+1230,2021-04-12,Mon 20:15,Brighton and Hove Albion,Everton,3-4-3,Darren England,0-0,Matchweek 31,Draw
+1231,2021-04-20,Tue 20:15,Chelsea,Brighton and Hove Albion,3-5-2,Stuart Attwell,0-0,Matchweek 32,Draw
+1232,2021-04-24,Sat 20:00,Sheffield Utd,Brighton and Hove Albion,3-4-1-2,Kevin Friend,0-1,Matchweek 33,Loss
+1233,2021-05-01,Sat 15:00,Brighton and Hove Albion,Leeds United,3-4-1-2,Chris Kavanagh,2-0,Matchweek 34,Win
+1234,2021-05-09,Sun 12:00,Wolves,Brighton and Hove Albion,4-4-1-1,Jonathan Moss,1-2,Matchweek 35,Loss
+1235,2021-05-15,Sat 20:00,Brighton and Hove Albion,West Ham,3-4-3,Andre Marriner,1-1,Matchweek 36,Draw
+1236,2021-05-18,Tue 19:00,Brighton and Hove Albion,Manchester City,3-5-2,Stuart Attwell,3-2,Matchweek 37,Win
+1237,2021-05-23,Sun 16:00,Arsenal,Brighton and Hove Albion,4-3-3,Jonathan Moss,0-2,Matchweek 38,Loss
+1238,2020-09-20,Sun 19:00,Leicester City,Burnley,4-4-2,Lee Mason,2-4,Matchweek 2,Loss
+1239,2020-09-26,Sat 20:00,Burnley,Southampton,4-4-2,Andre Marriner,0-1,Matchweek 3,Loss
+1240,2020-10-03,Sat 20:00,Newcastle Utd,Burnley,4-4-2,David Coote,1-3,Matchweek 4,Loss
+1241,2020-10-19,Mon 17:30,West Brom,Burnley,4-4-2,Anthony Taylor,0-0,Matchweek 5,Draw
+1242,2020-10-26,Mon 20:00,Burnley,Tottenham,4-4-2,Michael Oliver,0-1,Matchweek 6,Loss
+1243,2020-10-31,Sat 15:00,Burnley,Chelsea,4-4-2,David Coote,0-3,Matchweek 7,Loss
+1244,2020-11-06,Fri 17:30,Brighton,Burnley,4-4-2,Mike Dean,0-0,Matchweek 8,Draw
+1245,2020-11-23,Mon 17:30,Burnley,Crystal Palace,4-4-2,Kevin Friend,1-0,Matchweek 9,Win
+1246,2020-11-28,Sat 15:00,Manchester City,Burnley,4-4-1-1,Lee Mason,0-5,Matchweek 10,Loss
+1247,2020-12-05,Sat 12:30,Burnley,Everton,4-4-2,Anthony Taylor,1-1,Matchweek 11,Draw
+1248,2020-12-13,Sun 19:15,Arsenal,Burnley,4-4-1-1,Graham Scott,1-0,Matchweek 12,Win
+1249,2020-12-17,Thu 18:00,Aston Villa,Burnley,4-4-2,Craig Pawson,0-0,Matchweek 13,Draw
+1250,2020-12-21,Mon 17:30,Burnley,Wolves,4-4-2,Lee Mason,2-1,Matchweek 14,Win
+1251,2020-12-27,Sun 12:00,Leeds United,Burnley,4-4-2,Robert Jones,0-1,Matchweek 15,Loss
+1252,2020-12-29,Tue 18:00,Burnley,Sheffield Utd,4-4-2,Chris Kavanagh,1-0,Matchweek 16,Win
+1253,2021-01-12,Tue 20:15,Burnley,Manchester Utd,4-4-2,Kevin Friend,0-1,Matchweek 1,Loss
+1254,2021-01-16,Sat 15:00,West Ham,Burnley,4-4-2,Chris Kavanagh,0-1,Matchweek 19,Loss
+1255,2021-01-21,Thu 20:00,Liverpool,Burnley,4-4-2,Mike Dean,1-0,Matchweek 18,Win
+1256,2021-01-27,Wed 18:00,Burnley,Aston Villa,4-4-2,Paul Tierney,3-2,Matchweek 20,Win
+1257,2021-01-31,Sun 12:00,Chelsea,Burnley,4-4-2,Graham Scott,0-2,Matchweek 21,Loss
+1258,2021-02-03,Wed 18:00,Burnley,Manchester City,4-4-2,Martin Atkinson,0-2,Matchweek 22,Loss
+1259,2021-02-06,Sat 15:00,Burnley,Brighton,4-4-2,Anthony Taylor,1-1,Matchweek 23,Draw
+1260,2021-02-13,Sat 15:00,Crystal Palace,Burnley,4-4-2,Michael Oliver,3-0,Matchweek 24,Win
+1261,2021-02-17,Wed 18:00,Burnley,Fulham,4-4-2,Jonathan Moss,1-1,Matchweek 17,Draw
+1262,2021-02-20,Sat 15:00,Burnley,West Brom,4-4-2,Mike Dean,0-0,Matchweek 25,Draw
+1263,2021-02-28,Sun 14:00,Tottenham,Burnley,4-4-2,Kevin Friend,0-4,Matchweek 26,Loss
+1264,2021-03-03,Wed 18:00,Burnley,Leicester City,4-4-2,Andy Madley,1-1,Matchweek 29,Draw
+1265,2021-03-06,Sat 12:30,Burnley,Arsenal,4-4-2,Andre Marriner,1-1,Matchweek 27,Draw
+1266,2021-03-13,Sat 17:30,Everton,Burnley,4-4-2,Jonathan Moss,2-1,Matchweek 28,Win
+1267,2021-04-04,Sun 12:00,Southampton,Burnley,4-4-2,Andre Marriner,2-3,Matchweek 30,Loss
+1268,2021-04-11,Sun 12:00,Burnley,Newcastle Utd,4-4-2,Anthony Taylor,1-2,Matchweek 31,Loss
+1269,2021-04-18,Sun 16:00,Manchester Utd,Burnley,4-4-1-1,Jonathan Moss,1-3,Matchweek 32,Loss
+1270,2021-04-25,Sun 12:00,Wolves,Burnley,4-4-2,Darren England,4-0,Matchweek 33,Win
+1271,2021-05-03,Mon 20:15,Burnley,West Ham,4-4-2,Anthony Taylor,1-2,Matchweek 34,Loss
+1272,2021-05-10,Mon 20:00,Fulham,Burnley,4-4-2,David Coote,2-0,Matchweek 35,Win
+1273,2021-05-15,Sat 12:30,Burnley,Leeds United,4-4-2,Graham Scott,0-4,Matchweek 36,Loss
+1274,2021-05-19,Wed 20:15,Burnley,Liverpool,4-4-1-1,Chris Kavanagh,0-3,Matchweek 37,Loss
+1275,2021-05-23,Sun 16:00,Sheffield Utd,Burnley,4-4-1-1,Kevin Friend,0-1,Matchweek 38,Loss
+1276,2020-09-12,Sat 12:30,Fulham,Arsenal,4-2-3-1,Chris Kavanagh,0-3,Matchweek 1,Loss
+1277,2020-09-19,Sat 15:00,Leeds United,Fulham,4-2-3-1,Anthony Taylor,3-4,Matchweek 2,Loss
+1278,2020-09-28,Mon 17:45,Fulham,Aston Villa,3-4-3,Stuart Attwell,0-3,Matchweek 3,Loss
+1279,2020-10-04,Sun 14:00,Wolves,Fulham,4-2-3-1,Darren England,0-1,Matchweek 4,Loss
+1280,2020-10-18,Sun 12:00,Sheffield Utd,Fulham,4-2-3-1,Andre Marriner,1-1,Matchweek 5,Draw
+1281,2020-10-24,Sat 15:00,Fulham,Crystal Palace,4-3-3,Graham Scott,1-2,Matchweek 6,Loss
+1282,2020-11-02,Mon 17:30,Fulham,West Brom,4-2-3-1,Simon Hooper,2-0,Matchweek 7,Win
+1283,2020-11-07,Sat 20:00,West Ham,Fulham,4-2-3-1,Robert Jones,0-1,Matchweek 8,Loss
+1284,2020-11-22,Sun 12:00,Fulham,Everton,4-2-3-1,Andy Madley,2-3,Matchweek 9,Loss
+1285,2020-11-30,Mon 17:30,Leicester City,Fulham,3-4-3,Simon Hooper,2-1,Matchweek 10,Win
+1286,2020-12-05,Sat 15:00,Manchester City,Fulham,3-4-1-2,Jonathan Moss,0-2,Matchweek 11,Loss
+1287,2020-12-13,Sun 16:30,Fulham,Liverpool,3-4-3,Andre Marriner,1-1,Matchweek 12,Draw
+1288,2020-12-16,Wed 20:00,Fulham,Brighton,3-4-3,Robert Jones,0-0,Matchweek 13,Draw
+1289,2020-12-19,Sat 20:00,Newcastle Utd,Fulham,4-2-3-1,Graham Scott,1-1,Matchweek 14,Draw
+1290,2020-12-26,Sat 15:00,Fulham,Southampton,3-5-2,Darren England,0-0,Matchweek 15,Draw
+1291,2021-01-13,Wed 20:15,Tottenham,Fulham,3-4-3,Paul Tierney,1-1,Matchweek 16,Draw
+1292,2021-01-16,Sat 17:30,Fulham,Chelsea,3-5-2,Peter Bankes,0-1,Matchweek 19,Loss
+1293,2021-01-20,Wed 20:15,Fulham,Manchester Utd,3-4-3,Martin Atkinson,1-2,Matchweek 18,Loss
+1294,2021-01-27,Wed 19:30,Brighton,Fulham,3-4-3,Craig Pawson,0-0,Matchweek 20,Draw
+1295,2021-01-30,Sat 15:00,West Brom,Fulham,3-4-3,Anthony Taylor,2-2,Matchweek 21,Draw
+1296,2021-02-03,Wed 18:00,Fulham,Leicester City,3-4-3,Robert Jones,0-2,Matchweek 22,Loss
+1297,2021-02-06,Sat 17:30,Fulham,West Ham,4-2-3-1,Mike Dean,0-0,Matchweek 23,Draw
+1298,2021-02-14,Sun 19:00,Everton,Fulham,4-4-2,Andy Madley,2-0,Matchweek 24,Win
+1299,2021-02-17,Wed 18:00,Burnley,Fulham,4-4-1-1,Jonathan Moss,1-1,Matchweek 17,Draw
+1300,2021-02-20,Sat 20:00,Fulham,Sheffield Utd,4-2-3-1,Martin Atkinson,1-0,Matchweek 25,Win
+1301,2021-02-28,Sun 12:00,Crystal Palace,Fulham,4-2-3-1,Anthony Taylor,0-0,Matchweek 26,Draw
+1302,2021-03-04,Thu 18:00,Fulham,Tottenham,4-4-2,David Coote,0-1,Matchweek 33,Loss
+1303,2021-03-07,Sun 14:00,Liverpool,Fulham,4-4-2,Kevin Friend,1-0,Matchweek 27,Win
+1304,2021-03-13,Sat 20:00,Fulham,Manchester City,4-3-3,Andre Marriner,0-3,Matchweek 28,Loss
+1305,2021-03-19,Fri 20:00,Fulham,Leeds United,4-2-3-1,David Coote,1-2,Matchweek 29,Loss
+1306,2021-04-04,Sun 16:30,Aston Villa,Fulham,4-2-3-1,Andy Madley,1-3,Matchweek 30,Loss
+1307,2021-04-09,Fri 20:00,Fulham,Wolves,3-4-3,Jonathan Moss,0-1,Matchweek 31,Loss
+1308,2021-04-18,Sun 13:30,Arsenal,Fulham,4-4-2,Craig Pawson,1-1,Matchweek 32,Draw
+1309,2021-05-01,Sat 17:30,Chelsea,Fulham,4-2-3-1,Kevin Friend,0-2,Matchweek 34,Loss
+1310,2021-05-10,Mon 20:00,Fulham,Burnley,4-2-3-1,David Coote,0-2,Matchweek 35,Loss
+1311,2021-05-15,Sat 15:00,Southampton,Fulham,3-4-3,Craig Pawson,1-3,Matchweek 36,Loss
+1312,2021-05-18,Tue 18:00,Manchester Utd,Fulham,3-4-3,Lee Mason,1-1,Matchweek 37,Draw
+1313,2021-05-23,Sun 16:00,Fulham,Newcastle Utd,3-4-3,Chris Kavanagh,0-2,Matchweek 38,Loss
+1314,2020-09-13,Sun 14:00,West Bromwich Albion,Leicester City,3-4-3,Anthony Taylor,0-3,Matchweek 1,Loss
+1315,2020-09-19,Sat 12:30,Everton,West Bromwich Albion,3-4-3,Mike Dean,2-5,Matchweek 2,Loss
+1316,2020-09-26,Sat 17:30,West Bromwich Albion,Chelsea,3-4-3,Jonathan Moss,3-3,Matchweek 3,Draw
+1317,2020-10-04,Sun 12:00,Southampton,West Bromwich Albion,4-2-3-1,Chris Kavanagh,0-2,Matchweek 4,Loss
+1318,2020-10-19,Mon 17:30,West Bromwich Albion,Burnley,4-5-1,Anthony Taylor,0-0,Matchweek 5,Draw
+1319,2020-10-26,Mon 17:30,Brighton,West Bromwich Albion,4-1-4-1,Jonathan Moss,1-1,Matchweek 6,Draw
+1320,2020-11-02,Mon 17:30,Fulham,West Bromwich Albion,4-1-4-1,Simon Hooper,0-2,Matchweek 7,Loss
+1321,2020-11-08,Sun 12:00,West Bromwich Albion,Tottenham,3-5-2,Andy Madley,0-1,Matchweek 8,Loss
+1322,2020-11-21,Sat 20:00,Manchester Utd,West Bromwich Albion,3-4-3,David Coote,0-1,Matchweek 9,Loss
+1323,2020-11-28,Sat 20:00,West Bromwich Albion,Sheffield Utd,3-4-1-2,Mike Dean,1-0,Matchweek 10,Win
+1324,2020-12-06,Sun 12:00,West Bromwich Albion,Crystal Palace,3-4-1-2,Paul Tierney,1-5,Matchweek 11,Loss
+1325,2020-12-12,Sat 15:00,Newcastle Utd,West Bromwich Albion,3-4-1-2,Darren England,1-2,Matchweek 12,Loss
+1326,2020-12-15,Tue 20:00,Manchester City,West Bromwich Albion,4-1-4-1,Peter Bankes,1-1,Matchweek 13,Draw
+1327,2020-12-20,Sun 19:15,West Bromwich Albion,Aston Villa,4-1-4-1,Martin Atkinson,0-3,Matchweek 14,Loss
+1328,2020-12-27,Sun 16:30,Liverpool,West Bromwich Albion,4-5-1,Kevin Friend,1-1,Matchweek 15,Draw
+1329,2020-12-29,Tue 18:00,West Bromwich Albion,Leeds United,4-1-4-1,Lee Mason,0-5,Matchweek 16,Loss
+1330,2021-01-02,Sat 20:00,West Bromwich Albion,Arsenal,4-4-1-1,Martin Atkinson,0-4,Matchweek 17,Loss
+1331,2021-01-16,Sat 12:30,Wolves,West Bromwich Albion,4-2-3-1,Michael Oliver,3-2,Matchweek 19,Win
+1332,2021-01-19,Tue 18:00,West Ham,West Bromwich Albion,4-4-1-1,Graham Scott,1-2,Matchweek 18,Loss
+1333,2021-01-26,Tue 20:15,West Bromwich Albion,Manchester City,4-4-1-1,Chris Kavanagh,0-5,Matchweek 20,Loss
+1334,2021-01-30,Sat 15:00,West Bromwich Albion,Fulham,3-5-2,Anthony Taylor,2-2,Matchweek 21,Draw
+1335,2021-02-02,Tue 18:00,Sheffield Utd,West Bromwich Albion,4-4-1-1,Paul Tierney,1-2,Matchweek 22,Loss
+1336,2021-02-07,Sun 12:00,Tottenham,West Bromwich Albion,4-1-4-1,Stuart Attwell,0-2,Matchweek 23,Loss
+1337,2021-02-14,Sun 14:00,West Bromwich Albion,Manchester Utd,4-1-4-1,Craig Pawson,1-1,Matchweek 24,Draw
+1338,2021-02-20,Sat 15:00,Burnley,West Bromwich Albion,4-1-4-1,Mike Dean,0-0,Matchweek 25,Draw
+1339,2021-02-27,Sat 15:00,West Bromwich Albion,Brighton,4-1-4-1,Lee Mason,1-0,Matchweek 26,Win
+1340,2021-03-04,Thu 18:00,West Bromwich Albion,Everton,4-1-4-1,Darren England,0-1,Matchweek 29,Loss
+1341,2021-03-07,Sun 12:00,West Bromwich Albion,Newcastle Utd,4-1-4-1,Martin Atkinson,0-0,Matchweek 27,Draw
+1342,2021-03-13,Sat 15:00,Crystal Palace,West Bromwich Albion,4-1-4-1,Simon Hooper,0-1,Matchweek 28,Loss
+1343,2021-04-03,Sat 12:30,Chelsea,West Bromwich Albion,3-4-3,David Coote,5-2,Matchweek 30,Win
+1344,2021-04-12,Mon 18:00,West Bromwich Albion,Southampton,4-4-1-1,Simon Hooper,3-0,Matchweek 31,Win
+1345,2021-04-22,Thu 20:00,Leicester City,West Bromwich Albion,4-4-1-1,Andy Madley,0-3,Matchweek 32,Loss
+1346,2021-04-25,Sun 19:00,Aston Villa,West Bromwich Albion,4-1-4-1,Stuart Attwell,2-2,Matchweek 33,Draw
+1347,2021-05-03,Mon 18:00,West Bromwich Albion,Wolves,3-5-1-1,Paul Tierney,1-1,Matchweek 34,Draw
+1348,2021-05-09,Sun 19:00,Arsenal,West Bromwich Albion,4-4-1-1,Peter Bankes,1-3,Matchweek 35,Loss
+1349,2021-05-16,Sun 16:30,West Bromwich Albion,Liverpool,4-4-1-1,Mike Dean,1-2,Matchweek 36,Loss
+1350,2021-05-19,Wed 20:15,West Bromwich Albion,West Ham,4-4-1-1,Michael Oliver,1-3,Matchweek 37,Loss
+1351,2021-05-23,Sun 16:00,Leeds United,West Bromwich Albion,3-5-2,David Coote,1-3,Matchweek 38,Loss
+1352,2020-09-14,Mon 18:00,Sheffield United,Wolves,3-5-2,Mike Dean,0-2,Matchweek 1,Loss
+1353,2020-09-21,Mon 18:00,Aston Villa,Sheffield United,3-5-2,Graham Scott,0-1,Matchweek 2,Loss
+1354,2020-09-27,Sun 12:00,Sheffield United,Leeds United,3-5-2,Paul Tierney,0-1,Matchweek 3,Loss
+1355,2020-10-04,Sun 14:00,Arsenal,Sheffield United,3-5-2,Lee Mason,1-2,Matchweek 4,Loss
+1356,2020-10-18,Sun 12:00,Sheffield United,Fulham,3-5-2,Andre Marriner,1-1,Matchweek 5,Draw
+1357,2020-10-24,Sat 20:00,Liverpool,Sheffield United,3-5-2,Mike Dean,1-2,Matchweek 6,Loss
+1358,2020-10-31,Sat 12:30,Sheffield United,Manchester City,3-5-2,Michael Oliver,0-1,Matchweek 7,Loss
+1359,2020-11-07,Sat 17:30,Chelsea,Sheffield United,3-5-2,Jonathan Moss,1-4,Matchweek 8,Loss
+1360,2020-11-22,Sun 14:00,Sheffield United,West Ham,3-5-2,Martin Atkinson,0-1,Matchweek 9,Loss
+1361,2020-11-28,Sat 20:00,West Brom,Sheffield United,3-5-2,Mike Dean,0-1,Matchweek 10,Loss
+1362,2020-12-06,Sun 14:15,Sheffield United,Leicester City,3-5-2,Stuart Attwell,1-2,Matchweek 11,Loss
+1363,2020-12-13,Sun 12:00,Southampton,Sheffield United,3-5-2,Andy Madley,0-3,Matchweek 12,Loss
+1364,2020-12-17,Thu 20:00,Sheffield United,Manchester Utd,3-5-2,Michael Oliver,2-3,Matchweek 13,Loss
+1365,2020-12-20,Sun 12:00,Brighton,Sheffield United,3-5-2,Peter Bankes,1-1,Matchweek 14,Draw
+1366,2020-12-26,Sat 20:00,Sheffield United,Everton,3-4-3,David Coote,0-1,Matchweek 15,Loss
+1367,2020-12-29,Tue 18:00,Burnley,Sheffield United,3-4-3,Chris Kavanagh,0-1,Matchweek 16,Loss
+1368,2021-01-02,Sat 15:00,Crystal Palace,Sheffield United,3-5-2,Stuart Attwell,0-2,Matchweek 17,Loss
+1369,2021-01-12,Tue 18:00,Sheffield United,Newcastle Utd,3-5-2,Andy Madley,1-0,Matchweek 18,Win
+1370,2021-01-17,Sun 14:00,Sheffield United,Tottenham,3-5-2,Andre Marriner,1-3,Matchweek 19,Loss
+1371,2021-01-27,Wed 20:15,Manchester Utd,Sheffield United,3-5-2,Peter Bankes,2-1,Matchweek 20,Win
+1372,2021-01-30,Sat 15:00,Manchester City,Sheffield United,3-5-2,David Coote,0-1,Matchweek 21,Loss
+1373,2021-02-02,Tue 18:00,Sheffield United,West Brom,3-5-2,Paul Tierney,2-1,Matchweek 22,Win
+1374,2021-02-07,Sun 19:15,Sheffield United,Chelsea,3-5-2,Kevin Friend,1-2,Matchweek 23,Loss
+1375,2021-02-15,Mon 18:00,West Ham,Sheffield United,3-5-2,Simon Hooper,0-3,Matchweek 24,Loss
+1376,2021-02-20,Sat 20:00,Fulham,Sheffield United,3-5-2,Martin Atkinson,0-1,Matchweek 25,Loss
+1377,2021-02-28,Sun 19:15,Sheffield United,Liverpool,3-5-2,Jonathan Moss,0-2,Matchweek 26,Loss
+1378,2021-03-03,Wed 18:00,Sheffield United,Aston Villa,3-5-2,Robert Jones,1-0,Matchweek 29,Win
+1379,2021-03-06,Sat 15:00,Sheffield United,Southampton,3-5-2,Paul Tierney,0-2,Matchweek 27,Loss
+1380,2021-03-14,Sun 14:00,Leicester City,Sheffield United,3-5-2,Peter Bankes,0-5,Matchweek 28,Loss
+1381,2021-04-03,Sat 15:00,Leeds United,Sheffield United,3-5-2,Graham Scott,1-2,Matchweek 30,Loss
+1382,2021-04-11,Sun 19:00,Sheffield United,Arsenal,3-5-2,Peter Bankes,0-3,Matchweek 31,Loss
+1383,2021-04-17,Sat 20:15,Wolves,Sheffield United,3-5-2,Robert Jones,0-1,Matchweek 32,Loss
+1384,2021-04-24,Sat 20:00,Sheffield United,Brighton,3-4-1-2,Kevin Friend,1-0,Matchweek 33,Win
+1385,2021-05-02,Sun 19:15,Tottenham,Sheffield United,3-4-1-2,Andre Marriner,0-4,Matchweek 34,Loss
+1386,2021-05-08,Sat 15:00,Sheffield United,Crystal Palace,3-5-2,Simon Hooper,0-2,Matchweek 35,Loss
+1387,2021-05-16,Sun 19:00,Everton,Sheffield United,3-4-3,Jonathan Moss,1-0,Matchweek 36,Win
+1388,2021-05-19,Wed 18:00,Newcastle Utd,Sheffield United,3-4-3,Robert Jones,0-1,Matchweek 37,Loss
+1389,2021-05-23,Sun 16:00,Sheffield United,Burnley,3-4-3,Kevin Friend,1-0,Matchweek 38,Win

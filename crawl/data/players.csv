@@ -1,0 +1,101 @@
+player_id,name,age,nationality,team_id,team_name,position,appearances,rating,goals,assists,yellow_cards,red_cards
+74,S. Amrabat,29,Morocco,33,Manchester United,Midfielder,,,,,,
+526,A. Onana,29,Cameroon,33,Manchester United,Goalkeeper,0.0,,0.0,,0.0,0.0
+739,Reguilón,29,Spain,33,Manchester United,Defender,,,,,,
+742,R. Varane,31,France,33,Manchester United,Defender,,,,,,
+889,V. Lindelöf,31,Sweden,33,Manchester United,Defender,16.0,6.671428,0.0,0.0,1.0,0.0
+897,M. Greenwood,24,England,33,Manchester United,Attacker,,,,,,
+908,A. Martial,30,France,33,Manchester United,Attacker,,,,,,
+2931,T. Heaton,39,England,33,Manchester United,Goalkeeper,0.0,,0.0,,0.0,0.0
+153434,W. Fish,22,England,33,Manchester United,Defender,,,,,,
+180560,H. Mejbri,22,Tunisia,33,Manchester United,Midfielder,0.0,7.700000,0.0,1.0,0.0,0.0
+284242,O. Forson,21,England,33,Manchester United,Attacker,,,,,,
+284307,Ethan Ennis,21,England,33,Manchester United,Attacker,,,,,,
+284324,A. Garnacho,21,Argentina,33,Manchester United,Attacker,36.0,6.797222,6.0,2.0,3.0,0.0
+284363,R. Bennett,22,England,33,Manchester United,Defender,0.0,,0.0,,0.0,0.0
+284391,S. Murray,21,England,33,Manchester United,Defender,,,,,,
+303016,M. Oyedele,21,Poland,33,Manchester United,Midfielder,,,,,,
+303017,Samuel Mather,21,England,33,Manchester United,Forward,,,,,,
+330636,Sonny Aljofree,21,England,33,Manchester United,Defender,,,,,,
+365664,Ethan Williams,20,England,33,Manchester United,Attacker,,,,,,
+402329,A. Heaven,19,England,33,Manchester United,Defender,4.0,,0.0,,1.0,0.0
+1972,L. Karius,32,Germany,34,Newcastle,Goalkeeper,,,,,,
+18873,R. Fraser,31,Scotland,34,Newcastle,Midfielder,,,,,,
+18886,M. Dúbravka,36,Slovakia,34,Newcastle,Goalkeeper,2.0,6.800000,0.0,0.0,0.0,0.0
+18892,P. Dummett,34,Wales,34,Newcastle,Defender,,,,,,
+18899,I. Hayden,30,England,34,Newcastle,Midfielder,,,,,,
+18903,M. Ritchie,36,Scotland,34,Newcastle,Midfielder,,,,,,
+68127,K. Watts,26,England,34,Newcastle,Defender,0.0,,0.0,,0.0,0.0
+138908,E. Anderson,23,Scotland,34,Newcastle,Midfielder,,,,,,
+284291,J. Turner-Cooke,22,England,34,Newcastle,Midfielder,,,,,,
+284305,Jamie Miley,21,England,34,Newcastle,Midfielder,,,,,,
+313671,Ciaran Thompson,21,England,34,Newcastle,Defender,,,,,,
+322304,Cathal Heffernan,20,Republic of Ireland,34,Newcastle,Defender,,,,,,
+340919,Ellis Stanton,20,England,34,Newcastle,Midfielder,,,,,,
+344233,J. Emerson,20,Scotland,34,Newcastle,Attacker,,,,,,
+352210,Dylan Charlton,19,Iceland,34,Newcastle,Defender,,,,,,
+365988,Aidan Harris,19,England,34,Newcastle,Goalkeeper,,,,,,
+382344,A. Munda,19,England,34,Newcastle,Midfielder,,,,,,
+382345,Alfie Harrison,20,England,34,Newcastle,Midfielder,,,,,,
+383685,Y. Minteh,21,Gambia,34,Newcastle,Attacker,,,,,,
+402524,A. Harrison,19,England,34,Newcastle,Goalkeeper,,,,,,
+1150,T. Adams,26,USA,35,Bournemouth,Midfielder,29.0,6.864285,,3.0,7.0,0.0
+2273,Kepa,31,Spain,35,Bournemouth,Goalkeeper,31.0,7.145161,0.0,0.0,3.0,0.0
+6610,M. Senesi,28,Argentina,35,Bournemouth,Defender,21.0,6.823529,,0.0,5.0,0.0
+18860,M. Travers,26,Republic of Ireland,35,Bournemouth,Goalkeeper,5.0,7.640000,0.0,0.0,0.0,0.0
+18866,C. Mepham,28,Wales,35,Bournemouth,Defender,0.0,,0.0,,0.0,0.0
+18869,A. Smith,34,England,35,Bournemouth,Defender,25.0,6.576000,0.0,0.0,7.0,0.0
+18883,D. Solanke,28,England,35,Bournemouth,Attacker,0.0,6.862962,0.0,3.0,0.0,0.0
+19263,L. Kelly,27,England,35,Bournemouth,Defender,,,,,,
+19356,E. Marcondes,30,Denmark,35,Bournemouth,Midfielder,,,,,,
+19804,K. Moore,33,Wales,35,Bournemouth,Attacker,,,,,,
+20093,J. Hill,23,England,35,Bournemouth,Defender,10.0,6.722222,0.0,1.0,1.0,0.0
+30765,I. Radu,28,Romania,35,Bournemouth,Goalkeeper,,,,,,
+51051,J. Araujo,24,Mexico,35,Bournemouth,Defender,19.0,6.358333,,0.0,2.0,0.0
+94360,A. Paulsen,23,New Zealand,35,Bournemouth,Goalkeeper,,,,,,
+151756,W. Dennis,25,England,35,Bournemouth,Goalkeeper,0.0,,0.0,,0.0,0.0
+206254,M. Kerkez,22,Hungary,35,Bournemouth,Defender,38.0,7.042105,2.0,5.0,4.0,0.0
+284797,D. Ouattara,23,Burkina Faso,35,Bournemouth,Attacker,32.0,7.071875,7.0,4.0,3.0,0.0
+359942,M. Akinmboni,19,USA,35,Bournemouth,Defender,0.0,,0.0,,0.0,0.0
+363333,J. Soler,20,Argentina,35,Bournemouth,Defender,13.0,6.500000,,0.0,0.0,0.0
+394710,C. McKenna,19,Scotland,35,Bournemouth,Goalkeeper,0.0,,0.0,,0.0,0.0
+105,F. Ballo-Touré,28,Senegal,36,Fulham,Defender,,,,,,
+131,Jorge Cuenca,26,Spain,36,Fulham,Defender,26.0,6.500000,,0.0,0.0,0.0
+657,K. Tete,30,Netherlands,36,Fulham,Defender,24.0,7.036363,,2.0,5.0,0.0
+727,R. Nelson,26,England,36,Fulham,Attacker,11.0,,1.0,0.0,1.0,0.0
+1438,B. Leno,33,Germany,36,Fulham,Goalkeeper,38.0,7.013157,,1.0,5.0,0.0
+2729,J. Andersen,29,Denmark,36,Fulham,Defender,29.0,6.300000,0.0,0.0,6.0,1.0
+18814,I. Diop,28,France,36,Fulham,Defender,30.0,6.710000,,0.0,2.0,0.0
+19004,B. De Cordova-Reid,32,Jamaica,36,Fulham,Attacker,,,,,,
+19145,T. Adarabioyo,28,England,36,Fulham,Defender,,,,,,
+19657,M. Rodák,29,Slovakia,36,Fulham,Goalkeeper,,,,,,
+41104,João Palhinha,30,Portugal,36,Fulham,Midfielder,0.0,,0.0,,0.0,0.0
+126690,K. Bowie,23,Scotland,36,Fulham,Attacker,,,,,,
+129705,L. Ashby-Hammond,24,England,36,Fulham,Goalkeeper,,,,,,
+138822,A. Broja,24,Albania,36,Fulham,Attacker,,,,,,
+152967,C. Bassey,26,Nigeria,36,Fulham,Defender,37.0,6.865714,1.0,0.0,7.0,0.0
+153420,G. Wickens,24,England,36,Fulham,Goalkeeper,,,,,,
+284470,M. Dibley-Dias,22,England,36,Fulham,Midfielder,,,,,,
+284475,L. Harris,20,Wales,36,Fulham,Midfielder,0.0,7.000000,0.0,0.0,0.0,0.0
+297635,Devan Austin Tanton Pedraza,21,Colombia,36,Fulham,Defender,,,,,,
+335116,K. Šekularac,22,Switzerland,36,Fulham,Midfielder,,,,,,
+285,K. Hoever,23,Netherlands,39,Wolves,Defender,0.0,,0.0,,0.0,0.0
+1165,Matheus Cunha,26,Brazil,39,Wolves,Attacker,33.0,7.630303,15.0,6.0,4.0,0.0
+1590,José Sá,32,Portugal,39,Wolves,Goalkeeper,33.0,6.768965,,0.0,2.0,0.0
+1864,Pedro Neto,25,Portugal,39,Wolves,Attacker,0.0,7.014285,0.0,6.0,0.0,0.0
+18742,M. Doherty,33,Republic of Ireland,39,Wolves,Defender,30.0,7.000000,2.0,1.0,6.0,0.0
+18744,M. Kilman,28,England,39,Wolves,Defender,,,,,,
+19143,S. Johnstone,32,England,39,Wolves,Goalkeeper,7.0,,0.0,,0.0,0.0
+19341,D. Bentley,32,England,39,Wolves,Goalkeeper,18.0,6.950000,,0.0,0.0,0.0
+21138,R. Aït-Nouri,24,Algeria,39,Wolves,Defender,37.0,7.008108,4.0,7.0,6.0,0.0
+41606,Toti Gomes,26,Portugal,39,Wolves,Defender,31.0,6.890322,0.0,1.0,7.0,0.0
+82855,T. King,30,Wales,39,Wolves,Goalkeeper,1.0,,0.0,0.0,0.0,0.0
+135068,E. Agbadou,28,Côte d'Ivoire,39,Wolves,Defender,16.0,7.112500,1.0,0.0,3.0,0.0
+135334,S. Bueno,27,Uruguay,39,Wolves,Defender,37.0,6.660714,,0.0,2.0,0.0
+144741,L. Moulden,23,England,39,Wolves,Goalkeeper,,,,,,
+195717,Y. Mosquera,24,Colombia,39,Wolves,Defender,5.0,7.020000,0.0,0.0,2.0,0.0
+280687,Hugo Bueno,23,Spain,39,Wolves,Defender,0.0,,0.0,,0.0,0.0
+282770,Rodrigo Gomes,22,Portugal,39,Wolves,Defender,34.0,6.734782,2.0,0.0,0.0,0.0
+338856,N. Lemina,20,France,39,Wolves,Midfielder,,,,,,
+402504,L. Benjamin,19,Wales,39,Wolves,Goalkeeper,,,,,,
+449245,Pedro Lima,19,Brazil,39,Wolves,Defender,21.0,6.850000,,0.0,0.0,0.0
